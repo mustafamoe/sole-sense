@@ -1,0 +1,32 @@
+SoleSense R08 — experimental bench prototype
+
+Units: mm. Scale: 100%. No machine-specific G-code supplied.
+Starting assumption: FDM, 0.4 mm nozzle, 0.20 mm layer, PLA.
+Confirm actual printer, material, build volume and toolpaths before printing.
+
+PRINT FIRST:
+52 hardware coupon; 53 receiver coupon; 48 cartridge.
+57 baseline printed flexure (0.8 mm beams).
+58 and 59 are optional complete replacement cassettes, NOT additional installed parts.
+
+CASSETTES:
+43 x 35.4 x 2.4 mm, supplied flat. No supports. Solid fill.
+Inspect continuous beam paths, roots and holes in every layer.
+Do not allow the slicer to omit thin walls or leave unbonded lines.
+Do not attach a brim to the narrow beams or remove material from them.
+Inspect for cracks, gaps, warped rails and damaged roots.
+
+MAIN HEAD:
+Use R08 chassis 42 and carriage 44 with R08 cassette and bridge 55.
+Keep support residue off mounting faces and tracks.
+Chassis prints open upward.
+Lid crown upward; support underneath.
+Carriage supplied nose-down; review shoulders/pockets and accessible support.
+White shell and teal cassette/inlay are visual preferences only.
+
+3MF plates are neutral geometry on a 180 x 180 mm virtual bed.
+They contain no printer/material/support settings. Rearrange if needed.
+Do not print the assembled STEP or reference meshes as one object.
+Real magnet, Hall sensor, electronics and fasteners are still required.
+No measured force accuracy or printed-spring service life is established.
+Read BUILD_GUIDE.md and SHOPPING_LIST.md before assembly.

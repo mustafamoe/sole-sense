@@ -1,0 +1,50 @@
+{
+  "flexure_beam_width_mm": 0.8,
+  "flexure_alternative_widths_mm": [
+    1.0,
+    1.2
+  ],
+  "flexure_root_line_span_mm": 24,
+  "flexure_height_mm": 2.4,
+  "flexure_root_radius_mm": 0.6,
+  "flexure_beam_count": 2,
+  "flexure_material": "PLA assumption; actual filament and process must be tested",
+  "compression_stop_mm": 2.0,
+  "extension_stop_mm": 0.6,
+  "magnet_mm": [
+    6,
+    3
+  ],
+  "magnet_type": "axially magnetized N35\u2013N42",
+  "hall_part": "DRV5055A3QLPG, TI LPG TO92",
+  "package_face_gap_nominal_mm": 8.2,
+  "gap_adjustment_mm": [
+    7.2,
+    9.2
+  ],
+  "housing_mm": [
+    76,
+    56,
+    44.0
+  ],
+  "adaptor_max_width_height_mm": [
+    59,
+    59
+  ],
+  "cover_edge_radius_mm": 7,
+  "lower_edge_radius_mm": 2,
+  "front_face_width_mm": 28,
+  "cover_fasteners": "4 x M3 x 35 from underneath",
+  "service_pin": "M3 x 30",
+  "R05_housing_width_mm": 70,
+  "width_reduction_from_R05_percent": 20,
+  "front_planform": "tangent Bezier taper",
+  "stage_offset_y_mm": 7,
+  "filament_axis_y_mm": 0,
+  "grip_diameter_mm": 46,
+  "collar_diameter_mm": 62,
+  "new_head_length_from_joint_mm": 140.05,
+  "overall_length_with_reference_filament_mm": 283.4,
+  "printer_assumption": "FDM 0.4 mm nozzle, 0.2 mm layer, PLA for bench prototype; coupons required",
+  "date": "2026-10-20"
+}

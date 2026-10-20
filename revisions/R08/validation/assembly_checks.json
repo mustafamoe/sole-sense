@@ -1,0 +1,406 @@
+{
+  "static_collisions": [],
+  "intentional_thread_envelopes": [
+    {
+      "a": "REF_Magnet_Screw_1",
+      "b": "REF_Magnet_Nut_1",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Magnet_Screw_2",
+      "b": "REF_Magnet_Nut_2",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Adaptor_Screw_1_1",
+      "b": "REF_Adaptor_Nut_1_1",
+      "volume_mm3": 4.2223
+    },
+    {
+      "a": "REF_Adaptor_Screw_1_2",
+      "b": "REF_Adaptor_Nut_1_2",
+      "volume_mm3": 4.2223
+    },
+    {
+      "a": "REF_Adaptor_Screw_2_1",
+      "b": "REF_Adaptor_Nut_2_1",
+      "volume_mm3": 4.2223
+    },
+    {
+      "a": "REF_Adaptor_Screw_2_2",
+      "b": "REF_Adaptor_Nut_2_2",
+      "volume_mm3": 4.2223
+    },
+    {
+      "a": "REF_Flexure_Fixed_Screw_1",
+      "b": "REF_Flexure_Fixed_Nut_1",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Flexure_Fixed_Screw_2",
+      "b": "REF_Flexure_Fixed_Nut_2",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Flexure_Moving_Screw_1",
+      "b": "REF_Flexure_Moving_Nut_1",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Flexure_Moving_Screw_2",
+      "b": "REF_Flexure_Moving_Nut_2",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Lid_Screw_1_1",
+      "b": "REF_Lid_Nut_1_1",
+      "volume_mm3": 4.2223
+    },
+    {
+      "a": "REF_Lid_Screw_1_2",
+      "b": "REF_Lid_Nut_1_2",
+      "volume_mm3": 4.2223
+    },
+    {
+      "a": "REF_Lid_Screw_2_1",
+      "b": "REF_Lid_Nut_2_1",
+      "volume_mm3": 4.2223
+    },
+    {
+      "a": "REF_Lid_Screw_2_2",
+      "b": "REF_Lid_Nut_2_2",
+      "volume_mm3": 4.2223
+    }
+  ],
+  "travel": [
+    {
+      "compression_mm": -0.6,
+      "side_shift_mm": -0.009,
+      "overlaps": []
+    },
+    {
+      "compression_mm": -0.3,
+      "side_shift_mm": -0.00225,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 0,
+      "side_shift_mm": -0.0,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 0.25,
+      "side_shift_mm": -0.0015624999999999999,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 0.5,
+      "side_shift_mm": -0.0062499999999999995,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 1,
+      "side_shift_mm": -0.024999999999999998,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 1.5,
+      "side_shift_mm": -0.056249999999999994,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 2,
+      "side_shift_mm": -0.09999999999999999,
+      "overlaps": []
+    }
+  ],
+  "stops": [
+    {
+      "compression_mm": 2,
+      "overlap_mm3": 0.0
+    },
+    {
+      "compression_mm": 2.1,
+      "overlap_mm3": 4.203098048230149
+    },
+    {
+      "compression_mm": -0.6,
+      "overlap_mm3": 0.0
+    },
+    {
+      "compression_mm": -0.7,
+      "overlap_mm3": 12.371398575877876
+    }
+  ],
+  "service_lock": [
+    {
+      "travel_mm": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 0.5,
+      "overlap_mm3": 2.6418782176278017
+    },
+    {
+      "travel_mm": -0.5,
+      "overlap_mm3": 2.641873214560638
+    }
+  ],
+  "cartridge_swap": [
+    {
+      "angle_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 10,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 20,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 1,
+      "overlap_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 3,
+      "overlap_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 7,
+      "overlap_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 12,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "flexure_clearance": [
+    {
+      "beam_width_mm": 0.8,
+      "compression_mm": -0.6,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 0.8,
+      "compression_mm": 0,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 0.8,
+      "compression_mm": 0.5,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 0.8,
+      "compression_mm": 1,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 0.8,
+      "compression_mm": 1.5,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 0.8,
+      "compression_mm": 2,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.0,
+      "compression_mm": -0.6,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.0,
+      "compression_mm": 0,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.0,
+      "compression_mm": 0.5,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.0,
+      "compression_mm": 1,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.0,
+      "compression_mm": 1.5,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.0,
+      "compression_mm": 2,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.2,
+      "compression_mm": -0.6,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.2,
+      "compression_mm": 0,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.2,
+      "compression_mm": 0.5,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.2,
+      "compression_mm": 1,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.2,
+      "compression_mm": 1.5,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    },
+    {
+      "beam_width_mm": 1.2,
+      "compression_mm": 2,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed filleted outline, not FEA or fatigue qualification"
+    }
+  ],
+  "sensor_adjustment": [
+    {
+      "offset_mm": -1,
+      "max_overlap_mm3": 0,
+      "part": null
+    },
+    {
+      "offset_mm": 0,
+      "max_overlap_mm3": 0,
+      "part": null
+    },
+    {
+      "offset_mm": 1,
+      "max_overlap_mm3": 0,
+      "part": null
+    }
+  ],
+  "head_exchange": [
+    {
+      "collar_deg": -30,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": -25,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": -20,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": -15,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": -10,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": -5,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": 0,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 0,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 0.5,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 1,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 2,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 4,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 6,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 10,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 20,
+      "overlap_collar_mm3": 0.0
+    }
+  ]
+}

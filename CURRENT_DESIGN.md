@@ -1,6 +1,13 @@
 # Current design work
 
-The current design is **[R07 — sculpted magnetic pressure head](revisions/R07/README.md)**. The head has a curved white cover, tapered nose, teal inlay, softer edges and concealed underside cover screws. Its mechanism and centered filament retain R06 geometry.
+The current design is **[R08 — replaceable printed flexure](revisions/R08/README.md)**. One flat printed cassette replaces the two metal leaves and four clamps. The curved outer form, magnet, Hall mount, manual cartridge and larger display geometry remain.
+
+[Inside R08](revisions/R08/previews/02_Inside_Head.png) · [Exploded cassette](revisions/R08/previews/03_Exploded_Cassette.png) · [Native CAD](revisions/R08/cad/SoleSense_R08.FCStd) · [Print/build ZIP](revisions/SoleSense_R08_Print_and_Build.zip) · [Updated head shopping list](revisions/R08/docs/SHOPPING_LIST.md)
+
+Use R08 chassis 42, carriage 44, bridge 55 and one cassette 57/58/59. Four M2 × 8 screws replace the eight old leaf-clamp screws. Real magnet, sensor, conductors and other fasteners remain. Stops are 2.0 mm compression / 0.6 mm extension. CAD checks pass; physical fit, force accuracy, printed-spring drift and fatigue remain untested. The R07 video shows the previous mechanism.
+
+
+The preceding design is **[R07 — sculpted magnetic pressure head](revisions/R07/README.md)**. The head has a curved white cover, tapered nose, teal inlay, softer edges and concealed underside cover screws. Its mechanism and centered filament retain R06 geometry.
 
 [See the design](revisions/R07/previews/00_Design_Hero.png) · [Open R07 CAD](revisions/R07/cad/SoleSense_R07.FCStd) · [Print/build ZIP](revisions/SoleSense_R07_Print_and_Build.zip) · [Updated parts list](revisions/R07/docs/SHOPPING_LIST.md)
 

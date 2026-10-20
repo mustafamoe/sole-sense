@@ -1,0 +1,268 @@
+"""SoleSense R08: magnetic printed-flexure head, first physical prototype.
+Millimetres; FreeCAD 1.1 bundled Python. No physical qualification implied.
+"""
+import sys, json, math
+from pathlib import Path
+sys.path.append('/Applications/FreeCAD.app/Contents/Resources/lib')
+import FreeCAD as App, Part, MeshPart
+from flexure_geometry import cassette, FIXED_HOLES, MOVING_HOLES
+V=App.Vector
+OUT=Path(__file__).resolve().parents[1]; ROOT=OUT.parents[1]
+OLD=OUT/'source/dependencies/R04'
+if not OLD.exists():OLD=ROOT/'revisions/R04'
+for folder in ['cad','stl','reference','previews','validation','docs','print_first']:
+    (OUT/folder).mkdir(exist_ok=True)
+doc=App.newDocument('SoleSense_R08_Magnetic_Prototype')
+items={}; groups={}
+WHITE=[.74,.81,.80]; TEAL=[.025,.32,.34]; BLUE=[.055,.39,.66]
+BRONZE=[.64,.38,.12]; GOLD=[.87,.61,.20]; RED=[.75,.09,.06]; DARK=[.045,.065,.08]
+def box(x,y,z,dx,dy,dz):return Part.makeBox(dx,dy,dz,V(x,y,z))
+def cyl(r,l,x,y=0,z=0,axis=V(1,0,0)):return Part.makeCylinder(r,l,V(x,y,z),axis)
+def fuse(*shapes):
+    s=shapes[0]
+    for t in shapes[1:]:s=s.fuse(t)
+    return s.removeSplitter()
+def cut(s,*tools):
+    for t in tools:s=s.cut(t)
+    return s.removeSplitter()
+def ring(ro,ri,x,l):return cut(cyl(ro,l,x),cyl(ri,l+2,x-1))
+def sector(ri,ro,x,l,a,b):
+    aa=[math.radians(a+(b-a)*i/80) for i in range(81)]
+    pts=[V(x,ro*math.cos(t),ro*math.sin(t)) for t in aa]
+    pts += [V(x,ri*math.cos(t),ri*math.sin(t)) for t in reversed(aa)]
+    return Part.Face(Part.makePolygon(pts+[pts[0]])).extrude(V(l,0,0))
+def hexx(x,y,z,af,length):
+    r=af/math.sqrt(3)
+    pts=[V(x,y+r*math.cos(math.radians(30+60*i)),z+r*math.sin(math.radians(30+60*i))) for i in range(6)]
+    return Part.Face(Part.makePolygon(pts+[pts[0]])).extrude(V(length,0,0))
+def hexz(x,y,z,af,length):
+    r=af/math.sqrt(3)
+    pts=[V(x+r*math.cos(math.radians(30+60*i)),y+r*math.sin(math.radians(30+60*i)),z) for i in range(6)]
+    return Part.Face(Part.makePolygon(pts+[pts[0]])).extrude(V(0,0,length))
+def slotz(x1,x2,y,z,r,h):return fuse(cyl(r,h,x1,y,z,V(0,0,1)),cyl(r,h,x2,y,z,V(0,0,1)),box(x1,y-r,z,x2-x1,2*r,h))
+STAGE_OFFSET=7.0
+LID_POSTS=[(178,-21),(180,21),(235.5,-15.8),(235.5,15.8)]
+def stage(s):
+    s=s.copy();s.translate(V(0,STAGE_OFFSET,0));return s
+def bezier(points):
+    c=Part.BezierCurve();c.setPoles(points);return c.toShape()
+def outline(z,h,inner=False):
+    # Tangent curves pull the wide spring enclosure into a narrow centered nose.
+    p=lambda x,y:V(x,y,z)
+    back,half,control1,front,control_y,nose=(169,25,230,238,21,11) if inner else (165,28,231,241,24,14)
+    edges=[Part.makeLine(p(back,-half),p(220,-half)),bezier([p(220,-half),p(control1,-half),p(front,-control_y),p(front,-nose)]),Part.makeLine(p(front,-nose),p(front,nose)),bezier([p(front,nose),p(front,control_y),p(control1,half),p(220,half)]),Part.makeLine(p(220,half),p(back,half)),Part.makeLine(p(back,half),p(back,-half))]
+    return Part.Face(Part.Wire(edges)).extrude(V(0,0,h))
+
+def adaptor_profile(x,half=28,bottom=-19,top=25,r=7):
+    # Matching eight-edge profiles avoid a seam mismatch when lofting.
+    p=lambda y,z:V(x,y,z)
+    k=r/math.sqrt(2);a=half-r;hi=top-r;lo=bottom+r
+    edges=[Part.makeLine(p(-a,top),p(a,top)),Part.Arc(p(a,top),p(a+k,hi+k),p(half,hi)).toShape(),Part.makeLine(p(half,hi),p(half,lo)),Part.Arc(p(half,lo),p(a+k,lo-k),p(a,bottom)).toShape(),Part.makeLine(p(a,bottom),p(-a,bottom)),Part.Arc(p(-a,bottom),p(-a-k,lo-k),p(-half,lo)).toShape(),Part.makeLine(p(-half,lo),p(-half,hi)),Part.Arc(p(-half,hi),p(-a-k,hi+k),p(-a,top)).toShape()]
+    return Part.Wire(edges)
+
+def capsule(x1,x2,y,r,z,h):
+    return fuse(box(x1,y-r,z,x2-x1,2*r,h),cyl(r,h,x1,y,z,V(0,0,1)),cyl(r,h,x2,y,z,V(0,0,1)))
+def add(n,s,g,color=WHITE,kind='print',note='',orient='flat',moving=False,qty=1):
+    if g not in groups:groups[g]=doc.addObject('App::DocumentObjectGroup',g)
+    o=doc.addObject('PartDesign::Feature','P_'+n);o.Label=n.replace('_',' ');o.Shape=s
+    o.addProperty('App::PropertyString','DesignNotes');o.DesignNotes=note
+    o.addProperty('App::PropertyString','ReleaseStatus');o.ReleaseStatus='R08 first-build bench prototype; physical fit and force not verified'
+    o.addProperty('App::PropertyInteger','PrintQuantity');o.PrintQuantity=qty
+    groups[g].addObject(o)
+    items[n]=dict(shape=s,object=o,group=g,color=color,kind=kind,note=note,orient=orient,moving=moving,qty=qty)
+    return s
+def oldstep(n):return Part.read(str(OLD/'cad'/f'{n}.step'))
+oldmanifest=json.loads((OLD/'source/assembly_manifest.json').read_text())
+old=App.openDocument(str(OLD/'cad/SoleSense_R04.FCStd'))
+# Retained handle, screen and vibration configuration remain dimensionally unchanged.
+for d in oldmanifest:
+    if d['group'] not in ['Handle','Interface','Vibration_head','Fit_coupons']:continue
+    o=old.getObject('P_'+d['name'])
+    if o is None:continue
+    g=d['group']
+    # R04 contact hardware is not passed off as selected or finished hardware.
+    if 'Contact_Carrier' in d['name'] or 'Fixed_Contact' in d['name'] or '_Pad_' in d['name'] or '_Spring_Pin_' in d['name']:g='Legacy_contact_concept'
+    add(d['name'],o.Shape.copy(),g,d['color'],'reference' if g=='Legacy_contact_concept' else d['kind'],d['description'],orient='axial' if d['group'] in ['Interface','Vibration_head','Fit_coupons'] else 'flat')
+App.closeDocument(old.Name);App.setActiveDocument(doc.Name)
+
+# Separate joint adaptor: preserves exact R04 pilot/key/lugs, bolts to new chassis.
+rear=oldstep('07_Pressure_Head_Body').common(box(140,-40,-40,20.8,80,80))
+transition=Part.makeLoft([adaptor_profile(160.8,29.5,-29.5,29.5,28),adaptor_profile(165)],True,False)
+adapter=fuse(rear,transition)
+adapter=cut(adapter,cyl(20,6,160),box(164.0,-3.3,-16.3,1.1,20.6,3.6))
+for y in [-22.5,22.5]:
+    for z in [-12,12]:adapter=cut(adapter,cyl(1.7,12,156,y,z),cyl(3.2,2.1,160.7,y,z))
+add('41_R04_Joint_Adaptor',adapter,'Magnetic_head',WHITE,orient='axial',note='R04 mechanical twist-lock interface. Four M3 x 8 button-head bolts join the head chassis. Electrical contacts are a separate unfinished R04 subsystem; use the cable port for initial bench testing.')
+
+# Sculpted 56 mm housing: soft lower edge, fine cover seam, tapered nose.
+outer=outline(-19,35)
+outer=outer.makeFillet(2,[e for e in outer.Edges if abs(e.BoundBox.ZMin+19)<1e-5 and abs(e.BoundBox.ZMax+19)<1e-5])
+outer=outer.makeChamfer(.5,[e for e in outer.Edges if abs(e.BoundBox.ZMin-16)<1e-5 and abs(e.BoundBox.ZMax-16)<1e-5])
+base=cut(outer,outline(-16,33,inner=True))
+base=cut(base,box(164,-5,-16,6,23,30),cyl(11.5,9,234),box(233,-7,7,10,14,20))
+for y in [-22.5,22.5]:
+    for z in [-12,12]:
+        base=cut(base,cyl(1.7,8,164,y,z),hexx(166.5,y,z,5.8,3.0))
+# Concealed cover screws insert from underneath; nuts are captured in the cover.
+for x,y in LID_POSTS:
+    base=fuse(base,cyl(4.4,32,x,y,-16,V(0,0,1)))
+    base=cut(base,cyl(1.7,38,x,y,-20,V(0,0,1)),cyl(3.2,3.1,x,y,-19.1,V(0,0,1)))
+# Two chassis pads support the fixed cassette rail. Nuts enter from below.
+for x,y in FIXED_HOLES:
+    base=fuse(base,box(x-3,y-3,-16,6,6,5))
+    base=cut(base,cyl(1.2,10,x,y,-20,V(0,0,1)),hexz(x,y,-19.1,4.5,4.8))
+# Lower half-ring travel stops permit vertical assembly of the moving carriage.
+backstop=stage(ring(18,13.8,219.5,3).common(box(218,-19,-16,5,38,11)))
+# Shoulder follows the stage; front aperture follows the centered nose.
+frontstop=cut(stage(cyl(18,3,228.1)),cyl(11.5,5,227.5)).common(box(227,-19,-16,6,45,11))
+base=fuse(base,backstop,frontstop)
+# M3 sensor adjustment fasteners, with nuts captured in the underside.
+for y in [0,14]:base=cut(base,cyl(1.7,5,170,y,-20,V(0,0,1)),hexz(170,y,-19.1,5.8,2.6))
+# Bench cable exit plus two tie holes in the stationary positive-Y wall.
+base=cut(base,box(176,24,-12,8,6,5))
+for x in [174.5,185.5]:base=cut(base,cyl(1.2,6,x,24,-9.5,V(0,1,0)))
+add('42_Magnetic_Chassis',base,'Magnetic_head',WHITE,note='Print open side upward. Includes 2.0 mm compression and 0.6 mm extension stops, printed-cassette pads, M3 nut pockets and cable exit. Clear holes and fit coupons first; no sliding bearing touches the carriage during measurement.')
+
+# Curved white hood; fasteners stay beneath its surface.
+lid=outline(16,9)
+top_edges=[e for e in lid.Edges if abs(e.BoundBox.ZMin-25)<1e-5 and abs(e.BoundBox.ZMax-25)<1e-5 and e.BoundBox.XMax>165.001]
+lid=lid.makeFillet(7,top_edges)
+lid=lid.makeChamfer(.5,[e for e in lid.Edges if abs(e.BoundBox.ZMin-16)<1e-5 and abs(e.BoundBox.ZMax-16)<1e-5])
+lid=cut(lid,box(232.5,-7,15.5,10,14,12))
+for x,y in LID_POSTS:lid=cut(lid,cyl(1.7,5,x,y,15.5,V(0,0,1)),hexz(x,y,15.9,5.8,2.9))
+lid=cut(lid,cyl(1.7,12,226,7,15.5,V(0,0,1)),hexz(226,7,15.9,5.8,2.6),cyl(6,4,226,7,24,V(0,0,1)))
+lid=cut(lid,capsule(190.5,209.5,0,4.5,23.7,3))
+add('43_Removable_Lid',lid,'Magnetic_head',WHITE,note='Curved white hood. Four M3 x 35 screws enter from underside; insert their nuts into underside cover pockets first. Service pin is M3 x 30 with its head seating at Z24; remove completely for measurement. Print crown upward with accessible support below.')
+accent=capsule(190.5,209.5,0,4.3,23.8,1.1)
+add('56_Teal_Spine_Inlay',accent,'Magnetic_head',TEAL,note='Optional decorative inlay, 1.1 mm thick. Bond into the shallow crown recess with a thin compatible adhesive film. No force-sensing function. Print flat in teal.')
+
+# Carriage: low mounting posts replace the tall metal-leaf clamp seats.
+car=fuse(cyl(2.8,43,189),cyl(15,3,224.5),box(178.8,-8,-5,7.2,16,10),box(185,-3.6,-8.6,6,8,11.6),box(212,-3.6,-8.6,6,8,11.6))
+for x,y in MOVING_HOLES:
+    local_y=y-STAGE_OFFSET
+    car=cut(car,cyl(1.2,14,x,local_y,-10,V(0,0,1)),hexz(x,local_y,-6.4,4.5,1.8),box(x-2.25,local_y,-6.4,4.5,4.1,1.8))
+# 6 x 3 magnet slip pocket, retained by separate screwed cap and a small adhesive bond.
+car=cut(car,cyl(3.2,3.5,178.7))
+for y in [-5.5,5.5]:
+    car=cut(car,cyl(1.2,13,178,y),hexx(184,y,0,4.5,2.1),box(184,min(y,8 if y>0 else -8),-2.25,2.1,2.5,4.5))
+car=fuse(stage(car),cyl(10.3,11.4,231))
+# Receiver uses the exact R04 cartridge bore and track profile, translated +59 mm.
+car=cut(car,cyl(5.15,12,232))
+for a in [0,180]:car=cut(car,sector(5.1,7.5,237.6,2.9,a-7,a+37),sector(5.1,7.5,237.6,6,a+23,a+37))
+# Cartridge locking screw, plus separate blind service-pin hole behind the cartridge stem.
+car=fuse(car,box(237.5,-3.5,8,4.9,7,5.2))
+car=cut(car,cyl(1.2,12,240,0,3,V(0,0,1)),hexz(240,0,10.8,4.5,1.8),box(237.4,-2.25,10.8,3,4.5,1.8),cyl(1.8,24,226,7,-7,V(0,0,1)))
+add('44_Moving_Carriage',car,'Magnetic_head',BLUE,orient='axial',moving=True,note='Replaceable planar printed flexure, no rubbing guide. Two M2 x 8 underside screws attach the moving rail to the posts. Insert their nuts through side slots before assembly. Magnet pocket 6.4 x 3.4 mm; M2 retained cap. R04 bayonet plus added M2 lock screw. Large rear shoulder meets chassis overload stops. Service-pin bore is in the large travel-stop shoulder.')
+
+magcap=box(177.4,-8,-5,1.4,16,10)
+magcap=cut(magcap,cyl(2.4,3,177))
+for y in [-5.5,5.5]:magcap=cut(magcap,cyl(1.2,3,177,y))
+add('46_Magnet_Retainer',stage(magcap),'Magnetic_head',BLUE,orient='axial',moving=True,note='Two M2 x 10 screws; opening is smaller than magnet diameter. Thin adhesive layer prevents movement within the clearance pocket.')
+add('REF_Magnet_6x3_Axial',stage(cyl(3,3,179.2)),'Hardware',RED,'reference','6 mm diameter x 3 mm thick axially magnetized N35–N42 disc; pole faces normal to device axis. Fix orientation before calibration.',moving=True)
+
+# TO-92 (TI LPG) holder: open top/front; retain package with a small adhesive fillet.
+sensorbase=box(165.2,-10,-16,10,20,3)
+for y in [-7,7]:sensorbase=cut(sensorbase,slotz(169,171,y,-17,1.7,5))
+post=box(166.2,-4.1,-13,1.9,8.2,17)
+sides=fuse(box(168.1,-4.1,-4,3.3,1.8,8),box(168.1,2.3,-4,3.3,1.8,8),box(168.1,-4.1,-4.5,3.3,8.2,1.7))
+for y in [-1.27,0,1.27]:sides=cut(sides,cyl(.55,3,169.6,y,-5,V(0,0,1)))
+sensorbase=fuse(sensorbase,post,sides)
+add('47_Adjustable_Hall_Mount',stage(sensorbase),'Magnetic_head',TEAL,note='DRV5055A3QLPG TO-92 pocket: 4.6 mm width, 3.3 mm depth, open top. Flat sensing face toward magnet. ±1 mm axial adjustment gives nominal 7.2–9.2 mm package-face gap. Two M3 x 6 screws; strain-relieve stationary wires.')
+hall=box(168.36,-2.05,-2.525,2.64,4.1,5.05)
+add('REF_DRV5055A3QLPG_Envelope',stage(hall),'Hardware',DARK,'reference','TI LPG package maximum-envelope reference, not detailed manufacturer CAD; pin 1 VCC, 2 GND, 3 OUT. Flat face at X171 toward magnet.')
+for i,y in enumerate([-1.27,0,1.27],1):add(f'REF_Hall_Lead_{i}',stage(box(169.4,y-.2,-10.5,.4,.4,7.975)),'Hardware',GOLD,'reference','Solder insulated leads before seating sensor; no wire crosses moving carriage.')
+
+# Replaceable cartridge with blind radial lock pocket. Original flange/lugs retained.
+cart=oldstep('35_Replaceable_Filament_Cartridge');cart.translate(V(59,0,0))
+cart=cut(cart,cyl(1.4,3,240,0,3,V(0,0,1)))
+add('48_Locking_Filament_Cartridge',cart,'Magnetic_head',WHITE,orient='axial',moving=True,note='Same R04 quarter-turn geometry, plus radial M2 lock pocket; press flange against receiver face while clamping. Unrated nylon references only. Cartridge lock screw must be loosened before turning; install service pin first.')
+add('REF_Nylon_Unrated',cyl(.45,38,245.4),'Hardware',GOLD,'reference','0.9 mm diameter / 38 mm length is an uncalibrated layout reference. A monofilament that buckles below a target cannot apply that target force.',moving=True)
+benchprobe=fuse(cart,cyl(2,10,245.3),cyl(6,2,254.3))
+add('49_Bench_Calibration_Cartridge',benchprobe,'Accessories',BLUE,orient='axial',note='Rigid broad pad for pressing against a reference balance; NEVER a skin-testing substitute. Swap for filament cartridge after mechanical/sensor calibration; recalibrate assembled cartridge as needed.')
+
+# Hardware envelopes make screw lengths and assembly access inspectable.
+def screwx(name,xhead,y,z,length,diam=2,moving=False):
+    s=fuse(cyl(diam/2,length,xhead-length,y,z),cyl(1.9 if diam==2 else 2.75,2 if diam==2 else 3,xhead,y,z))
+    return add(name,s,'Fasteners',GOLD,'reference',f'M{diam} x {length} socket cap screw envelope; threads not modeled.',moving=moving)
+def nutx(name,x,y,z,af=4.0,h=1.6,moving=False):
+    return add(name,cut(hexx(x,y,z,af,h),cyl(.85 if af<5 else 1.3,h+2,x-1,y,z)),'Fasteners',GOLD,'reference','Standard hex nut envelope; pocket includes clearance.',moving=moving)
+for i,y in enumerate([1.5,12.5],1):
+    # Heads face the sensor (-X), shafts extend toward the carriage.
+    s=fuse(cyl(1,10,177.4,y),cyl(1.9,2,175.4,y))
+    add(f'REF_Magnet_Screw_{i}',s,'Fasteners',GOLD,'reference','M2 x 10; tighten cap before inserting carriage into chassis.',moving=True)
+    nutx(f'REF_Magnet_Nut_{i}',184.2,y,0,moving=True)
+for i,y in enumerate([-22.5,22.5],1):
+    for j,z in enumerate([-12,12],1):
+        add(f'REF_Adaptor_Screw_{i}_{j}',fuse(cyl(1.5,8,162.8,y,z),cyl(2.85,1.65,161.15,y,z)),'Fasteners',GOLD,'reference','M3 x 8 button head, inserted from rear into 2 mm counterbore; socket-cap heads do not fit.')
+        nutx(f'REF_Adaptor_Nut_{i}_{j}',166.6,y,z,5.5,2.4)
+def screwz(name,x,y,underhead,length,diam=3,group='Fasteners',moving=False):
+    return add(name,fuse(cyl(diam/2,length,x,y,underhead-length,V(0,0,1)),cyl(2.75 if diam==3 else 1.9,3 if diam==3 else 2,x,y,underhead,V(0,0,1))),group,GOLD,'reference',f'M{diam} x {length} screw envelope.',moving=moving)
+for i,(x,y) in enumerate(FIXED_HOLES,1):
+    screwz(f'REF_Flexure_Fixed_Screw_{i}',x,y,-8.6,8,2)
+    add(f'REF_Flexure_Fixed_Nut_{i}',cut(hexz(x,y,-16.1,4.,1.6),cyl(.85,4,x,y,-17,V(0,0,1))),'Fasteners',GOLD,'reference','M2 nut in chassis underside pocket; retain with a small adhesive tack.')
+for i,(x,y) in enumerate(MOVING_HOLES,1):
+    add(f'REF_Flexure_Moving_Screw_{i}',fuse(cyl(1,8,x,y,-11,V(0,0,1)),cyl(1.9,2,x,y,-13,V(0,0,1))),'Fasteners',GOLD,'reference','M2 x 8 inserted upward through cassette before placing carriage in housing.',moving=True)
+    add(f'REF_Flexure_Moving_Nut_{i}',cut(hexz(x,y,-6.2,4.,1.6),cyl(.85,4,x,y,-7,V(0,0,1))),'Fasteners',GOLD,'reference','M2 nut in carriage side-loading pocket.',moving=True)
+for index,(x,y) in enumerate(LID_POSTS):
+    i,j=index//2+1,index%2+1
+    add(f'REF_Lid_Screw_{i}_{j}',fuse(cyl(1.5,35,x,y,-16,V(0,0,1)),cyl(2.75,3,x,y,-19,V(0,0,1))),'Fasteners',GOLD,'reference','M3 x 35 socket cap screw, inserted from underside; head recessed into chassis.')
+    add(f'REF_Lid_Nut_{i}_{j}',cut(hexz(x,y,16.2,5.5,2.4),cyl(1.3,4,x,y,15.5,V(0,0,1))),'Fasteners',GOLD,'reference','M3 nut in cover underside; retain during assembly with a tiny adhesive tack if needed.')
+for i,y in enumerate([0,14],1):screwz(f'REF_Sensor_Adjust_Screw_{i}',170,y,-13,6)
+screwz('REF_Cartridge_Lock_M2x12',240,0,15.0,12,2,moving=True)
+screwz('REF_Service_Pin_M3x30',226,7,24.0,30,3,group='Service_lock')
+knob=cut(cyl(5.5,6,226,7,24.1,V(0,0,1)),cyl(2.9,3.2,226,7,24.0,V(0,0,1)),cyl(1.7,8,226,7,24,V(0,0,1)))
+add('50_Service_Lock_Knob',knob,'Service_lock',RED,note='Bond over the M3 x 30 socket head. REMOVE ENTIRE SCREW for measurement. Pin is only for cartridge changes and cassette assembly; not a travel-adjustment screw.')
+cknob=cut(cyl(4.5,4,240,0,15.1,V(0,0,1)),cyl(2.05,2.2,240,0,15.0,V(0,0,1)),cyl(1.2,6,240,0,14.8,V(0,0,1)))
+add('51_Cartridge_Lock_Knob',cknob,'Magnetic_head',TEAL,moving=True,note='Bond over M2 x 12 head. Back out at least 3 mm before rotating cartridge; use service lock while doing so.')
+
+add('57_Printed_Flexure_080',cassette(.8),'Flexures',TEAL,note='Baseline replaceable cassette: 0.8 mm beams, 24 mm root-line span, 2.4 mm height, 0.6 mm root fillets. Print flat, no support. Four M2 x 8 screws. Experimental PLA bench spring; not calibrated or fatigue-qualified.')
+for number,width in [(58,1.0),(59,1.2)]:
+    add(f'{number}_Flexure_Alternative_{int(width*100):03d}',cassette(width),'Fit_coupons',TEAL,note=f'Alternative complete cassette with {width:.1f} mm beams. Install ONE cassette only. Print and compare stiffness/drift; width is not a force rating. Flat print, no support.')
+
+# Print-first tolerance coupon, matching magnet pocket, TO92 pocket, holes and nuts.
+coupon=box(0,0,0,65,28,5)
+for i,diam in enumerate([2.2,2.4,3.2,3.4]):coupon=cut(coupon,cyl(diam/2,7,6+8*i,7,-1,V(0,0,1)))
+coupon=cut(coupon,cyl(3.2,3.5,42,8,1.5,V(0,0,1)),box(52,4,1.5,4.6,3.3,5),hexz(8,20,2.6,4.5,3),hexz(20,20,2.4,5.8,3))
+add('52_Hardware_Fit_Coupon',coupon,'Fit_coupons',TEAL,note='Left to right holes 2.2 / 2.4 / 3.2 / 3.4 mm; Ø6.4 x 3.5 magnet pocket; 4.6 x 3.3 TO92 pocket. Hex pockets AF4.5 / AF5.8. Print before full head.')
+# Detached exact receiver coupon and matching cartridge, for low-cost bayonet trials.
+receiver=car.common(box(234.7,-15,-15,8,30,30))
+add('53_Cartridge_Receiver_Coupon',receiver,'Fit_coupons',BLUE,orient='axial',note='Exact front of R08 carriage including lock pocket and R04 bayonet track. Test with part 48 before full carriage.')
+bridge=outline(16,3).common(box(222,-21,16,18.8,42,3))
+bridge=fuse(bridge,cyl(6,5,226,7,19,V(0,0,1)))
+for y in [-15.8,15.8]:bridge=cut(bridge,cyl(1.7,5,235.5,y,15.5,V(0,0,1)),hexz(235.5,y,15.9,5.8,2.9))
+bridge=cut(bridge,cyl(1.7,10,226,7,15.5,V(0,0,1)),hexz(226,7,15.9,5.8,2.6))
+bridge=cut(bridge,cyl(3.5,16,222.5,-21.6,15,V(0,0,1)))
+add('55_Spring_Assembly_Bridge',bridge,'Accessories',RED,note='Temporary open assembly fixture: replaces lid using the two front M3 x 35 underside screws and two M3 nuts in its underside pockets, holds the M3 x 30 service pin while leaving both fixed cassette screws accessible. Three extra M3 nuts. Remove bridge before fitting lid; never leave it inside the head.')
+
+# Export solids and print-oriented meshes.
+report={'revision':'R08','status':'FIRST-BUILD BENCH PROTOTYPE','parts':{},'static_collisions':[],'motion':[],'stops':[]}
+manifest=[]
+for n,d in items.items():
+    s=d['shape'];b=s.BoundBox
+    report['parts'][n]={'valid':s.isValid(),'closed':s.isClosed(),'solids':len(s.Solids),'volume_mm3':s.Volume,'bbox_mm':[b.XLength,b.YLength,b.ZLength],'kind':d['kind']}
+    if d['kind']=='print':
+        s.exportStep(str(OUT/'cad'/f'{n}.step'))
+        pr=s.copy()
+        if d['orient']=='axial':pr.rotate(V(),V(0,1,0),90)
+        elif d['orient']=='carriage':pr.rotate(V(),V(1,0,0),90)
+        b=pr.BoundBox;pr.translate(V(-b.XMin,-b.YMin,-b.ZMin))
+        mesh=MeshPart.meshFromShape(Shape=pr,LinearDeflection=.04,AngularDeflection=.12,Relative=False)
+        mesh.write(str(OUT/'stl'/f'{n}.stl'))
+        if d['group'] in ['Fit_coupons','Flexures'] or n=='48_Locking_Filament_Cartridge':mesh.write(str(OUT/'print_first'/f'{n}.stl'))
+    mesh=MeshPart.meshFromShape(Shape=s,LinearDeflection=.04,AngularDeflection=.12,Relative=False)
+    mesh.write(str(OUT/'reference'/f'{n}.stl'))
+    d['object'].Visibility=d['group'] not in ['Vibration_head','Fit_coupons','Accessories','Legacy_contact_concept','Service_lock']
+    manifest.append({'name':n,'group':d['group'],'kind':d['kind'],'color':d['color'],'description':d['note'],'moving':d['moving'],'print_orientation':d['orient'],'quantity':d['qty'],'assembly_mesh':f'reference/{n}.stl'})
+doc.recompute();doc.saveAs(str(OUT/'cad/SoleSense_R08.FCStd'))
+head=[d['shape'] for d in items.values() if d['kind']=='print' and d['group'] in ['Magnetic_head','Flexures']]
+Part.makeCompound(head).exportStep(str(OUT/'cad/SoleSense_R08_Magnetic_Head_Assembly.step'))
+full=[d['shape'] for d in items.values() if d['kind']=='print' and d['group'] in ['Magnetic_head','Flexures','Handle','Interface']]
+Part.makeCompound(full).exportStep(str(OUT/'cad/SoleSense_R08_Pressure_Assembly.step'))
+(OUT/'source/assembly_manifest.json').write_text(json.dumps(manifest,indent=2))
+dimensions={'flexure_beam_width_mm':.8,'flexure_alternative_widths_mm':[1.0,1.2],'flexure_root_line_span_mm':24,'flexure_height_mm':2.4,'flexure_root_radius_mm':.6,'flexure_beam_count':2,'flexure_material':'PLA assumption; actual filament and process must be tested','compression_stop_mm':2.0,'extension_stop_mm':.6,'magnet_mm':[6,3],'magnet_type':'axially magnetized N35–N42','hall_part':'DRV5055A3QLPG, TI LPG TO92','package_face_gap_nominal_mm':8.2,'gap_adjustment_mm':[7.2,9.2],'housing_mm':[76,56,44.0],'adaptor_max_width_height_mm':[59,59],'cover_edge_radius_mm':7,'lower_edge_radius_mm':2,'front_face_width_mm':28,'cover_fasteners':'4 x M3 x 35 from underneath','service_pin':'M3 x 30','R05_housing_width_mm':70,'width_reduction_from_R05_percent':20,'front_planform':'tangent Bezier taper','stage_offset_y_mm':7,'filament_axis_y_mm':0,'grip_diameter_mm':46,'collar_diameter_mm':62,'new_head_length_from_joint_mm':140.05,'overall_length_with_reference_filament_mm':283.4,'printer_assumption':'FDM 0.4 mm nozzle, 0.2 mm layer, PLA for bench prototype; coupons required','date':'2026-10-20'}
+(OUT/'source/design_dimensions.json').write_text(json.dumps(dimensions,indent=2))
+(OUT/'validation/geometry_build.json').write_text(json.dumps(report,indent=2))
+bad={n:d for n,d in report['parts'].items() if not(d['valid'] and d['closed'] and d['solids']==1)}
+print('INVALID_SOLIDS',json.dumps(bad),flush=True)
+assert not bad,'Invalid/disconnected solid'
+print('R08_SOLIDS_EXPORTED',len(items),flush=True)

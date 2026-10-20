@@ -1,0 +1,1592 @@
+[
+  {
+    "name": "01_Handle_Lower",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "Retained from R03 except where described in R04 change notes.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/01_Handle_Lower.stl"
+  },
+  {
+    "name": "02_Handle_Upper",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "Retained from R03 except where described in R04 change notes.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/02_Handle_Upper.stl"
+  },
+  {
+    "name": "03_Controller_Tray",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Retained from R03 except where described in R04 change notes.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/03_Controller_Tray.stl"
+  },
+  {
+    "name": "04_Charger_Tray",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Retained from R03 except where described in R04 change notes.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/04_Charger_Tray.stl"
+  },
+  {
+    "name": "05_SD_Tray",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Retained from R03 except where described in R04 change notes.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/05_SD_Tray.stl"
+  },
+  {
+    "name": "12_Button_Cap",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Retained from R03 except where described in R04 change notes.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/12_Button_Cap.stl"
+  },
+  {
+    "name": "14_Handle_Wire_Clamp",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Retained from R03 except where described in R04 change notes.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/14_Handle_Wire_Clamp.stl"
+  },
+  {
+    "name": "20_Boost_Shelf",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Retained from R03 except where described in R04 change notes.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/20_Boost_Shelf.stl"
+  },
+  {
+    "name": "29_Button_Platform",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Retained from R03 except where described in R04 change notes.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/29_Button_Platform.stl"
+  },
+  {
+    "name": "31_Battery_Protection_Tray",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Retained from R03 except where described in R04 change notes.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/31_Battery_Protection_Tray.stl"
+  },
+  {
+    "name": "30_OLED_13in_Retainer",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.28,
+      0.29
+    ],
+    "description": "Foam/adhesive rear retainer; headerless module. Final glass offset and cable egress require sample verification.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/30_OLED_13in_Retainer.stl"
+  },
+  {
+    "name": "32_Collar_Safety_Slider",
+    "group": "Handle",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.28,
+      0.29
+    ],
+    "description": "Pull toward heel by 5 mm before turning collar; push forward after locking. Captive under rails with M2 shoulder screw. No spring or automatic relock is claimed.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/32_Collar_Safety_Slider.stl"
+  },
+  {
+    "name": "33_Captive_Collar_Right",
+    "group": "Interface",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.28,
+      0.29
+    ],
+    "description": "One of two collar halves assembled around fixed shoulders using two M2 through bolts and nuts at X151.5/Z+/-29. Rotate -30 degrees after retracting slider. Validate screw bearing, print fit, fatigue and torque.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/33_Captive_Collar_Right.stl"
+  },
+  {
+    "name": "40_Captive_Collar_Left",
+    "group": "Interface",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.28,
+      0.29
+    ],
+    "description": "Matching collar half. Split is away from head lugs. 0.30 mm seam. Fasteners are installed once; head changes require no screw removal.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/40_Captive_Collar_Left.stl"
+  },
+  {
+    "name": "06_Fixed_Contact_Carrier",
+    "group": "Legacy_contact_concept",
+    "kind": "reference",
+    "color": [
+      0.025,
+      0.28,
+      0.29
+    ],
+    "description": "Four embedded pad/tail reserves; M2 attachment uses original panel supports. Supplier contact hardware and PCB design remain to be selected.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/06_Fixed_Contact_Carrier.stl"
+  },
+  {
+    "name": "10_Vibration_Head_Body",
+    "group": "Vibration_head",
+    "kind": "print",
+    "color": [
+      0.77,
+      0.83,
+      0.82
+    ],
+    "description": "R03 vibration chamber with new stationary four-contact connection and common collar lugs.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/10_Vibration_Head_Body.stl"
+  },
+  {
+    "name": "11_Vibration_Dome_Cap",
+    "group": "Vibration_head",
+    "kind": "print",
+    "color": [
+      0.77,
+      0.83,
+      0.82
+    ],
+    "description": "Retained R03 dome and coin motor pocket. Cleaning/contact-surface validation is unresolved; no disposable barrier has been validated.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/11_Vibration_Dome_Cap.stl"
+  },
+  {
+    "name": "37_Head_Contact_Carrier",
+    "group": "Legacy_contact_concept",
+    "kind": "reference",
+    "color": [
+      0.025,
+      0.28,
+      0.29
+    ],
+    "description": "Removable four-pin spring-contact reserve, two M2 screws. Pins remain aligned while outer collar rotates.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/37_Head_Contact_Carrier.stl"
+  },
+  {
+    "name": "38_Joint_Male_Coupon",
+    "group": "Fit_coupons",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.28,
+      0.29
+    ],
+    "description": "Exact pilot, key and lugs. Use with female coupon and collar before a complete handle print.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/38_Joint_Male_Coupon.stl"
+  },
+  {
+    "name": "39_Joint_Female_Coupon",
+    "group": "Fit_coupons",
+    "kind": "print",
+    "color": [
+      0.77,
+      0.83,
+      0.82
+    ],
+    "description": "Exact socket and collar shoulders. Assemble the two collar halves around this coupon using the same M2 through bolts.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/39_Joint_Female_Coupon.stl"
+  },
+  {
+    "name": "REF_OLED_Adafruit938_35p6x33x6p2",
+    "group": "Handle",
+    "kind": "reference",
+    "color": [
+      0.035,
+      0.065,
+      0.075
+    ],
+    "description": "Published Adafruit 938 envelope. Active area 29.42 x 14.70; screen aperture 30.4 x 15.8. Centered active-area location is provisional; verify current PCB drawing/sample.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_OLED_Adafruit938_35p6x33x6p2.stl"
+  },
+  {
+    "name": "REF_Handle_Pad_1",
+    "group": "Legacy_contact_concept",
+    "kind": "reference",
+    "color": [
+      0.78,
+      0.48,
+      0.14
+    ],
+    "description": "Proposed plated contact land; schematic assignment GND / regulated supply / motor control / head ID. No hot-swap claim.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Handle_Pad_1.stl"
+  },
+  {
+    "name": "REF_Handle_Pad_2",
+    "group": "Legacy_contact_concept",
+    "kind": "reference",
+    "color": [
+      0.78,
+      0.48,
+      0.14
+    ],
+    "description": "Proposed plated contact land; schematic assignment GND / regulated supply / motor control / head ID. No hot-swap claim.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Handle_Pad_2.stl"
+  },
+  {
+    "name": "REF_Handle_Pad_3",
+    "group": "Legacy_contact_concept",
+    "kind": "reference",
+    "color": [
+      0.78,
+      0.48,
+      0.14
+    ],
+    "description": "Proposed plated contact land; schematic assignment GND / regulated supply / motor control / head ID. No hot-swap claim.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Handle_Pad_3.stl"
+  },
+  {
+    "name": "REF_Handle_Pad_4",
+    "group": "Legacy_contact_concept",
+    "kind": "reference",
+    "color": [
+      0.78,
+      0.48,
+      0.14
+    ],
+    "description": "Proposed plated contact land; schematic assignment GND / regulated supply / motor control / head ID. No hot-swap claim.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Handle_Pad_4.stl"
+  },
+  {
+    "name": "REF_Vibration_head_Spring_Pin_1",
+    "group": "Legacy_contact_concept",
+    "kind": "reference",
+    "color": [
+      0.78,
+      0.48,
+      0.14
+    ],
+    "description": "Illustrative compressed spring-contact envelope, not a selected part. Working stroke, force, current rating and sealing unverified.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Vibration_head_Spring_Pin_1.stl"
+  },
+  {
+    "name": "REF_Vibration_head_Spring_Pin_2",
+    "group": "Legacy_contact_concept",
+    "kind": "reference",
+    "color": [
+      0.78,
+      0.48,
+      0.14
+    ],
+    "description": "Illustrative compressed spring-contact envelope, not a selected part. Working stroke, force, current rating and sealing unverified.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Vibration_head_Spring_Pin_2.stl"
+  },
+  {
+    "name": "REF_Vibration_head_Spring_Pin_3",
+    "group": "Legacy_contact_concept",
+    "kind": "reference",
+    "color": [
+      0.78,
+      0.48,
+      0.14
+    ],
+    "description": "Illustrative compressed spring-contact envelope, not a selected part. Working stroke, force, current rating and sealing unverified.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Vibration_head_Spring_Pin_3.stl"
+  },
+  {
+    "name": "REF_Vibration_head_Spring_Pin_4",
+    "group": "Legacy_contact_concept",
+    "kind": "reference",
+    "color": [
+      0.78,
+      0.48,
+      0.14
+    ],
+    "description": "Illustrative compressed spring-contact envelope, not a selected part. Working stroke, force, current rating and sealing unverified.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Vibration_head_Spring_Pin_4.stl"
+  },
+  {
+    "name": "REF_18650_67x18p6",
+    "group": "Handle",
+    "kind": "reference",
+    "color": [
+      0.04,
+      0.24,
+      0.43
+    ],
+    "description": "",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_18650_67x18p6.stl"
+  },
+  {
+    "name": "REF_Controller_52x28x12",
+    "group": "Handle",
+    "kind": "reference",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Controller_52x28x12.stl"
+  },
+  {
+    "name": "REF_TP4056_28x17x5",
+    "group": "Handle",
+    "kind": "reference",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_TP4056_28x17x5.stl"
+  },
+  {
+    "name": "REF_MicroSD_24x25x5",
+    "group": "Handle",
+    "kind": "reference",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_MicroSD_24x25x5.stl"
+  },
+  {
+    "name": "REF_Pololu_U3V40F5",
+    "group": "Handle",
+    "kind": "reference",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "Pololu 4012 U3V40F5 boost regulator, headerless 15.24 x 15.24 x 5.6 mm. Validate servo transient load, not a 4 A output claim.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Pololu_U3V40F5.stl"
+  },
+  {
+    "name": "REF_1S_Protection_16x12x5",
+    "group": "Handle",
+    "kind": "reference",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_1S_Protection_16x12x5.stl"
+  },
+  {
+    "name": "REF_Button_6x6x5",
+    "group": "Handle",
+    "kind": "reference",
+    "color": [
+      0.06,
+      0.09,
+      0.11
+    ],
+    "description": "",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Button_6x6x5.stl"
+  },
+  {
+    "name": "REF_Power_Slide_Switch",
+    "group": "Handle",
+    "kind": "reference",
+    "color": [
+      0.06,
+      0.09,
+      0.11
+    ],
+    "description": "SS12D00G3-style slide switch envelope. Adhesive retained under heel slot. Switch EN only, not servo supply current.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Power_Slide_Switch.stl"
+  },
+  {
+    "name": "REF_Vibration_Driver_Reserve_6x20x10",
+    "group": "Vibration_head",
+    "kind": "reference",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "Custom 20 x 10 x 6 max perfboard: AO3400A MOSFET, flyback diode, gate resistor and pull-down. Mount in head with adhesive pad; 5 V supply.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Vibration_Driver_Reserve_6x20x10.stl"
+  },
+  {
+    "name": "REF_CoinMotor_10x2p7",
+    "group": "Vibration_head",
+    "kind": "reference",
+    "color": [
+      0.72,
+      0.49,
+      0.15
+    ],
+    "description": "",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_CoinMotor_10x2p7.stl"
+  },
+  {
+    "name": "41_R04_Joint_Adaptor",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.74,
+      0.81,
+      0.8
+    ],
+    "description": "R04 mechanical twist-lock interface. Four M3 x 8 button-head bolts join the head chassis. Electrical contacts are a separate unfinished R04 subsystem; use the cable port for initial bench testing.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/41_R04_Joint_Adaptor.stl"
+  },
+  {
+    "name": "42_Magnetic_Chassis",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.74,
+      0.81,
+      0.8
+    ],
+    "description": "Print open side upward. Includes 2.4 mm compression and 1.0 mm extension stops, spring seats, M3 nut pockets and cable exit. Clear holes and fit coupons first; no sliding bearing touches the carriage during measurement.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/42_Magnetic_Chassis.stl"
+  },
+  {
+    "name": "43_Removable_Lid",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.74,
+      0.81,
+      0.8
+    ],
+    "description": "Curved white hood. Four M3 x 35 screws enter from underside; insert their nuts into underside cover pockets first. Service pin is M3 x 30 with its head seating at Z24; remove completely for measurement. Print crown upward with accessible support below.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/43_Removable_Lid.stl"
+  },
+  {
+    "name": "56_Teal_Spine_Inlay",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.32,
+      0.34
+    ],
+    "description": "Optional decorative inlay, 1.1 mm thick. Bond into the shallow crown recess with a thin compatible adhesive film. No force-sensing function. Print flat in teal.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/56_Teal_Spine_Inlay.stl"
+  },
+  {
+    "name": "44_Moving_Carriage",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.055,
+      0.39,
+      0.66
+    ],
+    "description": "Two parallel leaf springs, no rubbing guide. Magnet pocket 6.4 x 3.4 mm; M2 retained cap. R04 bayonet plus added M2 lock screw. Large rear shoulder meets chassis overload stops. Service-pin bore is in the large travel-stop shoulder.",
+    "moving": true,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/44_Moving_Carriage.stl"
+  },
+  {
+    "name": "45_Leaf_Clamp_1",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.32,
+      0.34
+    ],
+    "description": "Spring clamp (inner pair has relieved corners): M2 x 10 screws, nuts in rear seat. Two screws lie outside the 12 mm-wide spring strip; do not drill the spring material.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/45_Leaf_Clamp_1.stl"
+  },
+  {
+    "name": "45_Leaf_Clamp_2",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.32,
+      0.34
+    ],
+    "description": "Spring clamp (inner pair has relieved corners): M2 x 10 screws, nuts in rear seat. Two screws lie outside the 12 mm-wide spring strip; do not drill the spring material.",
+    "moving": true,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/45_Leaf_Clamp_2.stl"
+  },
+  {
+    "name": "45_Leaf_Clamp_3",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.32,
+      0.34
+    ],
+    "description": "Spring clamp (inner pair has relieved corners): M2 x 10 screws, nuts in rear seat. Two screws lie outside the 12 mm-wide spring strip; do not drill the spring material.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/45_Leaf_Clamp_3.stl"
+  },
+  {
+    "name": "45_Leaf_Clamp_4",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.32,
+      0.34
+    ],
+    "description": "Spring clamp (inner pair has relieved corners): M2 x 10 screws, nuts in rear seat. Two screws lie outside the 12 mm-wide spring strip; do not drill the spring material.",
+    "moving": true,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/45_Leaf_Clamp_4.stl"
+  },
+  {
+    "name": "46_Magnet_Retainer",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.055,
+      0.39,
+      0.66
+    ],
+    "description": "Two M2 x 10 screws; opening is smaller than magnet diameter. Thin adhesive layer prevents movement within the clearance pocket.",
+    "moving": true,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/46_Magnet_Retainer.stl"
+  },
+  {
+    "name": "REF_Magnet_6x3_Axial",
+    "group": "Hardware",
+    "kind": "reference",
+    "color": [
+      0.75,
+      0.09,
+      0.06
+    ],
+    "description": "6 mm diameter x 3 mm thick axially magnetized N35\u2013N42 disc; pole faces normal to device axis. Fix orientation before calibration.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Magnet_6x3_Axial.stl"
+  },
+  {
+    "name": "47_Adjustable_Hall_Mount",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.32,
+      0.34
+    ],
+    "description": "DRV5055A3QLPG TO-92 pocket: 4.6 mm width, 3.3 mm depth, open top. Flat sensing face toward magnet. \u00b11 mm axial adjustment gives nominal 7.2\u20139.2 mm package-face gap. Two M3 x 6 screws; strain-relieve stationary wires.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/47_Adjustable_Hall_Mount.stl"
+  },
+  {
+    "name": "REF_DRV5055A3QLPG_Envelope",
+    "group": "Hardware",
+    "kind": "reference",
+    "color": [
+      0.045,
+      0.065,
+      0.08
+    ],
+    "description": "TI LPG package maximum-envelope reference, not detailed manufacturer CAD; pin 1 VCC, 2 GND, 3 OUT. Flat face at X171 toward magnet.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_DRV5055A3QLPG_Envelope.stl"
+  },
+  {
+    "name": "REF_Hall_Lead_1",
+    "group": "Hardware",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Solder insulated leads before seating sensor; no wire crosses moving carriage.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Hall_Lead_1.stl"
+  },
+  {
+    "name": "REF_Hall_Lead_2",
+    "group": "Hardware",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Solder insulated leads before seating sensor; no wire crosses moving carriage.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Hall_Lead_2.stl"
+  },
+  {
+    "name": "REF_Hall_Lead_3",
+    "group": "Hardware",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Solder insulated leads before seating sensor; no wire crosses moving carriage.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Hall_Lead_3.stl"
+  },
+  {
+    "name": "48_Locking_Filament_Cartridge",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.74,
+      0.81,
+      0.8
+    ],
+    "description": "Same R04 quarter-turn geometry, plus radial M2 lock pocket; press flange against receiver face while clamping. Unrated nylon references only. Cartridge lock screw must be loosened before turning; install service pin first.",
+    "moving": true,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/48_Locking_Filament_Cartridge.stl"
+  },
+  {
+    "name": "REF_Nylon_Unrated",
+    "group": "Hardware",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "0.9 mm diameter / 38 mm length is an uncalibrated layout reference. A monofilament that buckles below a target cannot apply that target force.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Nylon_Unrated.stl"
+  },
+  {
+    "name": "49_Bench_Calibration_Cartridge",
+    "group": "Accessories",
+    "kind": "print",
+    "color": [
+      0.055,
+      0.39,
+      0.66
+    ],
+    "description": "Rigid broad pad for pressing against a reference balance; NEVER a skin-testing substitute. Swap for filament cartridge after mechanical/sensor calibration; recalibrate assembled cartridge as needed.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/49_Bench_Calibration_Cartridge.stl"
+  },
+  {
+    "name": "REF_Leaf_Screw_1_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M2 x 10 socket cap screw envelope; threads not modeled.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Screw_1_1.stl"
+  },
+  {
+    "name": "REF_Leaf_Nut_1_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Nut_1_1.stl"
+  },
+  {
+    "name": "REF_Leaf_Screw_1_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M2 x 10 socket cap screw envelope; threads not modeled.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Screw_1_2.stl"
+  },
+  {
+    "name": "REF_Leaf_Nut_1_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Nut_1_2.stl"
+  },
+  {
+    "name": "REF_Leaf_Screw_2_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M2 x 10 socket cap screw envelope; threads not modeled.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Screw_2_1.stl"
+  },
+  {
+    "name": "REF_Leaf_Nut_2_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Nut_2_1.stl"
+  },
+  {
+    "name": "REF_Leaf_Screw_2_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M2 x 10 socket cap screw envelope; threads not modeled.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Screw_2_2.stl"
+  },
+  {
+    "name": "REF_Leaf_Nut_2_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Nut_2_2.stl"
+  },
+  {
+    "name": "REF_Leaf_Screw_3_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M2 x 10 socket cap screw envelope; threads not modeled.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Screw_3_1.stl"
+  },
+  {
+    "name": "REF_Leaf_Nut_3_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Nut_3_1.stl"
+  },
+  {
+    "name": "REF_Leaf_Screw_3_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M2 x 10 socket cap screw envelope; threads not modeled.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Screw_3_2.stl"
+  },
+  {
+    "name": "REF_Leaf_Nut_3_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Nut_3_2.stl"
+  },
+  {
+    "name": "REF_Leaf_Screw_4_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M2 x 10 socket cap screw envelope; threads not modeled.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Screw_4_1.stl"
+  },
+  {
+    "name": "REF_Leaf_Nut_4_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Nut_4_1.stl"
+  },
+  {
+    "name": "REF_Leaf_Screw_4_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M2 x 10 socket cap screw envelope; threads not modeled.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Screw_4_2.stl"
+  },
+  {
+    "name": "REF_Leaf_Nut_4_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Leaf_Nut_4_2.stl"
+  },
+  {
+    "name": "REF_Magnet_Screw_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M2 x 10; tighten cap before inserting carriage into chassis.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Magnet_Screw_1.stl"
+  },
+  {
+    "name": "REF_Magnet_Nut_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Magnet_Nut_1.stl"
+  },
+  {
+    "name": "REF_Magnet_Screw_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M2 x 10; tighten cap before inserting carriage into chassis.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Magnet_Screw_2.stl"
+  },
+  {
+    "name": "REF_Magnet_Nut_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Magnet_Nut_2.stl"
+  },
+  {
+    "name": "REF_Adaptor_Screw_1_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 x 8 button head, inserted from rear into 2 mm counterbore; socket-cap heads do not fit.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Adaptor_Screw_1_1.stl"
+  },
+  {
+    "name": "REF_Adaptor_Nut_1_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Adaptor_Nut_1_1.stl"
+  },
+  {
+    "name": "REF_Adaptor_Screw_1_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 x 8 button head, inserted from rear into 2 mm counterbore; socket-cap heads do not fit.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Adaptor_Screw_1_2.stl"
+  },
+  {
+    "name": "REF_Adaptor_Nut_1_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Adaptor_Nut_1_2.stl"
+  },
+  {
+    "name": "REF_Adaptor_Screw_2_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 x 8 button head, inserted from rear into 2 mm counterbore; socket-cap heads do not fit.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Adaptor_Screw_2_1.stl"
+  },
+  {
+    "name": "REF_Adaptor_Nut_2_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Adaptor_Nut_2_1.stl"
+  },
+  {
+    "name": "REF_Adaptor_Screw_2_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 x 8 button head, inserted from rear into 2 mm counterbore; socket-cap heads do not fit.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Adaptor_Screw_2_2.stl"
+  },
+  {
+    "name": "REF_Adaptor_Nut_2_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "Standard hex nut envelope; pocket includes clearance.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Adaptor_Nut_2_2.stl"
+  },
+  {
+    "name": "REF_Lid_Screw_1_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 x 35 socket cap screw, inserted from underside; head recessed into chassis.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Lid_Screw_1_1.stl"
+  },
+  {
+    "name": "REF_Lid_Nut_1_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 nut in cover underside; retain during assembly with a tiny adhesive tack if needed.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Lid_Nut_1_1.stl"
+  },
+  {
+    "name": "REF_Lid_Screw_1_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 x 35 socket cap screw, inserted from underside; head recessed into chassis.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Lid_Screw_1_2.stl"
+  },
+  {
+    "name": "REF_Lid_Nut_1_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 nut in cover underside; retain during assembly with a tiny adhesive tack if needed.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Lid_Nut_1_2.stl"
+  },
+  {
+    "name": "REF_Lid_Screw_2_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 x 35 socket cap screw, inserted from underside; head recessed into chassis.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Lid_Screw_2_1.stl"
+  },
+  {
+    "name": "REF_Lid_Nut_2_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 nut in cover underside; retain during assembly with a tiny adhesive tack if needed.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Lid_Nut_2_1.stl"
+  },
+  {
+    "name": "REF_Lid_Screw_2_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 x 35 socket cap screw, inserted from underside; head recessed into chassis.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Lid_Screw_2_2.stl"
+  },
+  {
+    "name": "REF_Lid_Nut_2_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 nut in cover underside; retain during assembly with a tiny adhesive tack if needed.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Lid_Nut_2_2.stl"
+  },
+  {
+    "name": "REF_Sensor_Adjust_Screw_1",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 x 6 screw envelope.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Sensor_Adjust_Screw_1.stl"
+  },
+  {
+    "name": "REF_Sensor_Adjust_Screw_2",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 x 6 screw envelope.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Sensor_Adjust_Screw_2.stl"
+  },
+  {
+    "name": "REF_Cartridge_Lock_M2x12",
+    "group": "Fasteners",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M2 x 12 screw envelope.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Cartridge_Lock_M2x12.stl"
+  },
+  {
+    "name": "REF_Service_Pin_M3x30",
+    "group": "Service_lock",
+    "kind": "reference",
+    "color": [
+      0.87,
+      0.61,
+      0.2
+    ],
+    "description": "M3 x 30 screw envelope.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Service_Pin_M3x30.stl"
+  },
+  {
+    "name": "50_Service_Lock_Knob",
+    "group": "Service_lock",
+    "kind": "print",
+    "color": [
+      0.75,
+      0.09,
+      0.06
+    ],
+    "description": "Bond over the M3 x 30 socket head. REMOVE ENTIRE SCREW for measurement. Pin is only for cartridge changes and spring assembly; not a travel-adjustment screw.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/50_Service_Lock_Knob.stl"
+  },
+  {
+    "name": "51_Cartridge_Lock_Knob",
+    "group": "Magnetic_head",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.32,
+      0.34
+    ],
+    "description": "Bond over M2 x 12 head. Back out at least 3 mm before rotating cartridge; use service lock while doing so.",
+    "moving": true,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/51_Cartridge_Lock_Knob.stl"
+  },
+  {
+    "name": "REF_Phosphor_Bronze_Leaf_1",
+    "group": "Springs",
+    "kind": "reference",
+    "color": [
+      0.64,
+      0.38,
+      0.12
+    ],
+    "description": "C51000 H08 spring temper, 28 x 12 x 0.10 mm. 5 mm clamped at each end, 18 mm free. Two parallel leaves; do not print these or substitute soft copper.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Phosphor_Bronze_Leaf_1.stl"
+  },
+  {
+    "name": "REF_Phosphor_Bronze_Leaf_2",
+    "group": "Springs",
+    "kind": "reference",
+    "color": [
+      0.64,
+      0.38,
+      0.12
+    ],
+    "description": "C51000 H08 spring temper, 28 x 12 x 0.10 mm. 5 mm clamped at each end, 18 mm free. Two parallel leaves; do not print these or substitute soft copper.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/REF_Phosphor_Bronze_Leaf_2.stl"
+  },
+  {
+    "name": "52_Hardware_Fit_Coupon",
+    "group": "Fit_coupons",
+    "kind": "print",
+    "color": [
+      0.025,
+      0.32,
+      0.34
+    ],
+    "description": "Left to right holes 2.2 / 2.4 / 3.2 / 3.4 mm; \u00d86.4 x 3.5 magnet pocket; 4.6 x 3.3 TO92 pocket. Hex pockets AF4.5 / AF5.8. Print before full head.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/52_Hardware_Fit_Coupon.stl"
+  },
+  {
+    "name": "53_Cartridge_Receiver_Coupon",
+    "group": "Fit_coupons",
+    "kind": "print",
+    "color": [
+      0.055,
+      0.39,
+      0.66
+    ],
+    "description": "Exact front of R07 carriage including lock pocket and R04 bayonet track. Test with part 48 before full carriage.",
+    "moving": false,
+    "print_orientation": "axial",
+    "quantity": 1,
+    "assembly_mesh": "reference/53_Cartridge_Receiver_Coupon.stl"
+  },
+  {
+    "name": "54_Leaf_Length_Template",
+    "group": "Fit_coupons",
+    "kind": "print",
+    "color": [
+      0.64,
+      0.38,
+      0.12
+    ],
+    "description": "28 x 12 mm recess, 1 mm deep. Alignment/length template only; measure spring thickness with micrometer. No printed spring substitute.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/54_Leaf_Length_Template.stl"
+  },
+  {
+    "name": "55_Spring_Assembly_Bridge",
+    "group": "Accessories",
+    "kind": "print",
+    "color": [
+      0.75,
+      0.09,
+      0.06
+    ],
+    "description": "Temporary open assembly fixture: replaces lid using the two front M3 x 35 underside screws and two M3 nuts in its underside pockets, holds the M3 x 30 service pin while leaving both leaf stations accessible. Three extra M3 nuts. Remove bridge before fitting lid; never leave it inside the head.",
+    "moving": false,
+    "print_orientation": "flat",
+    "quantity": 1,
+    "assembly_mesh": "reference/55_Spring_Assembly_Bridge.stl"
+  }
+]

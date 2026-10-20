@@ -1,0 +1,1 @@
+date_time,cassette_id,beam_width_mm,filament_lot,printer,nozzle_mm,layer_mm,temperature_c,orientation,cycle,loading_or_unloading,elapsed_hold_s,reference_gf,hall_voltage,supply_voltage,travel_mm,at_stop,return_to_zero,notes

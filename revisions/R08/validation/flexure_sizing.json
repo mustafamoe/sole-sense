@@ -1,0 +1,151 @@
+{
+  "status": "SIZING ONLY; no measured spring or sensor performance",
+  "model": "Two ideal fixed-guided beams; ignores fillets, support compliance, rotation, creep and print variation",
+  "E_values": "Assumed sensitivity inputs, not a certified PLA property range",
+  "rows": [
+    {
+      "beam_width_mm": 0.8,
+      "assumed_E_MPa": 1200,
+      "ideal_k_N_per_mm": 0.2133333333333334,
+      "ideal_force_at_2mm_gf": 43.507891753724955,
+      "ideal_deflection_mm": {
+        "1": 0.045968671874999985,
+        "10": 0.45968671874999983,
+        "75": 3.447650390624999
+      },
+      "ideal_nominal_strain_at_2mm": 0.008333333333333335
+    },
+    {
+      "beam_width_mm": 0.8,
+      "assumed_E_MPa": 2000,
+      "ideal_k_N_per_mm": 0.3555555555555556,
+      "ideal_force_at_2mm_gf": 72.51315292287491,
+      "ideal_deflection_mm": {
+        "1": 0.027581203124999995,
+        "10": 0.2758120312499999,
+        "75": 2.0685902343749993
+      },
+      "ideal_nominal_strain_at_2mm": 0.008333333333333335
+    },
+    {
+      "beam_width_mm": 0.8,
+      "assumed_E_MPa": 2500,
+      "ideal_k_N_per_mm": 0.4444444444444446,
+      "ideal_force_at_2mm_gf": 90.64144115359365,
+      "ideal_deflection_mm": {
+        "1": 0.022064962499999993,
+        "10": 0.22064962499999993,
+        "75": 1.6548721874999994
+      },
+      "ideal_nominal_strain_at_2mm": 0.008333333333333335
+    },
+    {
+      "beam_width_mm": 0.8,
+      "assumed_E_MPa": 3500,
+      "ideal_k_N_per_mm": 0.6222222222222223,
+      "ideal_force_at_2mm_gf": 126.8980176150311,
+      "ideal_deflection_mm": {
+        "1": 0.0157606875,
+        "10": 0.15760687499999998,
+        "75": 1.1820515624999997
+      },
+      "ideal_nominal_strain_at_2mm": 0.008333333333333335
+    },
+    {
+      "beam_width_mm": 1.0,
+      "assumed_E_MPa": 1200,
+      "ideal_k_N_per_mm": 0.4166666666666667,
+      "ideal_force_at_2mm_gf": 84.97635108149402,
+      "ideal_deflection_mm": {
+        "1": 0.023535959999999998,
+        "10": 0.2353596,
+        "75": 1.765197
+      },
+      "ideal_nominal_strain_at_2mm": 0.010416666666666666
+    },
+    {
+      "beam_width_mm": 1.0,
+      "assumed_E_MPa": 2000,
+      "ideal_k_N_per_mm": 0.6944444444444444,
+      "ideal_force_at_2mm_gf": 141.62725180249004,
+      "ideal_deflection_mm": {
+        "1": 0.014121576,
+        "10": 0.14121576,
+        "75": 1.0591182
+      },
+      "ideal_nominal_strain_at_2mm": 0.010416666666666666
+    },
+    {
+      "beam_width_mm": 1.0,
+      "assumed_E_MPa": 2500,
+      "ideal_k_N_per_mm": 0.8680555555555556,
+      "ideal_force_at_2mm_gf": 177.03406475311255,
+      "ideal_deflection_mm": {
+        "1": 0.0112972608,
+        "10": 0.112972608,
+        "75": 0.8472945599999999
+      },
+      "ideal_nominal_strain_at_2mm": 0.010416666666666666
+    },
+    {
+      "beam_width_mm": 1.0,
+      "assumed_E_MPa": 3500,
+      "ideal_k_N_per_mm": 1.2152777777777777,
+      "ideal_force_at_2mm_gf": 247.84769065435754,
+      "ideal_deflection_mm": {
+        "1": 0.008069472000000001,
+        "10": 0.08069472000000001,
+        "75": 0.6052104
+      },
+      "ideal_nominal_strain_at_2mm": 0.010416666666666666
+    },
+    {
+      "beam_width_mm": 1.2,
+      "assumed_E_MPa": 1200,
+      "ideal_k_N_per_mm": 0.7199999999999999,
+      "ideal_force_at_2mm_gf": 146.83913466882163,
+      "ideal_deflection_mm": {
+        "1": 0.013620347222222225,
+        "10": 0.13620347222222226,
+        "75": 1.021526041666667
+      },
+      "ideal_nominal_strain_at_2mm": 0.012499999999999999
+    },
+    {
+      "beam_width_mm": 1.2,
+      "assumed_E_MPa": 2000,
+      "ideal_k_N_per_mm": 1.2,
+      "ideal_force_at_2mm_gf": 244.73189111470276,
+      "ideal_deflection_mm": {
+        "1": 0.008172208333333333,
+        "10": 0.08172208333333333,
+        "75": 0.612915625
+      },
+      "ideal_nominal_strain_at_2mm": 0.012499999999999999
+    },
+    {
+      "beam_width_mm": 1.2,
+      "assumed_E_MPa": 2500,
+      "ideal_k_N_per_mm": 1.4999999999999998,
+      "ideal_force_at_2mm_gf": 305.9148638933784,
+      "ideal_deflection_mm": {
+        "1": 0.006537766666666668,
+        "10": 0.06537766666666668,
+        "75": 0.49033250000000006
+      },
+      "ideal_nominal_strain_at_2mm": 0.012499999999999999
+    },
+    {
+      "beam_width_mm": 1.2,
+      "assumed_E_MPa": 3500,
+      "ideal_k_N_per_mm": 2.0999999999999996,
+      "ideal_force_at_2mm_gf": 428.2808094507298,
+      "ideal_deflection_mm": {
+        "1": 0.004669833333333334,
+        "10": 0.04669833333333334,
+        "75": 0.35023750000000003
+      },
+      "ideal_nominal_strain_at_2mm": 0.012499999999999999
+    }
+  ]
+}

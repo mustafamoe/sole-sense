@@ -1,0 +1,19 @@
+{
+  "revision": "R08",
+  "cad_previews_reviewed": [
+    "00_Design_Hero.png",
+    "02_Inside_Head.png",
+    "03_Exploded_Cassette.png",
+    "04_Printable_Cassette.png"
+  ],
+  "observations": [
+    "Retained outer cover and full device fit within hero view.",
+    "Cutaway shows two continuous printed beams and separate sensor/carriage.",
+    "Exploded view separates cassette from carriage and shows cartridge independently.",
+    "Labels and leader endpoints adjusted after visual inspection."
+  ],
+  "limitations": [
+    "No physical print or slicer toolpaths inspected.",
+    "Exploded offsets and display cutaway are presentation only."
+  ]
+}

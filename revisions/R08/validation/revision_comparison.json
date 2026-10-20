@@ -1,0 +1,383 @@
+{
+  "unchanged_parts": [
+    {
+      "name": "01_Handle_Lower",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "02_Handle_Upper",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "03_Controller_Tray",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "04_Charger_Tray",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "05_SD_Tray",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "12_Button_Cap",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "14_Handle_Wire_Clamp",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "20_Boost_Shelf",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "29_Button_Platform",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "31_Battery_Protection_Tray",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "30_OLED_13in_Retainer",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "32_Collar_Safety_Slider",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "33_Captive_Collar_Right",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "40_Captive_Collar_Left",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "06_Fixed_Contact_Carrier",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "10_Vibration_Head_Body",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "11_Vibration_Dome_Cap",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "37_Head_Contact_Carrier",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "38_Joint_Male_Coupon",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "39_Joint_Female_Coupon",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_OLED_Adafruit938_35p6x33x6p2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Handle_Pad_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Handle_Pad_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Handle_Pad_3",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Handle_Pad_4",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Vibration_head_Spring_Pin_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Vibration_head_Spring_Pin_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Vibration_head_Spring_Pin_3",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Vibration_head_Spring_Pin_4",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_18650_67x18p6",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Controller_52x28x12",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_TP4056_28x17x5",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_MicroSD_24x25x5",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Pololu_U3V40F5",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_1S_Protection_16x12x5",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Button_6x6x5",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Power_Slide_Switch",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Vibration_Driver_Reserve_6x20x10",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_CoinMotor_10x2p7",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "41_R04_Joint_Adaptor",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "43_Removable_Lid",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "56_Teal_Spine_Inlay",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "46_Magnet_Retainer",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Magnet_6x3_Axial",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "47_Adjustable_Hall_Mount",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_DRV5055A3QLPG_Envelope",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Hall_Lead_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Hall_Lead_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Hall_Lead_3",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "48_Locking_Filament_Cartridge",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Nylon_Unrated",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "49_Bench_Calibration_Cartridge",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Magnet_Screw_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Magnet_Nut_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Magnet_Screw_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Magnet_Nut_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Adaptor_Screw_1_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Adaptor_Nut_1_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Adaptor_Screw_1_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Adaptor_Nut_1_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Adaptor_Screw_2_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Adaptor_Nut_2_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Adaptor_Screw_2_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Adaptor_Nut_2_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Lid_Screw_1_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Lid_Nut_1_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Lid_Screw_1_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Lid_Nut_1_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Lid_Screw_2_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Lid_Nut_2_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Lid_Screw_2_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Lid_Nut_2_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Sensor_Adjust_Screw_1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Sensor_Adjust_Screw_2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Cartridge_Lock_M2x12",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "REF_Service_Pin_M3x30",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "50_Service_Lock_Knob",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "51_Cartridge_Lock_Knob",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "52_Hardware_Fit_Coupon",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "53_Cartridge_Receiver_Coupon",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "changed_parts": [
+    {
+      "name": "42_Magnetic_Chassis",
+      "symmetric_difference_mm3": 1665.6488634631332
+    },
+    {
+      "name": "44_Moving_Carriage",
+      "symmetric_difference_mm3": 2605.32820304416
+    },
+    {
+      "name": "55_Spring_Assembly_Bridge",
+      "symmetric_difference_mm3": 26.926464909420964
+    }
+  ],
+  "new_parts": [
+    "REF_Flexure_Fixed_Screw_1",
+    "REF_Flexure_Fixed_Nut_1",
+    "REF_Flexure_Fixed_Screw_2",
+    "REF_Flexure_Fixed_Nut_2",
+    "REF_Flexure_Moving_Screw_1",
+    "REF_Flexure_Moving_Nut_1",
+    "REF_Flexure_Moving_Screw_2",
+    "REF_Flexure_Moving_Nut_2",
+    "57_Printed_Flexure_080",
+    "58_Flexure_Alternative_100",
+    "59_Flexure_Alternative_120"
+  ],
+  "removed_parts": [
+    "45_Leaf_Clamp_1",
+    "45_Leaf_Clamp_2",
+    "45_Leaf_Clamp_3",
+    "45_Leaf_Clamp_4",
+    "REF_Leaf_Screw_1_1",
+    "REF_Leaf_Nut_1_1",
+    "REF_Leaf_Screw_1_2",
+    "REF_Leaf_Nut_1_2",
+    "REF_Leaf_Screw_2_1",
+    "REF_Leaf_Nut_2_1",
+    "REF_Leaf_Screw_2_2",
+    "REF_Leaf_Nut_2_2",
+    "REF_Leaf_Screw_3_1",
+    "REF_Leaf_Nut_3_1",
+    "REF_Leaf_Screw_3_2",
+    "REF_Leaf_Nut_3_2",
+    "REF_Leaf_Screw_4_1",
+    "REF_Leaf_Nut_4_1",
+    "REF_Leaf_Screw_4_2",
+    "REF_Leaf_Nut_4_2",
+    "REF_Phosphor_Bronze_Leaf_1",
+    "REF_Phosphor_Bronze_Leaf_2",
+    "54_Leaf_Length_Template"
+  ],
+  "dimensions": {
+    "housing_width_mm": 56.00000000000085,
+    "housing_length_mm": 76.0000000000019,
+    "housing_height_mm": 44.0000000000077,
+    "hall_package_gap_mm": 8.199999999999989,
+    "overall_tip_x_mm": 283.4
+  }
+}
