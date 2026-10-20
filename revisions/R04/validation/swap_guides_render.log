@@ -1,0 +1,10 @@
+00:00.583  blend            | Read blend: "/Users/mustafamoe/Desktop/hackathons/sole-sense/revisions/R04/cad/SoleSense_R04_Review.blend"
+/Users/mustafamoe/Desktop/hackathons/sole-sense/revisions/R04/source/render_swap_guides.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('Guide '+k);m.use_nodes=True;m.node_tree.nodes.clear()
+00:21.338  render           | Saved: '/Users/mustafamoe/Desktop/hackathons/sole-sense/revisions/R04/previews/06_Exploded_Head_Swap_Labeled.png'
+00:38.768  render           | Saved: '/Users/mustafamoe/Desktop/hackathons/sole-sense/revisions/R04/previews/07_Exploded_Cartridge_Labeled.png'
+Info: Saved as "SoleSense_R04_Exploded_Guides.blend"
+LABELED_SWAP_GUIDES_COMPLETE
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+
+Blender quit

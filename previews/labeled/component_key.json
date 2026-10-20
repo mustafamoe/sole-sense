@@ -1,0 +1,415 @@
+{
+  "P01": {
+    "name": "Lower handle shell",
+    "prefix": "01_Handle_Lower",
+    "type": "printed",
+    "detail": "Battery saddles, board supports, six M3 insert seats. Insert fit requires test coupon.",
+    "stl": "01_Handle_Lower.stl",
+    "group": "Handle"
+  },
+  "P02": {
+    "name": "Upper handle shell",
+    "prefix": "02_Handle_Upper",
+    "type": "printed",
+    "detail": "OLED pod, button opening, six recessed M3 screw channels.",
+    "stl": "02_Handle_Upper.stl",
+    "group": "Handle"
+  },
+  "P03": {
+    "name": "ESP32 controller tray",
+    "prefix": "03_Controller_Tray",
+    "type": "printed",
+    "detail": "52 x 28 x 12 mm reference board; strap slots, no fictitious mounting holes.",
+    "stl": "03_Controller_Tray.stl",
+    "group": "Handle"
+  },
+  "P04": {
+    "name": "USB-C charger tray",
+    "prefix": "04_Charger_Tray",
+    "type": "printed",
+    "detail": "",
+    "stl": "04_Charger_Tray.stl",
+    "group": "Handle"
+  },
+  "P05": {
+    "name": "microSD tray",
+    "prefix": "05_SD_Tray",
+    "type": "printed",
+    "detail": "",
+    "stl": "05_SD_Tray.stl",
+    "group": "Handle"
+  },
+  "P06": {
+    "name": "Connector panel insert",
+    "prefix": "06_MicroFit_Panel_Insert",
+    "type": "printed",
+    "detail": "2 mm panel with manufacturer-profile opening for Molex 43020-0600. Two M2 screws. Print coupon and check actual connector latches.",
+    "stl": "06_MicroFit_Panel_Insert.stl",
+    "group": "Handle"
+  },
+  "P07": {
+    "name": "Filament head body",
+    "prefix": "07_Filament_Head_Body",
+    "type": "printed",
+    "detail": "102 mm mechanism chamber; servo, 3-position nylon carrier, guide and optical travel gate. Index only with probe fully withdrawn.",
+    "stl": "07_Filament_Head_Body.stl",
+    "group": "Filament_head"
+  },
+  "P08": {
+    "name": "Filament front cap",
+    "prefix": "08_Filament_Front_Cap",
+    "type": "printed",
+    "detail": "Probe guide and TCST2103 mounts. Sensor screw centers 19 mm apart. Front guide removable with two M2 screws.",
+    "stl": "08_Filament_Front_Cap.stl",
+    "group": "Filament_head"
+  },
+  "P09": {
+    "name": "SG90 strap cradle",
+    "prefix": "09_SG90_Strap_Cradle",
+    "type": "printed",
+    "detail": "Tie SG90 into open adjustable cradle with two 2.5 mm straps. Align output shaft with X-axis using stock horn; do not print a spline.",
+    "stl": "09_SG90_Strap_Cradle.stl",
+    "group": "Filament_head"
+  },
+  "P10": {
+    "name": "Vibration head body",
+    "prefix": "10_Vibration_Head_Body",
+    "type": "printed",
+    "detail": "",
+    "stl": "10_Vibration_Head_Body.stl",
+    "group": "Vibration_head"
+  },
+  "P11": {
+    "name": "Vibration dome cap",
+    "prefix": "11_Vibration_Dome_Cap",
+    "type": "printed",
+    "detail": "Adafruit 1201 coin motor (10 x 2.7 mm), adhesive retained. Prototype dome must be physically assessed for vibration transfer.",
+    "stl": "11_Vibration_Dome_Cap.stl",
+    "group": "Vibration_head"
+  },
+  "P12": {
+    "name": "Response button cap",
+    "prefix": "12_Button_Cap",
+    "type": "printed",
+    "detail": "0.3 mm nominal switch gap; set final switch height with thin shims.",
+    "stl": "12_Button_Cap.stl",
+    "group": "Handle"
+  },
+  "P13": {
+    "name": "Fastener fit coupon",
+    "prefix": "13_Fastener_Fit_Coupon",
+    "type": "printed",
+    "detail": "Left to right: 3.2 / 3.4 / 3.9 / 4.1 mm bores. Use before full enclosure print.",
+    "stl": "13_Fastener_Fit_Coupon.stl",
+    "group": "Fit_coupons"
+  },
+  "P14": {
+    "name": "Handle wire clamp",
+    "prefix": "14_Handle_Wire_Clamp",
+    "type": "printed",
+    "detail": "M2 screw clamp over 4.8 mm bore; 4.2 mm diameter bundle reserve. Optional soft liner adapted to the real wires.",
+    "stl": "14_Handle_Wire_Clamp.stl",
+    "group": "Handle"
+  },
+  "P15": {
+    "name": "Male joint fit coupon",
+    "prefix": "15_Head_Joint_Test_Male",
+    "type": "printed",
+    "detail": "Exact pilot and key geometry from both heads. Use with each female fit coupon.",
+    "stl": "15_Head_Joint_Test_Male.stl",
+    "group": "Fit_coupons"
+  },
+  "P16": {
+    "name": "Female fit coupon / 0.25 mm",
+    "prefix": "16_Head_Joint_Test_Female_24",
+    "type": "printed",
+    "detail": "Radial clearance 0.25 mm against current male. Same keyway as full handle.",
+    "stl": "16_Head_Joint_Test_Female_24.stl",
+    "group": "Fit_coupons"
+  },
+  "P17": {
+    "name": "Female fit coupon / 0.35 mm",
+    "prefix": "17_Head_Joint_Test_Female_35",
+    "type": "printed",
+    "detail": "Radial clearance 0.35 mm against current male. Same keyway as full handle.",
+    "stl": "17_Head_Joint_Test_Female_35.stl",
+    "group": "Fit_coupons"
+  },
+  "P18": {
+    "name": "Female fit coupon / 0.45 mm",
+    "prefix": "18_Head_Joint_Test_Female_44",
+    "type": "printed",
+    "detail": "Radial clearance 0.45 mm against current male. Same keyway as full handle.",
+    "stl": "18_Head_Joint_Test_Female_44.stl",
+    "group": "Fit_coupons"
+  },
+  "P19": {
+    "name": "Connector panel fit coupon",
+    "prefix": "19_MicroFit_Panel_Test",
+    "type": "printed",
+    "detail": "Actual 2 mm connector insert rotated flat, for checking the connector snap-in fit before printing housing.",
+    "stl": "19_MicroFit_Panel_Test.stl",
+    "group": "Fit_coupons"
+  },
+  "P20": {
+    "name": "Boost converter shelf",
+    "prefix": "20_Boost_Shelf",
+    "type": "printed",
+    "detail": "U3V40F5 strap platform. Four M2 screws into SD shelf columns; remove for SD access.",
+    "stl": "20_Boost_Shelf.stl",
+    "group": "Handle"
+  },
+  "P21": {
+    "name": "Three-position carrier",
+    "prefix": "21_Three_Position_Carrier",
+    "type": "printed",
+    "detail": "Three cartridge pockets spaced 60 degrees on R10. Carrier travel -60 / 0 / +60 degrees. Stock SG90 horn in rear pocket, two M2 screws in radial slots.",
+    "stl": "21_Three_Position_Carrier.stl",
+    "group": "Filament_head"
+  },
+  "P22": {
+    "name": "Nylon cartridge 1",
+    "prefix": "22_Nylon_Insert_1",
+    "type": "printed",
+    "detail": "1.3 mm potting bore. Bond independently calibrated nylon; trim free length to 38 mm for this mechanical build. Diameters are calibration variables, not a force guarantee.",
+    "stl": "22_Nylon_Insert_1.stl",
+    "group": "Filament_head"
+  },
+  "P23": {
+    "name": "Nylon cartridge 2",
+    "prefix": "23_Nylon_Insert_2",
+    "type": "printed",
+    "detail": "1.3 mm potting bore. Bond independently calibrated nylon; trim free length to 38 mm for this mechanical build. Diameters are calibration variables, not a force guarantee.",
+    "stl": "23_Nylon_Insert_2.stl",
+    "group": "Filament_head"
+  },
+  "P24": {
+    "name": "Nylon cartridge 3",
+    "prefix": "24_Nylon_Insert_3",
+    "type": "printed",
+    "detail": "1.3 mm potting bore. Bond independently calibrated nylon; trim free length to 38 mm for this mechanical build. Diameters are calibration variables, not a force guarantee.",
+    "stl": "24_Nylon_Insert_3.stl",
+    "group": "Filament_head"
+  },
+  "P25": {
+    "name": "Cartridge retainer",
+    "prefix": "25_Insert_Retainer",
+    "type": "printed",
+    "detail": "Two M2 screws at Y +/-14, Z5 retain the three potted inserts without clamping the free nylon.",
+    "stl": "25_Insert_Retainer.stl",
+    "group": "Filament_head"
+  },
+  "P26": {
+    "name": "Probe rear pad + optical flag",
+    "prefix": "26_Probe_Rear_Pad_and_Flag",
+    "type": "printed",
+    "detail": "Low-mass pad with integral optical flag. Bond onto 3 mm polished shaft; 1 mm initial gap. No return spring: pull tip collar to fully extend before indexing.",
+    "stl": "26_Probe_Rear_Pad_and_Flag.stl",
+    "group": "Filament_head"
+  },
+  "P27": {
+    "name": "Probe guide flange",
+    "prefix": "27_Probe_Guide",
+    "type": "printed",
+    "detail": "Seat for PTFE tube OD4/ID3.2, length7.5. Two M2 screws hold flange. Fit must slide freely; measure breakaway force.",
+    "stl": "27_Probe_Guide.stl",
+    "group": "Filament_head"
+  },
+  "P28": {
+    "name": "Rounded probe contact tip",
+    "prefix": "28_Probe_Tip",
+    "type": "printed",
+    "detail": "Removable prototype contact tip; bond to rod. Guide flange gives 6 mm travel stop. Bench use pending surface and force verification.",
+    "stl": "28_Probe_Tip.stl",
+    "group": "Filament_head"
+  },
+  "P29": {
+    "name": "Tactile switch platform",
+    "prefix": "29_Button_Platform",
+    "type": "printed",
+    "detail": "6 mm tactile switch mounted centrally. Two M2 mounting screws. Shim switch to give 0.3 mm cap travel.",
+    "stl": "29_Button_Platform.stl",
+    "group": "Handle"
+  },
+  "P30": {
+    "name": "OLED retaining frame",
+    "prefix": "30_OLED_Retainer",
+    "type": "printed",
+    "detail": "Rear retaining frame with thin foam/adhesive at PCB corners. Remove upper shell as a module with display, frame and button cap.",
+    "stl": "30_OLED_Retainer.stl",
+    "group": "Handle"
+  },
+  "P31": {
+    "name": "Battery protection tray",
+    "prefix": "31_Battery_Protection_Tray",
+    "type": "printed",
+    "detail": "Strap or adhesive mount for 1S protection board, 16 x 12 x 5 max. Specify at least 5 A discharge rating; physical sample required.",
+    "stl": "31_Battery_Protection_Tray.stl",
+    "group": "Handle"
+  },
+  "H01": {
+    "name": "ESP32-DevKitC V4",
+    "prefix": "REF_Controller",
+    "type": "hardware",
+    "detail": "52 x 28 x 12 mm board allowance"
+  },
+  "H02": {
+    "name": "SSD1306 OLED module",
+    "prefix": "REF_OLED",
+    "type": "hardware",
+    "detail": "0.96 in; max. 27 x 27 x 5 mm"
+  },
+  "H03": {
+    "name": "18650 battery",
+    "prefix": "REF_18650",
+    "type": "hardware",
+    "detail": "Pre-tabbed; max. diameter 18.6 x 67 mm"
+  },
+  "H04": {
+    "name": "TP4056 USB-C charger",
+    "prefix": "REF_TP4056",
+    "type": "hardware",
+    "detail": "Module max. 28 x 17 x 5 mm"
+  },
+  "H05": {
+    "name": "1S battery protection board",
+    "prefix": "REF_1S_Protection",
+    "type": "hardware",
+    "detail": "Max. 16 x 12 x 5 mm; specify >=5 A"
+  },
+  "H06": {
+    "name": "Pololu U3V40F5 boost board",
+    "prefix": "REF_Pololu",
+    "type": "hardware",
+    "detail": "5 V supply; Pololu part 4012"
+  },
+  "H07": {
+    "name": "microSD SPI breakout",
+    "prefix": "REF_MicroSD",
+    "type": "hardware",
+    "detail": "3.3 V module; max. 24 x 25 x 5 mm"
+  },
+  "H08": {
+    "name": "Response tactile switch",
+    "prefix": "REF_Button",
+    "type": "hardware",
+    "detail": "6 x 6 x 5 mm"
+  },
+  "H09": {
+    "name": "Power slide switch",
+    "prefix": "REF_Power_Slide",
+    "type": "hardware",
+    "detail": "SS12D00G3-style; boost enable"
+  },
+  "H10": {
+    "name": "Mated 6-way connector",
+    "prefix": "REF_MicroFit",
+    "type": "hardware",
+    "detail": "Molex 43020-0600 + 43025-0600"
+  },
+  "H11": {
+    "name": "SG90 micro servo",
+    "prefix": "REF_SG90",
+    "type": "hardware",
+    "detail": "TowerPro; nominal package shown"
+  },
+  "H12": {
+    "name": "Supplied SG90 servo horn",
+    "prefix": "REF_Stock_Horn",
+    "type": "hardware",
+    "detail": "Retain original spline and centre screw"
+  },
+  "H13": {
+    "name": "Nylon monofilament 1",
+    "prefix": "REF_Nylon_1",
+    "type": "hardware",
+    "detail": "38 mm free length; calibrate force"
+  },
+  "H14": {
+    "name": "Nylon monofilament 2",
+    "prefix": "REF_Nylon_2",
+    "type": "hardware",
+    "detail": "38 mm free length; calibrate force"
+  },
+  "H15": {
+    "name": "Nylon monofilament 3",
+    "prefix": "REF_Nylon_3",
+    "type": "hardware",
+    "detail": "38 mm free length; calibrate force"
+  },
+  "H16": {
+    "name": "Polished probe shaft",
+    "prefix": "REF_Probe_Rod",
+    "type": "hardware",
+    "detail": "Diameter 3 x 20 mm"
+  },
+  "H17": {
+    "name": "PTFE guide bushing",
+    "prefix": "REF_Probe_PTFE",
+    "type": "hardware",
+    "detail": "OD 4 / ID 3.2 x 7.5 mm"
+  },
+  "H18": {
+    "name": "TCST2103 optical interrupter",
+    "prefix": "REF_TCST",
+    "type": "hardware",
+    "detail": "Probe travel gate; Vishay"
+  },
+  "H19": {
+    "name": "Coin vibration motor",
+    "prefix": "REF_CoinMotor",
+    "type": "hardware",
+    "detail": "Adafruit 1201; diameter 10 x 2.7 mm"
+  },
+  "H20": {
+    "name": "Motor driver board",
+    "prefix": "REF_Vibration_Driver",
+    "type": "hardware",
+    "detail": "Custom MOSFET board; 20 x 10 x 6 mm"
+  },
+  "H21": {
+    "name": "Head retaining screws",
+    "prefix": "Head retaining screw",
+    "type": "hardware",
+    "detail": "Two M3 x 8; one may be hidden"
+  },
+  "H22": {
+    "name": "Handle-side panel plug",
+    "prefix": "Panel connector envelope",
+    "type": "hardware",
+    "detail": "Molex 43020-0600; envelope only"
+  },
+  "H23": {
+    "name": "Head-side receptacle",
+    "prefix": "Detached head receptacle",
+    "type": "hardware",
+    "detail": "Molex 43025-0600; envelope only"
+  },
+  "H24": {
+    "name": "Head service harness",
+    "prefix": "Service lead ",
+    "type": "hardware",
+    "detail": "Six flexible conductors; loop illustrative"
+  },
+  "H25": {
+    "name": "Handle wire bundle",
+    "prefix": "Clamped handle lead ",
+    "type": "hardware",
+    "detail": "Six conductors through strain relief"
+  },
+  "F01": {
+    "name": "USB-C charging opening",
+    "type": "feature",
+    "detail": "Opening in the lower handle shell"
+  },
+  "F02": {
+    "name": "Head alignment key",
+    "type": "feature",
+    "detail": "Integral printed feature of each head"
+  },
+  "F03": {
+    "name": "Handle pilot receiver rim",
+    "type": "feature",
+    "detail": "Integral part of the lower handle shell"
+  }
+}

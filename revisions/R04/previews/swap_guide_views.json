@@ -1,0 +1,20 @@
+{
+  "06_Exploded_Head_Swap_Labeled": {
+    "scene": "06 Labeled head exchange",
+    "size": [
+      1800,
+      1200
+    ],
+    "mechanical_geometry": "Unchanged exported R04 CAD meshes",
+    "render": "previews/06_Exploded_Head_Swap_Labeled.png"
+  },
+  "07_Exploded_Cartridge_Labeled": {
+    "scene": "07 Labeled cartridge exchange",
+    "size": [
+      1800,
+      1200
+    ],
+    "mechanical_geometry": "Unchanged exported R04 CAD meshes",
+    "render": "previews/07_Exploded_Cartridge_Labeled.png"
+  }
+}

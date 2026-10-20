@@ -1,0 +1,327 @@
+{
+  "static_collisions": [],
+  "intentional_thread_envelopes": [
+    {
+      "a": "REF_Leaf_Screw_1_1",
+      "b": "REF_Leaf_Nut_1_1",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Leaf_Screw_1_2",
+      "b": "REF_Leaf_Nut_1_2",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Leaf_Screw_2_1",
+      "b": "REF_Leaf_Nut_2_1",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Leaf_Screw_2_2",
+      "b": "REF_Leaf_Nut_2_2",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Leaf_Screw_3_1",
+      "b": "REF_Leaf_Nut_3_1",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Leaf_Screw_3_2",
+      "b": "REF_Leaf_Nut_3_2",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Leaf_Screw_4_1",
+      "b": "REF_Leaf_Nut_4_1",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Leaf_Screw_4_2",
+      "b": "REF_Leaf_Nut_4_2",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Magnet_Screw_1",
+      "b": "REF_Magnet_Nut_1",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Magnet_Screw_2",
+      "b": "REF_Magnet_Nut_2",
+      "volume_mm3": 1.39487
+    },
+    {
+      "a": "REF_Adaptor_Screw_1_1",
+      "b": "REF_Adaptor_Nut_1_1",
+      "volume_mm3": 4.2223
+    },
+    {
+      "a": "REF_Adaptor_Screw_1_2",
+      "b": "REF_Adaptor_Nut_1_2",
+      "volume_mm3": 4.2223
+    },
+    {
+      "a": "REF_Adaptor_Screw_2_1",
+      "b": "REF_Adaptor_Nut_2_1",
+      "volume_mm3": 4.2223
+    },
+    {
+      "a": "REF_Adaptor_Screw_2_2",
+      "b": "REF_Adaptor_Nut_2_2",
+      "volume_mm3": 4.2223
+    }
+  ],
+  "travel": [
+    {
+      "compression_mm": -1,
+      "side_shift_mm": -0.03333333333333333,
+      "overlaps": []
+    },
+    {
+      "compression_mm": -0.5,
+      "side_shift_mm": -0.008333333333333333,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 0,
+      "side_shift_mm": -0.0,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 0.25,
+      "side_shift_mm": -0.0020833333333333333,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 0.5,
+      "side_shift_mm": -0.008333333333333333,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 1,
+      "side_shift_mm": -0.03333333333333333,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 1.5,
+      "side_shift_mm": -0.075,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 2,
+      "side_shift_mm": -0.13333333333333333,
+      "overlaps": []
+    },
+    {
+      "compression_mm": 2.4,
+      "side_shift_mm": -0.192,
+      "overlaps": []
+    }
+  ],
+  "stops": [
+    {
+      "compression_mm": 2.4,
+      "overlap_mm3": 0.0
+    },
+    {
+      "compression_mm": 2.5,
+      "overlap_mm3": 4.20309804823015
+    },
+    {
+      "compression_mm": -1,
+      "overlap_mm3": 0.0
+    },
+    {
+      "compression_mm": -1.1,
+      "overlap_mm3": 12.35439012670647
+    }
+  ],
+  "service_lock": [
+    {
+      "travel_mm": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 0.5,
+      "overlap_mm3": 2.641878217627803
+    },
+    {
+      "travel_mm": -0.5,
+      "overlap_mm3": 2.641873214560642
+    }
+  ],
+  "cartridge_swap": [
+    {
+      "angle_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 10,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 20,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 1,
+      "overlap_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 3,
+      "overlap_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 7,
+      "overlap_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 12,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "leaf_clearance": [
+    {
+      "compression_mm": -1,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed beam shape, not FEA"
+    },
+    {
+      "compression_mm": 0,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed beam shape, not FEA"
+    },
+    {
+      "compression_mm": 0.5,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed beam shape, not FEA"
+    },
+    {
+      "compression_mm": 1,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed beam shape, not FEA"
+    },
+    {
+      "compression_mm": 1.5,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed beam shape, not FEA"
+    },
+    {
+      "compression_mm": 2,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed beam shape, not FEA"
+    },
+    {
+      "compression_mm": 2.4,
+      "max_overlap_mm3": 0,
+      "part": null,
+      "note": "Prescribed beam shape, not FEA"
+    }
+  ],
+  "sensor_adjustment": [
+    {
+      "offset_mm": -1,
+      "max_overlap_mm3": 0,
+      "part": null
+    },
+    {
+      "offset_mm": 0,
+      "max_overlap_mm3": 0,
+      "part": null
+    },
+    {
+      "offset_mm": 1,
+      "max_overlap_mm3": 0,
+      "part": null
+    }
+  ],
+  "head_exchange": [
+    {
+      "collar_deg": -30,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": -25,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": -20,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": -15,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": -10,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": -5,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "collar_deg": 0,
+      "overlap_head_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 0,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 0.5,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 1,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 2,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 4,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 6,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 10,
+      "overlap_collar_mm3": 0.0
+    },
+    {
+      "withdraw_mm": 20,
+      "overlap_collar_mm3": 0.0
+    }
+  ]
+}

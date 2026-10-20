@@ -1,0 +1,614 @@
+[
+  {
+    "name": "01_Handle_Lower",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "Battery saddles, board supports, six M3 insert seats. Insert fit requires test coupon.",
+    "assembly_mesh": "reference/01_Handle_Lower.stl"
+  },
+  {
+    "name": "02_Handle_Upper",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "OLED pod, button opening, six recessed M3 screw channels.",
+    "assembly_mesh": "reference/02_Handle_Upper.stl"
+  },
+  {
+    "name": "03_Controller_Tray",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "52 x 28 x 12 mm reference board; strap slots, no fictitious mounting holes.",
+    "assembly_mesh": "reference/03_Controller_Tray.stl"
+  },
+  {
+    "name": "04_Charger_Tray",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "",
+    "assembly_mesh": "reference/04_Charger_Tray.stl"
+  },
+  {
+    "name": "05_SD_Tray",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "",
+    "assembly_mesh": "reference/05_SD_Tray.stl"
+  },
+  {
+    "name": "06_MicroFit_Panel_Insert",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "2 mm panel with manufacturer-profile opening for Molex 43020-0600. Two M2 screws. Print coupon and check actual connector latches.",
+    "assembly_mesh": "reference/06_MicroFit_Panel_Insert.stl"
+  },
+  {
+    "name": "07_Filament_Head_Body",
+    "kind": "print",
+    "group": "Filament_head",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "102 mm mechanism chamber; servo, 3-position nylon carrier, guide and optical travel gate. Index only with probe fully withdrawn.",
+    "assembly_mesh": "reference/07_Filament_Head_Body.stl"
+  },
+  {
+    "name": "08_Filament_Front_Cap",
+    "kind": "print",
+    "group": "Filament_head",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "Probe guide and TCST2103 mounts. Sensor screw centers 19 mm apart. Front guide removable with two M2 screws.",
+    "assembly_mesh": "reference/08_Filament_Front_Cap.stl"
+  },
+  {
+    "name": "09_SG90_Strap_Cradle",
+    "kind": "print",
+    "group": "Filament_head",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Tie SG90 into open adjustable cradle with two 2.5 mm straps. Align output shaft with X-axis using stock horn; do not print a spline.",
+    "assembly_mesh": "reference/09_SG90_Strap_Cradle.stl"
+  },
+  {
+    "name": "10_Vibration_Head_Body",
+    "kind": "print",
+    "group": "Vibration_head",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "",
+    "assembly_mesh": "reference/10_Vibration_Head_Body.stl"
+  },
+  {
+    "name": "11_Vibration_Dome_Cap",
+    "kind": "print",
+    "group": "Vibration_head",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "Adafruit 1201 coin motor (10 x 2.7 mm), adhesive retained. Prototype dome must be physically assessed for vibration transfer.",
+    "assembly_mesh": "reference/11_Vibration_Dome_Cap.stl"
+  },
+  {
+    "name": "12_Button_Cap",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "0.3 mm nominal switch gap; set final switch height with thin shims.",
+    "assembly_mesh": "reference/12_Button_Cap.stl"
+  },
+  {
+    "name": "13_Fastener_Fit_Coupon",
+    "kind": "print",
+    "group": "Fit_coupons",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Left to right: 3.2 / 3.4 / 3.9 / 4.1 mm bores. Use before full enclosure print.",
+    "assembly_mesh": "reference/13_Fastener_Fit_Coupon.stl"
+  },
+  {
+    "name": "14_Handle_Wire_Clamp",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "M2 screw clamp over 4.8 mm bore; 4.2 mm diameter bundle reserve. Optional soft liner adapted to the real wires.",
+    "assembly_mesh": "reference/14_Handle_Wire_Clamp.stl"
+  },
+  {
+    "name": "15_Head_Joint_Test_Male",
+    "kind": "print",
+    "group": "Fit_coupons",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Exact pilot and key geometry from both heads. Use with each female fit coupon.",
+    "assembly_mesh": "reference/15_Head_Joint_Test_Male.stl"
+  },
+  {
+    "name": "16_Head_Joint_Test_Female_24",
+    "kind": "print",
+    "group": "Fit_coupons",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "Radial clearance 0.25 mm against current male. Same keyway as full handle.",
+    "assembly_mesh": "reference/16_Head_Joint_Test_Female_24.stl"
+  },
+  {
+    "name": "17_Head_Joint_Test_Female_35",
+    "kind": "print",
+    "group": "Fit_coupons",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "Radial clearance 0.35 mm against current male. Same keyway as full handle.",
+    "assembly_mesh": "reference/17_Head_Joint_Test_Female_35.stl"
+  },
+  {
+    "name": "18_Head_Joint_Test_Female_44",
+    "kind": "print",
+    "group": "Fit_coupons",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "Radial clearance 0.45 mm against current male. Same keyway as full handle.",
+    "assembly_mesh": "reference/18_Head_Joint_Test_Female_44.stl"
+  },
+  {
+    "name": "19_MicroFit_Panel_Test",
+    "kind": "print",
+    "group": "Fit_coupons",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Actual 2 mm connector insert rotated flat, for checking the connector snap-in fit before printing housing.",
+    "assembly_mesh": "reference/19_MicroFit_Panel_Test.stl"
+  },
+  {
+    "name": "20_Boost_Shelf",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "U3V40F5 strap platform. Four M2 screws into SD shelf columns; remove for SD access.",
+    "assembly_mesh": "reference/20_Boost_Shelf.stl"
+  },
+  {
+    "name": "21_Three_Position_Carrier",
+    "kind": "print",
+    "group": "Filament_head",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Three cartridge pockets spaced 60 degrees on R10. Carrier travel -60 / 0 / +60 degrees. Stock SG90 horn in rear pocket, two M2 screws in radial slots.",
+    "assembly_mesh": "reference/21_Three_Position_Carrier.stl"
+  },
+  {
+    "name": "22_Nylon_Insert_1",
+    "kind": "print",
+    "group": "Filament_head",
+    "color": [
+      0.72,
+      0.49,
+      0.15
+    ],
+    "description": "1.3 mm potting bore. Bond independently calibrated nylon; trim free length to 38 mm for this mechanical build. Diameters are calibration variables, not a force guarantee.",
+    "assembly_mesh": "reference/22_Nylon_Insert_1.stl"
+  },
+  {
+    "name": "23_Nylon_Insert_2",
+    "kind": "print",
+    "group": "Filament_head",
+    "color": [
+      0.72,
+      0.49,
+      0.15
+    ],
+    "description": "1.3 mm potting bore. Bond independently calibrated nylon; trim free length to 38 mm for this mechanical build. Diameters are calibration variables, not a force guarantee.",
+    "assembly_mesh": "reference/23_Nylon_Insert_2.stl"
+  },
+  {
+    "name": "24_Nylon_Insert_3",
+    "kind": "print",
+    "group": "Filament_head",
+    "color": [
+      0.72,
+      0.49,
+      0.15
+    ],
+    "description": "1.3 mm potting bore. Bond independently calibrated nylon; trim free length to 38 mm for this mechanical build. Diameters are calibration variables, not a force guarantee.",
+    "assembly_mesh": "reference/24_Nylon_Insert_3.stl"
+  },
+  {
+    "name": "25_Insert_Retainer",
+    "kind": "print",
+    "group": "Filament_head",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Two M2 screws at Y +/-14, Z5 retain the three potted inserts without clamping the free nylon.",
+    "assembly_mesh": "reference/25_Insert_Retainer.stl"
+  },
+  {
+    "name": "26_Probe_Rear_Pad_and_Flag",
+    "kind": "print",
+    "group": "Filament_head",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Low-mass pad with integral optical flag. Bond onto 3 mm polished shaft; 1 mm initial gap. No return spring: pull tip collar to fully extend before indexing.",
+    "assembly_mesh": "reference/26_Probe_Rear_Pad_and_Flag.stl"
+  },
+  {
+    "name": "27_Probe_Guide",
+    "kind": "print",
+    "group": "Filament_head",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Seat for PTFE tube OD4/ID3.2, length7.5. Two M2 screws hold flange. Fit must slide freely; measure breakaway force.",
+    "assembly_mesh": "reference/27_Probe_Guide.stl"
+  },
+  {
+    "name": "28_Probe_Tip",
+    "kind": "print",
+    "group": "Filament_head",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "Removable prototype contact tip; bond to rod. Guide flange gives 6 mm travel stop. Bench use pending surface and force verification.",
+    "assembly_mesh": "reference/28_Probe_Tip.stl"
+  },
+  {
+    "name": "29_Button_Platform",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "6 mm tactile switch mounted centrally. Two M2 mounting screws. Shim switch to give 0.3 mm cap travel.",
+    "assembly_mesh": "reference/29_Button_Platform.stl"
+  },
+  {
+    "name": "30_OLED_Retainer",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Rear retaining frame with thin foam/adhesive at PCB corners. Remove upper shell as a module with display, frame and button cap.",
+    "assembly_mesh": "reference/30_OLED_Retainer.stl"
+  },
+  {
+    "name": "31_Battery_Protection_Tray",
+    "kind": "print",
+    "group": "Handle",
+    "color": [
+      0.035,
+      0.29,
+      0.32
+    ],
+    "description": "Strap or adhesive mount for 1S protection board, 16 x 12 x 5 max. Specify at least 5 A discharge rating; physical sample required.",
+    "assembly_mesh": "reference/31_Battery_Protection_Tray.stl"
+  },
+  {
+    "name": "REF_Nylon_1",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.72,
+      0.49,
+      0.15
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_Nylon_1.stl"
+  },
+  {
+    "name": "REF_Nylon_2",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.72,
+      0.49,
+      0.15
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_Nylon_2.stl"
+  },
+  {
+    "name": "REF_Nylon_3",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.72,
+      0.49,
+      0.15
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_Nylon_3.stl"
+  },
+  {
+    "name": "REF_Probe_PTFE_Bushing",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_Probe_PTFE_Bushing.stl"
+  },
+  {
+    "name": "REF_Probe_Rod_3x20",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.5,
+      0.55,
+      0.58
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_Probe_Rod_3x20.stl"
+  },
+  {
+    "name": "REF_TCST2103",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.06,
+      0.09,
+      0.11
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_TCST2103.stl"
+  },
+  {
+    "name": "REF_Button_6x6x5",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.06,
+      0.09,
+      0.11
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_Button_6x6x5.stl"
+  },
+  {
+    "name": "REF_Power_Slide_Switch",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.06,
+      0.09,
+      0.11
+    ],
+    "description": "SS12D00G3-style slide switch envelope. Adhesive retained under heel slot. Switch EN only, not servo supply current.",
+    "assembly_mesh": "reference/REF_Power_Slide_Switch.stl"
+  },
+  {
+    "name": "REF_1S_Protection_16x12x5",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_1S_Protection_16x12x5.stl"
+  },
+  {
+    "name": "REF_18650_67x18p6",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.04,
+      0.24,
+      0.43
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_18650_67x18p6.stl"
+  },
+  {
+    "name": "REF_Controller_52x28x12",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_Controller_52x28x12.stl"
+  },
+  {
+    "name": "REF_TP4056_28x17x5",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_TP4056_28x17x5.stl"
+  },
+  {
+    "name": "REF_MicroSD_24x25x5",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_MicroSD_24x25x5.stl"
+  },
+  {
+    "name": "REF_OLED_27x27x5",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.06,
+      0.09,
+      0.11
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_OLED_27x27x5.stl"
+  },
+  {
+    "name": "REF_MicroFit_Mated_24p77",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.06,
+      0.09,
+      0.11
+    ],
+    "description": "Combined packaging envelope based on Molex drawings, not manufacturer solid CAD. 43020-0600 + 43025-0600, 24.77 mm mated length. Six 24 AWG wires, max insulation OD1.3 mm; service-loop connection. See wiring.md for pin assignments and terminal options.",
+    "assembly_mesh": "reference/REF_MicroFit_Mated_24p77.stl"
+  },
+  {
+    "name": "REF_Pololu_U3V40F5",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "Pololu 4012 U3V40F5 boost regulator, headerless 15.24 x 15.24 x 5.6 mm. Validate servo transient load, not a 4 A output claim.",
+    "assembly_mesh": "reference/REF_Pololu_U3V40F5.stl"
+  },
+  {
+    "name": "REF_Vibration_Driver_Reserve_6x20x10",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.03,
+      0.24,
+      0.17
+    ],
+    "description": "Custom 20 x 10 x 6 max perfboard: AO3400A MOSFET, flyback diode, gate resistor and pull-down. Mount in head with adhesive pad; 5 V supply.",
+    "assembly_mesh": "reference/REF_Vibration_Driver_Reserve_6x20x10.stl"
+  },
+  {
+    "name": "REF_Stock_Horn",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.79,
+      0.84,
+      0.84
+    ],
+    "description": "Stock two-arm horn envelope: trim outer length to 27 mm if needed; preserve spline, center screw and mounting holes.",
+    "assembly_mesh": "reference/REF_Stock_Horn.stl"
+  },
+  {
+    "name": "REF_SG90_Body_and_Flanges",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.04,
+      0.24,
+      0.43
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_SG90_Body_and_Flanges.stl"
+  },
+  {
+    "name": "REF_CoinMotor_10x2p7",
+    "kind": "reference",
+    "group": "Hardware_envelopes",
+    "color": [
+      0.72,
+      0.49,
+      0.15
+    ],
+    "description": "",
+    "assembly_mesh": "reference/REF_CoinMotor_10x2p7.stl"
+  }
+]

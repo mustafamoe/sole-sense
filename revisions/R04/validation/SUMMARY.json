@@ -1,0 +1,11 @@
+{
+  "original_R03_files_checked": 192,
+  "original_R03_changed_or_missing": [],
+  "printable_parts": 24,
+  "valid_closed_single_solids": true,
+  "valid_manifold_STLs": true,
+  "assembly_collisions": 0,
+  "motion_samples": 83,
+  "motion_collisions": 0,
+  "geometric_stop_checks": 5
+}

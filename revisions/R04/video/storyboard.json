@@ -1,0 +1,130 @@
+{
+  "fps": 24,
+  "duration_seconds": 44,
+  "resolution": [
+    1280,
+    720
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "end": 6,
+      "chapter": "01  /  OVERVIEW",
+      "title": "One handle. Two heads.",
+      "caption": "Pressure cartridge + vibration head",
+      "detail": "A shared twist-lock interface, with built-in contacts proposed."
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "chapter": "02  /  CHANGE THE HEAD",
+      "title": "1. Release the safety slider",
+      "caption": "Power off, then slide the latch back",
+      "detail": "The teal collar stays captive on the handle."
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "chapter": "02  /  CHANGE THE HEAD",
+      "title": "2. Turn only the collar",
+      "caption": "Rotate the collar 30 degrees to unlock",
+      "detail": "The keyed head stays still, keeping the contacts aligned."
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "chapter": "02  /  CHANGE THE HEAD",
+      "title": "3. Pull the pressure head out",
+      "caption": "Withdraw the complete head straight ahead",
+      "detail": "The electrical contacts separate with the joint."
+    },
+    {
+      "start": 12,
+      "end": 14,
+      "chapter": "02  /  CHANGE THE HEAD",
+      "title": "4. Align the vibration head",
+      "caption": "Match the key before inserting",
+      "detail": "Both heads use the same mechanical connection."
+    },
+    {
+      "start": 14,
+      "end": 16,
+      "chapter": "02  /  CHANGE THE HEAD",
+      "title": "5. Push the head home",
+      "caption": "Seat the head straight into the handle",
+      "detail": "The proposed spring contacts meet the handle pads."
+    },
+    {
+      "start": 16,
+      "end": 18,
+      "chapter": "02  /  CHANGE THE HEAD",
+      "title": "6. Lock the collar and slider",
+      "caption": "Return the collar, then slide the latch forward",
+      "detail": "The head remains stationary throughout locking."
+    },
+    {
+      "start": 18,
+      "end": 22,
+      "chapter": "03  /  VIBRATION",
+      "title": "Vibration through a rounded tip",
+      "caption": "A motor inside the head would drive the tip",
+      "detail": "Wave graphics are schematic; output and frequency are unvalidated."
+    },
+    {
+      "start": 22,
+      "end": 25,
+      "chapter": "04  /  LARGER SCREEN",
+      "title": "More room for a readable display",
+      "caption": "Enclosure sized for a 1.3-inch OLED",
+      "detail": "Screen content is a visual mockup. Pressure head shown reattached."
+    },
+    {
+      "start": 25,
+      "end": 27,
+      "chapter": "05  /  CHANGE THE FILAMENT",
+      "title": "1. Turn the cartridge hub",
+      "caption": "Hold the gold hub and rotate 30 degrees",
+      "detail": "The pressure head can remain attached to the handle."
+    },
+    {
+      "start": 27,
+      "end": 29,
+      "chapter": "05  /  CHANGE THE FILAMENT",
+      "title": "2. Pull out the whole cartridge",
+      "caption": "The filament and its hub come out together",
+      "detail": "Handle the hub; avoid touching or bending the nylon."
+    },
+    {
+      "start": 29,
+      "end": 31,
+      "chapter": "05  /  CHANGE THE FILAMENT",
+      "title": "3. Insert a prepared replacement",
+      "caption": "Align the cartridge lugs and push the hub home",
+      "detail": "The replacement is shown with its filament already fixed in place."
+    },
+    {
+      "start": 31,
+      "end": 33,
+      "chapter": "05  /  CHANGE THE FILAMENT",
+      "title": "4. Turn the cartridge to lock",
+      "caption": "Return the hub to its locked position",
+      "detail": "Filament geometry, calibration and hygiene still need validation."
+    },
+    {
+      "start": 33,
+      "end": 39,
+      "chapter": "06  /  PRESSURE CONCEPT",
+      "title": "Manual application of the filament",
+      "caption": "The user moves the handle; the filament deflects",
+      "detail": "Illustrative flex on a test surface. No force measurement or calibration."
+    },
+    {
+      "start": 39,
+      "end": 44,
+      "chapter": "07  /  ANOTHER ANGLE",
+      "title": "Modular heads. Replaceable contact part.",
+      "caption": "One pressure filament, changed as a complete cartridge",
+      "detail": "R04 is a review prototype; physical operation remains to be tested."
+    }
+  ]
+}

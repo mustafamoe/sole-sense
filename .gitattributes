@@ -1,0 +1,16 @@
+# Preserve exported package bytes, including CSV line endings and checksums.
+* -text
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.FCStd binary
+*.FCBak binary
+*.blend binary
+*.blend1 binary
+*.stl binary
+*.3mf binary
+*.png binary
+*.pdf binary
+*.mp4 binary
+*.wav binary
+*.zip binary

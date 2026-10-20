@@ -1,0 +1,4 @@
+file '/Users/mustafamoe/Desktop/hackathons/sole-sense/concepts/C03_Sensing_Alternatives/audio/01_Inline_Load_Cell.wav'
+file '/Users/mustafamoe/Desktop/hackathons/sole-sense/concepts/C03_Sensing_Alternatives/audio/02_Magnetic_Flexure.wav'
+file '/Users/mustafamoe/Desktop/hackathons/sole-sense/concepts/C03_Sensing_Alternatives/audio/03_Optical_Flexure.wav'
+file '/Users/mustafamoe/Desktop/hackathons/sole-sense/concepts/C03_Sensing_Alternatives/audio/04_Capacitive_Sensor.wav'

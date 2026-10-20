@@ -1,0 +1,38 @@
+file,quantity,group,print_orientation,notes
+01_Handle_Lower.stl,1,Handle,flat,Retained from R03 except where described in R04 change notes.
+02_Handle_Upper.stl,1,Handle,flat,Retained from R03 except where described in R04 change notes.
+03_Controller_Tray.stl,1,Handle,flat,Retained from R03 except where described in R04 change notes.
+04_Charger_Tray.stl,1,Handle,flat,Retained from R03 except where described in R04 change notes.
+05_SD_Tray.stl,1,Handle,flat,Retained from R03 except where described in R04 change notes.
+12_Button_Cap.stl,1,Handle,flat,Retained from R03 except where described in R04 change notes.
+14_Handle_Wire_Clamp.stl,1,Handle,flat,Retained from R03 except where described in R04 change notes.
+20_Boost_Shelf.stl,1,Handle,flat,Retained from R03 except where described in R04 change notes.
+29_Button_Platform.stl,1,Handle,flat,Retained from R03 except where described in R04 change notes.
+31_Battery_Protection_Tray.stl,1,Handle,flat,Retained from R03 except where described in R04 change notes.
+30_OLED_13in_Retainer.stl,1,Handle,flat,Foam/adhesive rear retainer; headerless module. Final glass offset and cable egress require sample verification.
+32_Collar_Safety_Slider.stl,1,Handle,flat,Pull toward heel by 5 mm before turning collar; push forward after locking. Captive under rails with M2 shoulder screw. No spring or automatic relock is claimed.
+33_Captive_Collar_Right.stl,1,Interface,axial,"One of two collar halves assembled around fixed shoulders using two M2 through bolts and nuts at X151.5/Z+/-29. Rotate -30 degrees after retracting slider. Validate screw bearing, print fit, fatigue and torque."
+40_Captive_Collar_Left.stl,1,Interface,axial,Matching collar half. Split is away from head lugs. 0.30 mm seam. Fasteners are installed once; head changes require no screw removal.
+10_Vibration_Head_Body.stl,1,Vibration_head,axial,R03 vibration chamber with new stationary four-contact connection and common collar lugs.
+11_Vibration_Dome_Cap.stl,1,Vibration_head,axial,Retained R03 dome and coin motor pocket. Cleaning/contact-surface validation is unresolved; no disposable barrier has been validated.
+38_Joint_Male_Coupon.stl,1,Fit_coupons,axial,"Exact pilot, key and lugs. Use with female coupon and collar before a complete handle print."
+39_Joint_Female_Coupon.stl,1,Fit_coupons,axial,Exact socket and collar shoulders. Assemble the two collar halves around this coupon using the same M2 through bolts.
+41_R04_Joint_Adaptor.stl,1,Magnetic_head,axial,R04 mechanical twist-lock interface. Four M3 x 8 button-head bolts join the head chassis. Electrical contacts are a separate unfinished R04 subsystem; use the cable port for initial bench testing.
+42_Magnetic_Chassis.stl,1,Magnetic_head,flat,"Print open side upward. Includes 2.4 mm compression and 1.0 mm extension stops, spring seats, M3 nut pockets and cable exit. Clear holes and fit coupons first; no sliding bearing touches the carriage during measurement."
+43_Removable_Lid.stl,1,Magnetic_head,flat,Curved white hood. Four M3 x 35 screws enter from underside; insert their nuts into underside cover pockets first. Service pin is M3 x 30 with its head seating at Z24; remove completely for measurement. Print crown upward with accessible support below.
+56_Teal_Spine_Inlay.stl,1,Magnetic_head,flat,"Optional decorative inlay, 1.1 mm thick. Bond into the shallow crown recess with a thin compatible adhesive film. No force-sensing function. Print flat in teal."
+44_Moving_Carriage.stl,1,Magnetic_head,axial,"Two parallel leaf springs, no rubbing guide. Magnet pocket 6.4 x 3.4 mm; M2 retained cap. R04 bayonet plus added M2 lock screw. Large rear shoulder meets chassis overload stops. Service-pin bore is in the large travel-stop shoulder."
+45_Leaf_Clamp_1.stl,1,Magnetic_head,axial,"Spring clamp (inner pair has relieved corners): M2 x 10 screws, nuts in rear seat. Two screws lie outside the 12 mm-wide spring strip; do not drill the spring material."
+45_Leaf_Clamp_2.stl,1,Magnetic_head,axial,"Spring clamp (inner pair has relieved corners): M2 x 10 screws, nuts in rear seat. Two screws lie outside the 12 mm-wide spring strip; do not drill the spring material."
+45_Leaf_Clamp_3.stl,1,Magnetic_head,axial,"Spring clamp (inner pair has relieved corners): M2 x 10 screws, nuts in rear seat. Two screws lie outside the 12 mm-wide spring strip; do not drill the spring material."
+45_Leaf_Clamp_4.stl,1,Magnetic_head,axial,"Spring clamp (inner pair has relieved corners): M2 x 10 screws, nuts in rear seat. Two screws lie outside the 12 mm-wide spring strip; do not drill the spring material."
+46_Magnet_Retainer.stl,1,Magnetic_head,axial,Two M2 x 10 screws; opening is smaller than magnet diameter. Thin adhesive layer prevents movement within the clearance pocket.
+47_Adjustable_Hall_Mount.stl,1,Magnetic_head,flat,"DRV5055A3QLPG TO-92 pocket: 4.6 mm width, 3.3 mm depth, open top. Flat sensing face toward magnet. ±1 mm axial adjustment gives nominal 7.2–9.2 mm package-face gap. Two M3 x 6 screws; strain-relieve stationary wires."
+48_Locking_Filament_Cartridge.stl,1,Magnetic_head,axial,"Same R04 quarter-turn geometry, plus radial M2 lock pocket; press flange against receiver face while clamping. Unrated nylon references only. Cartridge lock screw must be loosened before turning; install service pin first."
+49_Bench_Calibration_Cartridge.stl,1,Accessories,axial,Rigid broad pad for pressing against a reference balance; NEVER a skin-testing substitute. Swap for filament cartridge after mechanical/sensor calibration; recalibrate assembled cartridge as needed.
+50_Service_Lock_Knob.stl,1,Service_lock,flat,Bond over the M3 x 30 socket head. REMOVE ENTIRE SCREW for measurement. Pin is only for cartridge changes and spring assembly; not a travel-adjustment screw.
+51_Cartridge_Lock_Knob.stl,1,Magnetic_head,flat,Bond over M2 x 12 head. Back out at least 3 mm before rotating cartridge; use service lock while doing so.
+52_Hardware_Fit_Coupon.stl,1,Fit_coupons,flat,Left to right holes 2.2 / 2.4 / 3.2 / 3.4 mm; Ø6.4 x 3.5 magnet pocket; 4.6 x 3.3 TO92 pocket. Hex pockets AF4.5 / AF5.8. Print before full head.
+53_Cartridge_Receiver_Coupon.stl,1,Fit_coupons,axial,Exact front of R07 carriage including lock pocket and R04 bayonet track. Test with part 48 before full carriage.
+54_Leaf_Length_Template.stl,1,Fit_coupons,flat,"28 x 12 mm recess, 1 mm deep. Alignment/length template only; measure spring thickness with micrometer. No printed spring substitute."
+55_Spring_Assembly_Bridge.stl,1,Accessories,flat,"Temporary open assembly fixture: replaces lid using the two front M3 x 35 underside screws and two M3 nuts in its underside pockets, holds the M3 x 30 service pin while leaving both leaf stations accessible. Three extra M3 nuts. Remove bridge before fitting lid; never leave it inside the head."

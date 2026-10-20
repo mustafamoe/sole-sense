@@ -1,0 +1,26 @@
+{
+  "method": "Conservative continuous straight-filament sweep at unloaded probe position",
+  "sector_degrees": [
+    -30,
+    210
+  ],
+  "radius_bounds_mm": [
+    9.55,
+    10.45
+  ],
+  "minimum_z_mm": -5.45,
+  "tested": [
+    "07_Filament_Head_Body",
+    "08_Filament_Front_Cap",
+    "09_SG90_Strap_Cradle",
+    "26_Probe_Rear_Pad_and_Flag",
+    "27_Probe_Guide",
+    "28_Probe_Tip",
+    "REF_Probe_PTFE_Bushing",
+    "REF_Probe_Rod_3x20",
+    "REF_TCST2103",
+    "REF_SG90_Body_and_Flanges"
+  ],
+  "interference": [],
+  "excludes": "Flexible buckling under load and flexible service-loop movement"
+}

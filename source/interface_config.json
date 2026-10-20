@@ -1,0 +1,12 @@
+{
+  "revision": "R03",
+  "joint_radial_clearance_mm": 0.35,
+  "joint_lead_in_mm": 0.8,
+  "fastener_clearance_diameter_mm": 3.4,
+  "m3_insert_bore_diameter_mm": 4.1,
+  "microfit_panel_thickness_mm": 2.0,
+  "microfit_cutout_allowance_per_side_mm": 0.0,
+  "cable_bundle_reserved_radius_mm": 2.1,
+  "cable_clamp_bore_radius_mm": 2.4,
+  "electronics_status": "Selected component envelopes and generic-module dimensional limits; see decisions.md"
+}

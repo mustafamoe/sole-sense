@@ -1,0 +1,17 @@
+SOLESENSE R06 — FIRST-FIT BENCH PROTOTYPE
+20 October 2026
+
+Print plate 01 first and test purchased hardware in the coupons.
+Use millimetres and 100% scale; do not scale the assembly to fix tight holes.
+Starting assumption: FDM, 0.4 mm nozzle, 0.20 mm layers, PLA.
+Housing: 4 walls, 5 top/bottom layers, 35–40% infill.
+Carriage, spring clamps, cartridges and knobs: solid infill.
+Plates 02/03 contain the new head. Plates 04–06 are retained handle/vibration parts.
+The 3MF files contain geometry only. Select the actual printer/material and review supports per object.
+The nose-down carriage needs supports, including supports starting on the model under shoulders.
+Remove supports without damaging spring seating faces, nut pockets or bayonet tracks.
+Do not print the metal leaf-spring references. Do not print an assembled STEP as one part.
+Read BUILD_GUIDE.md for the numbered assembly order and hardware list.
+These files have CAD/mesh checks but no physical print or force calibration.
+
+R06: 56 mm wide rounded head. Use R06 parts 41/42/43/44/55 together; do not mix these with R05.

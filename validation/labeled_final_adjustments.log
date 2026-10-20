@@ -1,0 +1,18 @@
+00:00.607  blend            | Read blend: "/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/cad/SoleSense_R03_Expanded_Views.blend"
+/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/source/render_labeled_views.py:73: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n);m.use_nodes=True;nd=m.node_tree.nodes;nd.clear();out=nd.new('ShaderNodeOutputMaterial');e=nd.new('ShaderNodeEmission');e.inputs[0].default_value=(*c,1);e.inputs[1].default_value=1;m.node_tree.links.new(e.outputs[0],out.inputs[0]);return m
+LABELED_SCENE 05 labels 11 occluded []
+LABELED_SCENE 06 labels 10 occluded []
+LABELED_SCENE 07 labels 8 occluded []
+LABELED_SCENE 08 labels 22 occluded []
+LABELED_SCENE 09 labels 19 occluded []
+LABELED_SCENE 10 labels 4 occluded []
+LABELED_SCENE 11 labels 12 occluded []
+LABELED_SCENE 12 labels 9 occluded []
+00:50.721  render           | Saved: '/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/previews/labeled/06_Top_view_Labeled.png'
+01:42.344  render           | Saved: '/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/previews/labeled/11_Swappable_head_connection_Labeled.png'
+Info: Saved as "SoleSense_R03_Labeled_Views.blend"
+LABELED_VIEWS_COMPLETE
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+
+Blender quit

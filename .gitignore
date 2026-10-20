@@ -1,0 +1,32 @@
+# Local operating-system and editor files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated language caches and installed dependencies
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.pio/
+.pytest_cache/
+
+# CAD autosaves; explicitly archived superseded files remain shared
+*.FCBak
+*.FCStd1
+*.blend[0-9]
+!revisions/**/validation/superseded/**/*.FCBak
+!revisions/**/validation/superseded/**/*.blend[0-9]
+
+# CAD, print files, release ZIPs and explanatory media are intentionally tracked.

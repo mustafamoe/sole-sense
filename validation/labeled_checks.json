@@ -1,0 +1,14 @@
+{
+  "views": 8,
+  "image_resolution": [
+    3200,
+    2200
+  ],
+  "unique_ids_used": 53,
+  "installed_printed_parts": 25,
+  "hardware_envelopes": 20,
+  "all_45_components_labeled": true,
+  "all_stl_labels_resolve": true,
+  "no_badge_overlaps": true,
+  "original_cad_stl_checksums_unchanged": 66
+}

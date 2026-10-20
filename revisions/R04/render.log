@@ -1,0 +1,57 @@
+/Users/mustafamoe/Desktop/hackathons/sole-sense/revisions/R04/source/render_review.py:13: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+00:25.319  render           | Saved: '/Users/mustafamoe/Desktop/hackathons/sole-sense/revisions/R04/previews/01_Assembly.png'
+00:57.279  render           | Saved: '/Users/mustafamoe/Desktop/hackathons/sole-sense/revisions/R04/previews/02_Head_Swap.png'
+01:27.732  render           | Saved: '/Users/mustafamoe/Desktop/hackathons/sole-sense/revisions/R04/previews/03_Cartridge_Replacement.png'
+01:55.145  render           | Saved: '/Users/mustafamoe/Desktop/hackathons/sole-sense/revisions/R04/previews/04_Stationary_Contacts.png'
+02:19.194  render           | Saved: '/Users/mustafamoe/Desktop/hackathons/sole-sense/revisions/R04/previews/05_Larger_Display.png'
+Info: Saved as "SoleSense_R04_Review.blend"
+R04_REVIEW_RENDERED
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+Timer 'STL Import' took 8.72 ms
+Timer 'STL Import' took 5.81 ms
+Timer 'STL Import' took 0.36 ms
+Timer 'STL Import' took 0.36 ms
+Timer 'STL Import' took 1.41 ms
+Timer 'STL Import' took 0.63 ms
+Timer 'STL Import' took 0.92 ms
+Timer 'STL Import' took 0.90 ms
+Timer 'STL Import' took 0.55 ms
+Timer 'STL Import' took 0.24 ms
+Timer 'STL Import' took 0.25 ms
+Timer 'STL Import' took 0.55 ms
+Timer 'STL Import' took 1.88 ms
+Timer 'STL Import' took 2.71 ms
+Timer 'STL Import' took 1.08 ms
+Timer 'STL Import' took 2.39 ms
+Timer 'STL Import' took 1.38 ms
+Timer 'STL Import' took 0.98 ms
+Timer 'STL Import' took 3.34 ms
+Timer 'STL Import' took 2.99 ms
+Timer 'STL Import' took 2.48 ms
+Timer 'STL Import' took 0.49 ms
+Timer 'STL Import' took 0.68 ms
+Timer 'STL Import' took 0.85 ms
+Timer 'STL Import' took 0.73 ms
+Timer 'STL Import' took 0.68 ms
+Timer 'STL Import' took 0.71 ms
+Timer 'STL Import' took 0.64 ms
+Timer 'STL Import' took 0.29 ms
+Timer 'STL Import' took 0.66 ms
+Timer 'STL Import' took 0.72 ms
+Timer 'STL Import' took 0.33 ms
+Timer 'STL Import' took 0.30 ms
+Timer 'STL Import' took 0.27 ms
+Timer 'STL Import' took 0.38 ms
+Timer 'STL Import' took 0.46 ms
+Timer 'STL Import' took 0.27 ms
+Timer 'STL Import' took 0.25 ms
+Timer 'STL Import' took 0.21 ms
+Timer 'STL Import' took 0.22 ms
+Timer 'STL Import' took 0.35 ms
+Timer 'STL Import' took 0.21 ms
+Timer 'STL Import' took 0.31 ms
+Timer 'STL Import' took 0.16 ms
+Timer 'STL Import' took 0.53 ms
+
+Blender quit

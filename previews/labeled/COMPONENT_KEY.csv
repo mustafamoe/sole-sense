@@ -1,0 +1,60 @@
+Label,Component,Type,STL filename,Notes
+P01,Lower handle shell,printed,01_Handle_Lower.stl,"Battery saddles, board supports, six M3 insert seats. Insert fit requires test coupon."
+P02,Upper handle shell,printed,02_Handle_Upper.stl,"OLED pod, button opening, six recessed M3 screw channels."
+P03,ESP32 controller tray,printed,03_Controller_Tray.stl,"52 x 28 x 12 mm reference board; strap slots, no fictitious mounting holes."
+P04,USB-C charger tray,printed,04_Charger_Tray.stl,
+P05,microSD tray,printed,05_SD_Tray.stl,
+P06,Connector panel insert,printed,06_MicroFit_Panel_Insert.stl,2 mm panel with manufacturer-profile opening for Molex 43020-0600. Two M2 screws. Print coupon and check actual connector latches.
+P07,Filament head body,printed,07_Filament_Head_Body.stl,"102 mm mechanism chamber; servo, 3-position nylon carrier, guide and optical travel gate. Index only with probe fully withdrawn."
+P08,Filament front cap,printed,08_Filament_Front_Cap.stl,Probe guide and TCST2103 mounts. Sensor screw centers 19 mm apart. Front guide removable with two M2 screws.
+P09,SG90 strap cradle,printed,09_SG90_Strap_Cradle.stl,Tie SG90 into open adjustable cradle with two 2.5 mm straps. Align output shaft with X-axis using stock horn; do not print a spline.
+P10,Vibration head body,printed,10_Vibration_Head_Body.stl,
+P11,Vibration dome cap,printed,11_Vibration_Dome_Cap.stl,"Adafruit 1201 coin motor (10 x 2.7 mm), adhesive retained. Prototype dome must be physically assessed for vibration transfer."
+P12,Response button cap,printed,12_Button_Cap.stl,0.3 mm nominal switch gap; set final switch height with thin shims.
+P13,Fastener fit coupon,printed,13_Fastener_Fit_Coupon.stl,Left to right: 3.2 / 3.4 / 3.9 / 4.1 mm bores. Use before full enclosure print.
+P14,Handle wire clamp,printed,14_Handle_Wire_Clamp.stl,M2 screw clamp over 4.8 mm bore; 4.2 mm diameter bundle reserve. Optional soft liner adapted to the real wires.
+P15,Male joint fit coupon,printed,15_Head_Joint_Test_Male.stl,Exact pilot and key geometry from both heads. Use with each female fit coupon.
+P16,Female fit coupon / 0.25 mm,printed,16_Head_Joint_Test_Female_24.stl,Radial clearance 0.25 mm against current male. Same keyway as full handle.
+P17,Female fit coupon / 0.35 mm,printed,17_Head_Joint_Test_Female_35.stl,Radial clearance 0.35 mm against current male. Same keyway as full handle.
+P18,Female fit coupon / 0.45 mm,printed,18_Head_Joint_Test_Female_44.stl,Radial clearance 0.45 mm against current male. Same keyway as full handle.
+P19,Connector panel fit coupon,printed,19_MicroFit_Panel_Test.stl,"Actual 2 mm connector insert rotated flat, for checking the connector snap-in fit before printing housing."
+P20,Boost converter shelf,printed,20_Boost_Shelf.stl,U3V40F5 strap platform. Four M2 screws into SD shelf columns; remove for SD access.
+P21,Three-position carrier,printed,21_Three_Position_Carrier.stl,"Three cartridge pockets spaced 60 degrees on R10. Carrier travel -60 / 0 / +60 degrees. Stock SG90 horn in rear pocket, two M2 screws in radial slots."
+P22,Nylon cartridge 1,printed,22_Nylon_Insert_1.stl,"1.3 mm potting bore. Bond independently calibrated nylon; trim free length to 38 mm for this mechanical build. Diameters are calibration variables, not a force guarantee."
+P23,Nylon cartridge 2,printed,23_Nylon_Insert_2.stl,"1.3 mm potting bore. Bond independently calibrated nylon; trim free length to 38 mm for this mechanical build. Diameters are calibration variables, not a force guarantee."
+P24,Nylon cartridge 3,printed,24_Nylon_Insert_3.stl,"1.3 mm potting bore. Bond independently calibrated nylon; trim free length to 38 mm for this mechanical build. Diameters are calibration variables, not a force guarantee."
+P25,Cartridge retainer,printed,25_Insert_Retainer.stl,"Two M2 screws at Y +/-14, Z5 retain the three potted inserts without clamping the free nylon."
+P26,Probe rear pad + optical flag,printed,26_Probe_Rear_Pad_and_Flag.stl,Low-mass pad with integral optical flag. Bond onto 3 mm polished shaft; 1 mm initial gap. No return spring: pull tip collar to fully extend before indexing.
+P27,Probe guide flange,printed,27_Probe_Guide.stl,"Seat for PTFE tube OD4/ID3.2, length7.5. Two M2 screws hold flange. Fit must slide freely; measure breakaway force."
+P28,Rounded probe contact tip,printed,28_Probe_Tip.stl,Removable prototype contact tip; bond to rod. Guide flange gives 6 mm travel stop. Bench use pending surface and force verification.
+P29,Tactile switch platform,printed,29_Button_Platform.stl,6 mm tactile switch mounted centrally. Two M2 mounting screws. Shim switch to give 0.3 mm cap travel.
+P30,OLED retaining frame,printed,30_OLED_Retainer.stl,"Rear retaining frame with thin foam/adhesive at PCB corners. Remove upper shell as a module with display, frame and button cap."
+P31,Battery protection tray,printed,31_Battery_Protection_Tray.stl,"Strap or adhesive mount for 1S protection board, 16 x 12 x 5 max. Specify at least 5 A discharge rating; physical sample required."
+H01,ESP32-DevKitC V4,hardware,,52 x 28 x 12 mm board allowance
+H02,SSD1306 OLED module,hardware,,0.96 in; max. 27 x 27 x 5 mm
+H03,18650 battery,hardware,,Pre-tabbed; max. diameter 18.6 x 67 mm
+H04,TP4056 USB-C charger,hardware,,Module max. 28 x 17 x 5 mm
+H05,1S battery protection board,hardware,,Max. 16 x 12 x 5 mm; specify >=5 A
+H06,Pololu U3V40F5 boost board,hardware,,5 V supply; Pololu part 4012
+H07,microSD SPI breakout,hardware,,3.3 V module; max. 24 x 25 x 5 mm
+H08,Response tactile switch,hardware,,6 x 6 x 5 mm
+H09,Power slide switch,hardware,,SS12D00G3-style; boost enable
+H10,Mated 6-way connector,hardware,,Molex 43020-0600 + 43025-0600
+H11,SG90 micro servo,hardware,,TowerPro; nominal package shown
+H12,Supplied SG90 servo horn,hardware,,Retain original spline and centre screw
+H13,Nylon monofilament 1,hardware,,38 mm free length; calibrate force
+H14,Nylon monofilament 2,hardware,,38 mm free length; calibrate force
+H15,Nylon monofilament 3,hardware,,38 mm free length; calibrate force
+H16,Polished probe shaft,hardware,,Diameter 3 x 20 mm
+H17,PTFE guide bushing,hardware,,OD 4 / ID 3.2 x 7.5 mm
+H18,TCST2103 optical interrupter,hardware,,Probe travel gate; Vishay
+H19,Coin vibration motor,hardware,,Adafruit 1201; diameter 10 x 2.7 mm
+H20,Motor driver board,hardware,,Custom MOSFET board; 20 x 10 x 6 mm
+H21,Head retaining screws,hardware,,Two M3 x 8; one may be hidden
+H22,Handle-side panel plug,hardware,,Molex 43020-0600; envelope only
+H23,Head-side receptacle,hardware,,Molex 43025-0600; envelope only
+H24,Head service harness,hardware,,Six flexible conductors; loop illustrative
+H25,Handle wire bundle,hardware,,Six conductors through strain relief
+F01,USB-C charging opening,feature,,Opening in the lower handle shell
+F02,Head alignment key,feature,,Integral printed feature of each head
+F03,Handle pilot receiver rim,feature,,Integral part of the lower handle shell

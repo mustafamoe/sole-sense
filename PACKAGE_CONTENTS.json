@@ -1,0 +1,976 @@
+{
+  "revision": "R03",
+  "project_files": 191,
+  "folder_file_counts": {
+    "README.md": 1,
+    "SHA256SUMS.txt": 1,
+    "START_HERE.md": 1,
+    "cad": 37,
+    "docs": 3,
+    "previews": 27,
+    "print_plates": 4,
+    "reference": 53,
+    "result.json": 1,
+    "source": 13,
+    "source_documents": 2,
+    "stl": 31,
+    "validation": 17
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2903,
+      "sha256": "cfacaf3885097d25dc949553e92b6aa5faff8c7566ca004304d1787c32bf7e9a"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "bytes": 14679,
+      "sha256": "88aa96cb4d5afe763d77194c6a97a6bf036bf1a8a822cc3670cd0d67c20b5b0a"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 3304,
+      "sha256": "586fd2c8710b68ea8ccffc907a02da474306170d87affc5b448ee9775c4fd984"
+    },
+    {
+      "path": "cad/01_Handle_Lower.step",
+      "bytes": 654008,
+      "sha256": "253d5ebe610d2e2cfbd52be9da83a6fe10daf9b542dc94f8614a0c2c7656522c"
+    },
+    {
+      "path": "cad/02_Handle_Upper.step",
+      "bytes": 496028,
+      "sha256": "489736d341c3353e8947b73ec04d2c40b58ea17245f0ed5624e5b6e56c94b940"
+    },
+    {
+      "path": "cad/03_Controller_Tray.step",
+      "bytes": 16975,
+      "sha256": "16a6a4898d927b9eefbb9da25ea99c8a0ab1b7a87a929cb4959f2c6daef0e121"
+    },
+    {
+      "path": "cad/04_Charger_Tray.step",
+      "bytes": 16945,
+      "sha256": "c8049ae455cbf64d9469b5121bb5fc96672f8e7e0ab5ac6f8fe812d4e21f43b3"
+    },
+    {
+      "path": "cad/05_SD_Tray.step",
+      "bytes": 30455,
+      "sha256": "3d74a81e84bcc3018153d70bd046443a16e8c3ec94d4d558085c07b5499e153c"
+    },
+    {
+      "path": "cad/06_MicroFit_Panel_Insert.step",
+      "bytes": 35304,
+      "sha256": "8c02c842af57a9fde3472d79e78dfe620f6a04aa4a0ba96e047aa5ebb2e0e549"
+    },
+    {
+      "path": "cad/07_Filament_Head_Body.step",
+      "bytes": 87294,
+      "sha256": "a2f0a2b95f3f8aa4f433497df168a22de715831f55c761708ba9550b90b99255"
+    },
+    {
+      "path": "cad/08_Filament_Front_Cap.step",
+      "bytes": 82770,
+      "sha256": "824577a4a7f73b81bacdc295c1435221bfe3a75808aabeb40178720a6d5ecafd"
+    },
+    {
+      "path": "cad/09_SG90_Strap_Cradle.step",
+      "bytes": 90697,
+      "sha256": "de01f3d0592a55f75c8a5d30a81997ce6cc4ac4023e1ba6e0cdf27a9ec3f7b31"
+    },
+    {
+      "path": "cad/10_Vibration_Head_Body.step",
+      "bytes": 74801,
+      "sha256": "c6afd0627ca24e38769a907f6afce0e5a7145e22b28e481698b562836bae512a"
+    },
+    {
+      "path": "cad/11_Vibration_Dome_Cap.step",
+      "bytes": 65487,
+      "sha256": "396eaaeeb855d4d0115c40f67ad034b19158c858f5f78a220497c8b5a9725196"
+    },
+    {
+      "path": "cad/12_Button_Cap.step",
+      "bytes": 5218,
+      "sha256": "971826486ade51b59c21a81602ab130a331a2dcf77136acc74efce7ff631103d"
+    },
+    {
+      "path": "cad/13_Fastener_Fit_Coupon.step",
+      "bytes": 12641,
+      "sha256": "526b17c52b95d2d08d9bec836006a3b0ca427df672ca56fe2cdc6b925f6927bf"
+    },
+    {
+      "path": "cad/14_Handle_Wire_Clamp.step",
+      "bytes": 19354,
+      "sha256": "c2642e91f06b54deaf55744e14ae579b686505a0bfee30a404f636239040a56c"
+    },
+    {
+      "path": "cad/15_Head_Joint_Test_Male.step",
+      "bytes": 32857,
+      "sha256": "d995f8511cd4bb68feb1610df2cbe8a9a69769b1d63cb4b3bf106de006eec523"
+    },
+    {
+      "path": "cad/16_Head_Joint_Test_Female_24.step",
+      "bytes": 8671,
+      "sha256": "2a7017571cb6b441eebf254bdb6640778503c8e30060f5e97d825901ccb86ae3"
+    },
+    {
+      "path": "cad/17_Head_Joint_Test_Female_35.step",
+      "bytes": 8665,
+      "sha256": "a3e201c83bac2ed362fca3b74b545a89f07cf1a7082eab425c3bea474c4239d8"
+    },
+    {
+      "path": "cad/18_Head_Joint_Test_Female_44.step",
+      "bytes": 8671,
+      "sha256": "3e279c6c016f7d6e54b019d758f44540fc3f33138aeb45628ee68953361ac058"
+    },
+    {
+      "path": "cad/19_MicroFit_Panel_Test.step",
+      "bytes": 36524,
+      "sha256": "5dce994517f56a712e78d37ecaaa1e12534d101f37596108faba03d34ebd35bf"
+    },
+    {
+      "path": "cad/20_Boost_Shelf.step",
+      "bytes": 22684,
+      "sha256": "45b0a3ce832dddfde37c7cf1d73dfa478ef773d6cc7f8ea187ccb1f2de9e79bd"
+    },
+    {
+      "path": "cad/21_Three_Position_Carrier.step",
+      "bytes": 38868,
+      "sha256": "7474ebc3fa00252bc75b970a12e54f4457329676c2639850ae688d06234f5e41"
+    },
+    {
+      "path": "cad/22_Nylon_Insert_1.step",
+      "bytes": 8815,
+      "sha256": "bb2ec1ab5d3eb1536b23449bc18f1550a8e3e688d9e3da566f530f424a4ec8c3"
+    },
+    {
+      "path": "cad/23_Nylon_Insert_2.step",
+      "bytes": 8950,
+      "sha256": "dfad8e89a489ecef76e9055a95ea8430180f2415726054bad93f5ebb48461bff"
+    },
+    {
+      "path": "cad/24_Nylon_Insert_3.step",
+      "bytes": 8844,
+      "sha256": "b041680a2d054b00eef2f25ac729c54534f9e48494ca396caaa5bed89ded7a78"
+    },
+    {
+      "path": "cad/25_Insert_Retainer.step",
+      "bytes": 17621,
+      "sha256": "0347cc891fa479cdcb4cdd665542d87ea5ab2c68056e005226168de86ed63d0c"
+    },
+    {
+      "path": "cad/26_Probe_Rear_Pad_and_Flag.step",
+      "bytes": 12130,
+      "sha256": "a0d4704eaaac541c80eaedf2d32f10f2dff12210e58561e5f5eaf25eed73029b"
+    },
+    {
+      "path": "cad/27_Probe_Guide.step",
+      "bytes": 20236,
+      "sha256": "ad671b48be28fcafd7966dd8aac1f0c0b0579abb9d1b82bb43efaaab470a7fa3"
+    },
+    {
+      "path": "cad/28_Probe_Tip.step",
+      "bytes": 6284,
+      "sha256": "eb1e47abd94cefb9b9568ab99c53e591004c83c0f78ece38def4102ee7cc2f54"
+    },
+    {
+      "path": "cad/29_Button_Platform.step",
+      "bytes": 9905,
+      "sha256": "f3bfafb3f5cdcab71aab0aab182d623081406cf8141105c1767bb84919b6b55c"
+    },
+    {
+      "path": "cad/30_OLED_Retainer.step",
+      "bytes": 11977,
+      "sha256": "5720e27293f03c5b042f623ac51ca484bafec026a339e115d7ec1f6504ca622c"
+    },
+    {
+      "path": "cad/31_Battery_Protection_Tray.step",
+      "bytes": 17003,
+      "sha256": "c048cb9c0a9c640dde81b5709d655c7ba9b6bfb0ee3af2c04080642192b43a33"
+    },
+    {
+      "path": "cad/SoleSense_R03.FCStd",
+      "bytes": 684827,
+      "sha256": "5de9b88fc4d8179151fb63ec8bd758b7b0686c1bf84290886b81f1458eb8c06d"
+    },
+    {
+      "path": "cad/SoleSense_R03_Expanded_Views.blend",
+      "bytes": 1639475,
+      "sha256": "c88ab2cb19e28ca4ec19f44acad0b7fb9eba15f3500f35a273e3ae555c4b43c3"
+    },
+    {
+      "path": "cad/SoleSense_R03_Filament_head_Assembly.step",
+      "bytes": 1758368,
+      "sha256": "76d15c1c1b2a1afaff96ab01a6f0e61ea4158bff9c9985cc70cfe721a7522e2a"
+    },
+    {
+      "path": "cad/SoleSense_R03_Labeled_Views.blend",
+      "bytes": 1995425,
+      "sha256": "b3a17aed22d45a8a9b9ddc8744fa67036ae5e5babb142be14bc49f8a1ce46800"
+    },
+    {
+      "path": "cad/SoleSense_R03_Review.blend",
+      "bytes": 1594939,
+      "sha256": "ff9a1fe2fa34b53bcc3b5df8aa3ce926d62c81fb8a85b071d368c1f2e61d3f8b"
+    },
+    {
+      "path": "cad/SoleSense_R03_Vibration_head_Assembly.step",
+      "bytes": 1507857,
+      "sha256": "da283f957724a059198678b08f9b7789bc5aeca34c146fb061bc0d157ab12bf2"
+    },
+    {
+      "path": "docs/assembly_and_printing.md",
+      "bytes": 7954,
+      "sha256": "6bed5a0919cbca44f543b75799e8865e5dab3a34aa6f5119c1a6ee717782c424"
+    },
+    {
+      "path": "docs/decisions.md",
+      "bytes": 7872,
+      "sha256": "e65b79de8493134f9dc221a4891cb6dc9ceb113c8ca7683b2bf27e844e349c97"
+    },
+    {
+      "path": "docs/wiring.md",
+      "bytes": 4321,
+      "sha256": "f93a5d05136d855a294f50b1e24af4d71ee31c52c3a9c20ab358802da2a72638"
+    },
+    {
+      "path": "previews/01_Assembly.png",
+      "bytes": 1970486,
+      "sha256": "de7d9d0c9caae36d291098c9122d9f20e2101ddf2f926c2d2d8b01a89854bffc"
+    },
+    {
+      "path": "previews/02_Exploded_Wiring.png",
+      "bytes": 2140922,
+      "sha256": "895d1d8af7038ec5bd3b8c8b3cdb06647b4f4f7aa50ea78d9a55c6c7787a770f"
+    },
+    {
+      "path": "previews/03_Internal_Packaging.png",
+      "bytes": 2099434,
+      "sha256": "626d74dc007092df09855d484185413778d8d751a9b08aa9b5f7bb2b9ec033ac"
+    },
+    {
+      "path": "previews/04_Filament_Mechanism.png",
+      "bytes": 2073815,
+      "sha256": "e3c84387380a1759a602ee01558b9a602c5c8e817c79f8943d547373ca88f5cf"
+    },
+    {
+      "path": "previews/expanded/05_Opposite_Quarter.png",
+      "bytes": 2645163,
+      "sha256": "dbd83bba5ce1ba9e6b0f19ee086b6d9eb53c4f23767629a490f5da3a9be92189"
+    },
+    {
+      "path": "previews/expanded/06_Top_View.png",
+      "bytes": 2479007,
+      "sha256": "4568635850404d90e822174c7e3cc5a1e8572c60783380bc7f89f6cb3bf4eaa2"
+    },
+    {
+      "path": "previews/expanded/07_Underside.png",
+      "bytes": 2162363,
+      "sha256": "84814b916cdce9a3a322b8f409311d51f035b044f4630f0f722420f907f70a73"
+    },
+    {
+      "path": "previews/expanded/08_Exploded_Handle.png",
+      "bytes": 2692485,
+      "sha256": "39c01377989e8019e17e6cc01622747e7aceaf28a97bc9faf9777f57eef306dd"
+    },
+    {
+      "path": "previews/expanded/09_Exploded_Filament_Head.png",
+      "bytes": 2709819,
+      "sha256": "b1c713ff4d650fc264c4859808ed9bc70154bdd1a9d52cee8b18907caec1253b"
+    },
+    {
+      "path": "previews/expanded/10_Exploded_Vibration_Head.png",
+      "bytes": 2601709,
+      "sha256": "14282a16beeb72e57c5b3a9942682c4643c6bdc2d1fbc1d2360b8ca62131c06c"
+    },
+    {
+      "path": "previews/expanded/11_Head_Connector_Detail.png",
+      "bytes": 2814718,
+      "sha256": "51ab47840bf8c5861a614a1f478643cb45aa2726b76c9cfb7715b23c943ac8ba"
+    },
+    {
+      "path": "previews/expanded/12_Vibration_Configuration.png",
+      "bytes": 2616849,
+      "sha256": "50fe852428351d1d07056cc047f622db7995809f87a1897383711e1ddf4daae3"
+    },
+    {
+      "path": "previews/expanded/README.md",
+      "bytes": 1041,
+      "sha256": "8faa48173cb81b4a0f83b4aa3bf33f569290e7caccb79842d58116d21698d61e"
+    },
+    {
+      "path": "previews/expanded/views.json",
+      "bytes": 748,
+      "sha256": "f9609191cdd31622793429c8781c28267b4359a1905fdb348654f938b62e8e7c"
+    },
+    {
+      "path": "previews/labeled/05_Opposite_side_Labeled.png",
+      "bytes": 7226610,
+      "sha256": "0615a978dc1c3c9e6e5a8a2cc6310806fa4ef0bcb6ef4d75be7518190ead84a2"
+    },
+    {
+      "path": "previews/labeled/06_Top_view_Labeled.png",
+      "bytes": 7005940,
+      "sha256": "f819793c5ff8bd656a6589b932500797443a201c31417d9ab2e251fea0a7b3bc"
+    },
+    {
+      "path": "previews/labeled/07_Underside_Labeled.png",
+      "bytes": 6130683,
+      "sha256": "ba1c56699d27f76d5f28c99a450d346f41a52188ae608762426d6d0b118ccf3c"
+    },
+    {
+      "path": "previews/labeled/08_Exploded_handle_Labeled.png",
+      "bytes": 7629121,
+      "sha256": "a8329e7a882a7314944ac412d4871f0eeebcb54c35fb1a8f86843c0ea5ff0204"
+    },
+    {
+      "path": "previews/labeled/09_Exploded_filament_head_Labeled.png",
+      "bytes": 7386066,
+      "sha256": "63e28324f4a067e1d888e5ca9ae9cf0897512ceeab5715263f0a843642e5ac11"
+    },
+    {
+      "path": "previews/labeled/10_Exploded_vibration_head_Labeled.png",
+      "bytes": 7084726,
+      "sha256": "8fb719f6f124a537b5cbaad0419e0bac2f71f32c6a56f1e1eaf2748a0c9056e8"
+    },
+    {
+      "path": "previews/labeled/11_Swappable_head_connection_Labeled.png",
+      "bytes": 7375760,
+      "sha256": "2d1ee781e295fa51c7e2c983d60fcc4693891201f1f13433b9754da4302fc7bb"
+    },
+    {
+      "path": "previews/labeled/12_Vibration_configuration_Labeled.png",
+      "bytes": 7205466,
+      "sha256": "42a846992340a538ffa94635b8364722d8e8a751a2a08f1084bf919e22a78de5"
+    },
+    {
+      "path": "previews/labeled/COMPONENT_KEY.csv",
+      "bytes": 6947,
+      "sha256": "8821ca02d24f477c514407d8c6a1e05dd7057032f7515de117fa589f4d997a07"
+    },
+    {
+      "path": "previews/labeled/COMPONENT_KEY.md",
+      "bytes": 5259,
+      "sha256": "6c43d9a3cd50f219586fe82ad210f702de14638c6b1b435aa6443abc80170947"
+    },
+    {
+      "path": "previews/labeled/README.md",
+      "bytes": 1706,
+      "sha256": "df7c7da4379791dd9f5a34e18054c63f12241c133b67fc0443b301876b0b8428"
+    },
+    {
+      "path": "previews/labeled/component_key.json",
+      "bytes": 13439,
+      "sha256": "4f975a6f114471b7492616372c3f19b7cbd32e97f0576500c763bc7c2cb01082"
+    },
+    {
+      "path": "previews/labeled/views.json",
+      "bytes": 24106,
+      "sha256": "eda1175a9cbc5e527fe60e47fe46f54edd364809f448b8d700b4b4cd90edc09a"
+    },
+    {
+      "path": "print_plates/01_Fit_coupons.3mf",
+      "bytes": 66250,
+      "sha256": "ba18524f079cf66211856b5b6c3f9b1fdb8059184960f528bf12f5de28602150"
+    },
+    {
+      "path": "print_plates/02_Parts.3mf",
+      "bytes": 228866,
+      "sha256": "9afc41f0fb21e9dc2a89979886e34da64ca47643c04f7dd11ed5f2ecf515ab5d"
+    },
+    {
+      "path": "print_plates/03_Parts.3mf",
+      "bytes": 423734,
+      "sha256": "c01ffbafa8b7b074409e1d2ab17093917565f56c583d8060ec7e4e7a2a6bf0f1"
+    },
+    {
+      "path": "print_plates/04_Parts.3mf",
+      "bytes": 139263,
+      "sha256": "b7eed63c4f7632637c1f16aa8cef6eba4e05ae3c71354c06f556e9e05c935d57"
+    },
+    {
+      "path": "reference/01_Handle_Lower.stl",
+      "bytes": 776084,
+      "sha256": "575e0c1a3f110ddc8e450d8ddc1ab12625bb7403ff49a00f5741ccdfcff3f216"
+    },
+    {
+      "path": "reference/02_Handle_Upper.stl",
+      "bytes": 706484,
+      "sha256": "214aa1548acbb4e963d7c3822f9b48452dd62bf5bbf9bb95d1ec65655470a92b"
+    },
+    {
+      "path": "reference/03_Controller_Tray.stl",
+      "bytes": 2684,
+      "sha256": "2dce84ca07d1cc87c18621fb7dc75eec98f36e9ab97eb2bf0a3cd07a1f2d05ab"
+    },
+    {
+      "path": "reference/04_Charger_Tray.stl",
+      "bytes": 2684,
+      "sha256": "865e20e681e631e728a59d44edd39a7342d95a79f5809aeb28edc3a4d4ad9f59"
+    },
+    {
+      "path": "reference/05_SD_Tray.stl",
+      "bytes": 137084,
+      "sha256": "da72b16aefca271ce2809c50d2f079567be8910c69a27879b2b2c447fe68759f"
+    },
+    {
+      "path": "reference/06_MicroFit_Panel_Insert.stl",
+      "bytes": 54884,
+      "sha256": "f918816abd43b24f9196d28faf5c92f4bad3053295aac33f55425789af6a5560"
+    },
+    {
+      "path": "reference/07_Filament_Head_Body.stl",
+      "bytes": 311184,
+      "sha256": "5bdef25a0fcb5eb67fd0baa77d6aad96061c8464b84b93a4000920302aa12054"
+    },
+    {
+      "path": "reference/08_Filament_Front_Cap.stl",
+      "bytes": 238684,
+      "sha256": "10100308b9e12ccfb1a4ea20f4eb11eeeee8162d44222eeab0bb2b14ded55016"
+    },
+    {
+      "path": "reference/09_SG90_Strap_Cradle.stl",
+      "bytes": 91784,
+      "sha256": "9a4d9b51bfce9f388b82782bd09eb3f6e0d1e55ceef8b8dc03a29d4000fff28f"
+    },
+    {
+      "path": "reference/10_Vibration_Head_Body.stl",
+      "bytes": 247184,
+      "sha256": "8b2acca5e509cbed42e2302f4259776ddf70458be75e315e94d277decfa53d5a"
+    },
+    {
+      "path": "reference/11_Vibration_Dome_Cap.stl",
+      "bytes": 311984,
+      "sha256": "31d0dfee0f0dcc2636013e5d83bec6f19e9f91a4c3d8f3952ce5845413f215a7"
+    },
+    {
+      "path": "reference/12_Button_Cap.stl",
+      "bytes": 33484,
+      "sha256": "d891d22cc5d11f7355ef32566a6f61d759e4545a6dcbd71c376729019a97ad8b"
+    },
+    {
+      "path": "reference/13_Fastener_Fit_Coupon.stl",
+      "bytes": 68684,
+      "sha256": "10d1a709a951ef5e8c38759698cc9423de5439de7d8f664c07e94cf6d4b65100"
+    },
+    {
+      "path": "reference/14_Handle_Wire_Clamp.stl",
+      "bytes": 60084,
+      "sha256": "2bcdb3c2bdb84219f02bd1eddf39b5e307a6e2db69bc82048aa8c9e4adfc74f3"
+    },
+    {
+      "path": "reference/15_Head_Joint_Test_Male.stl",
+      "bytes": 122784,
+      "sha256": "e59087959188d1f05e95a25935a2cd8af5a50484e3fbc9929efbe31fabb6c18c"
+    },
+    {
+      "path": "reference/16_Head_Joint_Test_Female_24.stl",
+      "bytes": 33484,
+      "sha256": "44904b10c86d2a87a1e0f540f68f40f38e7263275733bbe73e674d0a2f75fe95"
+    },
+    {
+      "path": "reference/17_Head_Joint_Test_Female_35.stl",
+      "bytes": 33484,
+      "sha256": "b9e13973200344abba19d9b04b91c83dc6bea4bd8e8cfb58b9e0c2b43a813baa"
+    },
+    {
+      "path": "reference/18_Head_Joint_Test_Female_44.stl",
+      "bytes": 33484,
+      "sha256": "f93a9367520dac6c356faf0225065130ed85effb32243bff2ffb6b8caa8bd570"
+    },
+    {
+      "path": "reference/19_MicroFit_Panel_Test.stl",
+      "bytes": 54884,
+      "sha256": "ce7338ac40444dd6e797f1a23fa2903e5bb305e199e188a241a7857c83f36a72"
+    },
+    {
+      "path": "reference/20_Boost_Shelf.stl",
+      "bytes": 70684,
+      "sha256": "4c0fdc8022d39159e747571024a2941c76a8c0c09fbbdcf1332f5faaeecc907c"
+    },
+    {
+      "path": "reference/21_Three_Position_Carrier.stl",
+      "bytes": 138784,
+      "sha256": "b0ba5277d4adb9c521d6f49c5ba23fa25dc3cde3f83b3e9330207d8552c26476"
+    },
+    {
+      "path": "reference/22_Nylon_Insert_1.stl",
+      "bytes": 67284,
+      "sha256": "260cc8668e1c75668ec0dbbc22fb62fda67a2328edf7757081c569fea1ed345a"
+    },
+    {
+      "path": "reference/23_Nylon_Insert_2.stl",
+      "bytes": 67284,
+      "sha256": "6f68cc52ebf9339c61b3269bc487919a4a5179eaf500d071f47406df5d9d2925"
+    },
+    {
+      "path": "reference/24_Nylon_Insert_3.stl",
+      "bytes": 67284,
+      "sha256": "5e4c7ccbaf12853bdc5b91bdbb2031f5fc41b4b92532652db05897df81083600"
+    },
+    {
+      "path": "reference/25_Insert_Retainer.stl",
+      "bytes": 102084,
+      "sha256": "2a9ef170bf7a518bb114e3fbd76974fa96311028be4af8d876d60714bc763d74"
+    },
+    {
+      "path": "reference/26_Probe_Rear_Pad_and_Flag.stl",
+      "bytes": 34784,
+      "sha256": "aac1f597355e6e61cf72c4cc2a78c49d3ece0ba2a779239ab7f12ca26d697197"
+    },
+    {
+      "path": "reference/27_Probe_Guide.stl",
+      "bytes": 76184,
+      "sha256": "119cbd2e0a15ed00f227b80de478bbd283f049be0a9cd1fb4fb5a8e0adeb88ee"
+    },
+    {
+      "path": "reference/28_Probe_Tip.stl",
+      "bytes": 121784,
+      "sha256": "36495355c45f2ce17c38b2638e1ef94257fb3f8675b7f002eb87ceaf19dae6b9"
+    },
+    {
+      "path": "reference/29_Button_Platform.stl",
+      "bytes": 34684,
+      "sha256": "aa056fa4dce12ae9e6d6e20d9a09f42605e46aaa7f7a31d657e284b54fefe965"
+    },
+    {
+      "path": "reference/30_OLED_Retainer.stl",
+      "bytes": 1684,
+      "sha256": "ba7c65f10b9d13fd595b40c45095d408285da60435058a8c027a46cf99bbad01"
+    },
+    {
+      "path": "reference/31_Battery_Protection_Tray.stl",
+      "bytes": 2684,
+      "sha256": "11daebde40d0da46e1b50b0c9522d291254babd14879575e6221379e0066dc20"
+    },
+    {
+      "path": "reference/Filament_Index_Sweep.step",
+      "bytes": 10168,
+      "sha256": "004a95d932d5b12f45d33d5785f1464cba9a9ca7f71a4af642dc30b693645e1f"
+    },
+    {
+      "path": "reference/Handle_Harness_Keepout.step",
+      "bytes": 25746,
+      "sha256": "4d38b6dac6fe78f8b169e003c211843d4c450aaf40b49c88eb5ce9c11f465c18"
+    },
+    {
+      "path": "reference/REF_18650_67x18p6.stl",
+      "bytes": 16684,
+      "sha256": "5aac6f520849775d57b07b68ab82016ba8c0517fa4f5cc94e03b11de8c4f432e"
+    },
+    {
+      "path": "reference/REF_1S_Protection_16x12x5.stl",
+      "bytes": 684,
+      "sha256": "37ce35736960288d75f1870889e5846f351c7e4a2c3cc36ed5ac1a2cc9be70ce"
+    },
+    {
+      "path": "reference/REF_Button_6x6x5.stl",
+      "bytes": 684,
+      "sha256": "c3ea4eb19957ede1ec81a7b80242587b61d330cfbfda5460689c23c308cd655a"
+    },
+    {
+      "path": "reference/REF_CoinMotor_10x2p7.stl",
+      "bytes": 16684,
+      "sha256": "1da329f9c81756e7358e853475fc499986808dfa1902cc1eaa2022c734dfd006"
+    },
+    {
+      "path": "reference/REF_Controller_52x28x12.stl",
+      "bytes": 684,
+      "sha256": "cc9ca1f84341c1a6ea9ede9d33ed32e4366de3f3625faf253fc9c4f04fb2f58a"
+    },
+    {
+      "path": "reference/REF_MicroFit_Mated_24p77.stl",
+      "bytes": 1684,
+      "sha256": "81baa136d5dbd1565061e19126b7612eb9b03740447e588c9efdc94c891e1c05"
+    },
+    {
+      "path": "reference/REF_MicroSD_24x25x5.stl",
+      "bytes": 684,
+      "sha256": "9012b34cb6f421551e8f3af935a5c0409777177592640583262d689d0016b842"
+    },
+    {
+      "path": "reference/REF_Nylon_1.stl",
+      "bytes": 16684,
+      "sha256": "85be8ba81e711b4605e6ff5b579fc865a8881caa3b99520dec413942a256e6c1"
+    },
+    {
+      "path": "reference/REF_Nylon_2.stl",
+      "bytes": 16684,
+      "sha256": "8f013c9a9a30640117adc9e34fe57615117ca259bcc9c36ff3dedd1ea0be7ef8"
+    },
+    {
+      "path": "reference/REF_Nylon_3.stl",
+      "bytes": 16684,
+      "sha256": "c7ccde185ce089aceb6eb437bc677366d7b83b7cb0b1d77394c5971e77963264"
+    },
+    {
+      "path": "reference/REF_OLED_27x27x5.stl",
+      "bytes": 684,
+      "sha256": "30be7d129866c5cc565c7b8e0bffec259b97dad6590d3cf6177f29a8ffe08d64"
+    },
+    {
+      "path": "reference/REF_Pololu_U3V40F5.stl",
+      "bytes": 684,
+      "sha256": "cd7bea6cff4af28d7431c7edb14869ec0f113714e6c6c87425fe0c76528b6601"
+    },
+    {
+      "path": "reference/REF_Power_Slide_Switch.stl",
+      "bytes": 1484,
+      "sha256": "85678d6f238c286295ca09fb5f77ca445394bfd8d5336eabd36ec8792a1a0c0a"
+    },
+    {
+      "path": "reference/REF_Probe_PTFE_Bushing.stl",
+      "bytes": 33684,
+      "sha256": "a0aa1e95701cdbab18faa725a2c2f0868cc89aa3ec396448706771eaa41b2082"
+    },
+    {
+      "path": "reference/REF_Probe_Rod_3x20.stl",
+      "bytes": 16684,
+      "sha256": "d56535f41dd89ed844da2236525cd78ae5f0a1b21d01682e997c2112df6bec11"
+    },
+    {
+      "path": "reference/REF_SG90_Body_and_Flanges.stl",
+      "bytes": 19084,
+      "sha256": "18f3387b5c2063950ecad0376de287ce8104c4d35922f206a6c45979275f2430"
+    },
+    {
+      "path": "reference/REF_Stock_Horn.stl",
+      "bytes": 17684,
+      "sha256": "5a3f2dc9fe0a8df02808df639e10012c792d75eaf38d9d65b8a322ffab2004bf"
+    },
+    {
+      "path": "reference/REF_TCST2103.stl",
+      "bytes": 36284,
+      "sha256": "0839504be240a3fb03bd0482e7e33d6e76df2a4ef9ef06c6a63844da75700688"
+    },
+    {
+      "path": "reference/REF_TP4056_28x17x5.stl",
+      "bytes": 684,
+      "sha256": "597503c1fc9e677dabacc9b9695b924f2b050f5e18b13a69d76cc417b4d5bdf4"
+    },
+    {
+      "path": "reference/REF_Vibration_Driver_Reserve_6x20x10.stl",
+      "bytes": 684,
+      "sha256": "9c3bc429a882bc717ab8bb23c69bd8b2519cbf3472f7cc12cc9b3ab37c70e026"
+    },
+    {
+      "path": "result.json",
+      "bytes": 207,
+      "sha256": "2c71982b31e56333cf7b54ff71ced2f110e680cdf5955313d986d3b5c0a52e2b"
+    },
+    {
+      "path": "source/assembly_manifest.json",
+      "bytes": 15815,
+      "sha256": "3e63d4c4e04911216ecd7c0f3edb067db7f1f9ca5ffaa6ed19c8e67a405cc123"
+    },
+    {
+      "path": "source/build_model.py",
+      "bytes": 30782,
+      "sha256": "4f292d3ca9d41f5aca2fde37ef4f757d8a74fa08491e3115a117c5831a83b42c"
+    },
+    {
+      "path": "source/check_filament_sweep.py",
+      "bytes": 1640,
+      "sha256": "67b40cd3f68034d1658892e2e85b0b1879bc01742cfff1547a66d9d0ad599bf2"
+    },
+    {
+      "path": "source/design_dimensions.json",
+      "bytes": 726,
+      "sha256": "0d84416c2a465866bc6c004481bda370d69ce918738898eb81d70a8f52c88093"
+    },
+    {
+      "path": "source/interface_config.json",
+      "bytes": 442,
+      "sha256": "668206ab865a479efd4eb9620ca92c3060193e8e0d2ddfbc5f8278d02989ffc5"
+    },
+    {
+      "path": "source/package_complete.py",
+      "bytes": 2219,
+      "sha256": "82a22c4cbccda410bf4c65b893d85a608fa9352d7c3d87a68fc2b6ef4cfaf485"
+    },
+    {
+      "path": "source/package_labeled_views.py",
+      "bytes": 2640,
+      "sha256": "d85e252af961be671c3b1035f228cbeb0a5f133242503e5c9f2f822ff56f8765"
+    },
+    {
+      "path": "source/package_plates.py",
+      "bytes": 3956,
+      "sha256": "ef9a4a2bde4d583b53a87e68f1fbceab5a3e04a9f409e7b30265cb12258dfe1b"
+    },
+    {
+      "path": "source/render_labeled_views.py",
+      "bytes": 19658,
+      "sha256": "09649df99044f39cc491dd4e341c7468990aecdad35ab9d2a7f6a7ae7a6bbab6"
+    },
+    {
+      "path": "source/render_model.py",
+      "bytes": 8858,
+      "sha256": "a5ddca9e8d3e7736c7aa5549e81b20947d58196c34a4637a0a69a9faf863efd3"
+    },
+    {
+      "path": "source/render_more_views.py",
+      "bytes": 12136,
+      "sha256": "685ea635ed3b87d8204ca9196eaac2710bf954c2e730c5b387c959a95442c6d3"
+    },
+    {
+      "path": "source/validate_exports.py",
+      "bytes": 1042,
+      "sha256": "53ef4c6ce3d0187872af14910967327ccf0c7f362de1d24c334433c1fd42a31c"
+    },
+    {
+      "path": "source/wire_route.json",
+      "bytes": 569,
+      "sha256": "73160b9552d9f6b6263e9630e3cf12ead121aecc52bb6696ea586467030ee31d"
+    },
+    {
+      "path": "source_documents/Original_Head_Connection_Reference.png",
+      "bytes": 55897,
+      "sha256": "e54e35cf0ebf8ccc03417b3eb64410dac0e421c078d7a3a1edb465d197714532"
+    },
+    {
+      "path": "source_documents/SoleSense_Hardware_Materials.pdf",
+      "bytes": 11753,
+      "sha256": "6e77ffed6c6b71f8360b43caac4346ef8f9b955c6e8579962ea7f94bacb7ddb4"
+    },
+    {
+      "path": "stl/01_Handle_Lower.stl",
+      "bytes": 776084,
+      "sha256": "909464a467870c40a6c98d4fac6fa31c2219ce0017c93cb084d6a18f3fac49c6"
+    },
+    {
+      "path": "stl/02_Handle_Upper.stl",
+      "bytes": 706484,
+      "sha256": "ba9edff8bad8c9a15f78c87098c1830324ddc97d94a26a2577f3451c6208157e"
+    },
+    {
+      "path": "stl/03_Controller_Tray.stl",
+      "bytes": 2684,
+      "sha256": "c273af1ca57a0e6d9a73d9eb9813b424a615ca06e85a98f9a0ccc49f4090aebe"
+    },
+    {
+      "path": "stl/04_Charger_Tray.stl",
+      "bytes": 2684,
+      "sha256": "522b891ff1dba74dbcf4557d6c8a989f181a1a6f586df992fd2470864914da36"
+    },
+    {
+      "path": "stl/05_SD_Tray.stl",
+      "bytes": 137084,
+      "sha256": "6cabf821827538f57bf7aefe119e0a59ca192b06fa2bba7d13fb10ef184195bc"
+    },
+    {
+      "path": "stl/06_MicroFit_Panel_Insert.stl",
+      "bytes": 54884,
+      "sha256": "ce7338ac40444dd6e797f1a23fa2903e5bb305e199e188a241a7857c83f36a72"
+    },
+    {
+      "path": "stl/07_Filament_Head_Body.stl",
+      "bytes": 311184,
+      "sha256": "0fa82cd1ce95d0407ef715559791eb1f0ab91a1c5a49ed4f0c91dfd0c751d9ad"
+    },
+    {
+      "path": "stl/08_Filament_Front_Cap.stl",
+      "bytes": 238684,
+      "sha256": "eae0cbeb1929bb627690db78c69d2c28dc94fce29318de50a9c591bb9d7e0e0f"
+    },
+    {
+      "path": "stl/09_SG90_Strap_Cradle.stl",
+      "bytes": 91784,
+      "sha256": "6a6a5d6f5f9b8754d6858145010b1d9cea64b0bff65213d5dc42f8eb9117c6e5"
+    },
+    {
+      "path": "stl/10_Vibration_Head_Body.stl",
+      "bytes": 247184,
+      "sha256": "3c5c8f13fc0f946da954962ba2de0e7c76f9804381795abb01e231181ea28952"
+    },
+    {
+      "path": "stl/11_Vibration_Dome_Cap.stl",
+      "bytes": 311984,
+      "sha256": "34c1ffd440f50838d01c0f7b92fa53411fb4e9a65d32adb51b10a76d112110a1"
+    },
+    {
+      "path": "stl/12_Button_Cap.stl",
+      "bytes": 33484,
+      "sha256": "028a29c5456e2313563539116d0e4ca16b91fd0fbec008e902261fea5fd17fea"
+    },
+    {
+      "path": "stl/13_Fastener_Fit_Coupon.stl",
+      "bytes": 68684,
+      "sha256": "10d1a709a951ef5e8c38759698cc9423de5439de7d8f664c07e94cf6d4b65100"
+    },
+    {
+      "path": "stl/14_Handle_Wire_Clamp.stl",
+      "bytes": 60084,
+      "sha256": "688c1e3b8345952ea07934a4df15a25b311be50d9d6cb6e7f4949557878ec0f4"
+    },
+    {
+      "path": "stl/15_Head_Joint_Test_Male.stl",
+      "bytes": 122784,
+      "sha256": "8381dadcb2cfb72e219d7696aa231721ce66ed90d2bb77f9538fd33bc2ad7922"
+    },
+    {
+      "path": "stl/16_Head_Joint_Test_Female_24.stl",
+      "bytes": 33484,
+      "sha256": "2fd88d1b8b59d3dd3105864fcc29b7b350088ce256f1357d7efbb6be4fac011e"
+    },
+    {
+      "path": "stl/17_Head_Joint_Test_Female_35.stl",
+      "bytes": 33484,
+      "sha256": "a772fc355546defba362c5ec7cfedf3f24b2670a6a16c138f29268c3abf51305"
+    },
+    {
+      "path": "stl/18_Head_Joint_Test_Female_44.stl",
+      "bytes": 33484,
+      "sha256": "d0f56761efb92707a4b4a29ea3ae0e91ef28891e79b2413ab3a79bf8292ab53a"
+    },
+    {
+      "path": "stl/19_MicroFit_Panel_Test.stl",
+      "bytes": 54884,
+      "sha256": "ce7338ac40444dd6e797f1a23fa2903e5bb305e199e188a241a7857c83f36a72"
+    },
+    {
+      "path": "stl/20_Boost_Shelf.stl",
+      "bytes": 70684,
+      "sha256": "95bebb224ddccb75feb789203a7001b8ee8390aa08abce75b67307e9605ae6cd"
+    },
+    {
+      "path": "stl/21_Three_Position_Carrier.stl",
+      "bytes": 138784,
+      "sha256": "de455aef405bab7e8470961a5f3c3ee036a80f13f0bca0fdebd6f48478cb8e41"
+    },
+    {
+      "path": "stl/22_Nylon_Insert_1.stl",
+      "bytes": 67284,
+      "sha256": "0179808c4f5ccd374622ceafcca60e669157c8669c2d572c7a664610dc4bffd0"
+    },
+    {
+      "path": "stl/23_Nylon_Insert_2.stl",
+      "bytes": 67284,
+      "sha256": "76bc8c22108e61c521baca065d60501158b4fb04a4a5669455639978a98c4c55"
+    },
+    {
+      "path": "stl/24_Nylon_Insert_3.stl",
+      "bytes": 67284,
+      "sha256": "0179808c4f5ccd374622ceafcca60e669157c8669c2d572c7a664610dc4bffd0"
+    },
+    {
+      "path": "stl/25_Insert_Retainer.stl",
+      "bytes": 102084,
+      "sha256": "38e2e93fb37f3d41fffeaa75dc1ca0c8e89b8e9de46470040ca7e6fdda5c1f63"
+    },
+    {
+      "path": "stl/26_Probe_Rear_Pad_and_Flag.stl",
+      "bytes": 34784,
+      "sha256": "8aae8a6aae5304bc7c913bfb0116568d3617177f1b284ff5fbd17ab417eebf0c"
+    },
+    {
+      "path": "stl/27_Probe_Guide.stl",
+      "bytes": 76184,
+      "sha256": "cd9987e46eed175d3f2cb82e6a4aa047a08e3755d9ab0a333c4ab6a622438c4f"
+    },
+    {
+      "path": "stl/28_Probe_Tip.stl",
+      "bytes": 121784,
+      "sha256": "f51660c0afbf8114cf754a36b81b7528dbf27aa1ffb63be071deb3e1091c3772"
+    },
+    {
+      "path": "stl/29_Button_Platform.stl",
+      "bytes": 34684,
+      "sha256": "68e11b2e66e14b829ae8d5bea63f04bf013b648894a5034a63a761bf47e05316"
+    },
+    {
+      "path": "stl/30_OLED_Retainer.stl",
+      "bytes": 1684,
+      "sha256": "7064a355bb102bca6cedef47f49055cc4e1c48b11718eb2a3e54f2be27570273"
+    },
+    {
+      "path": "stl/31_Battery_Protection_Tray.stl",
+      "bytes": 2684,
+      "sha256": "20a7b4b2c95087889ed4f454e5ad32cf8b82c673aada43c807fbb6341f8be6d7"
+    },
+    {
+      "path": "validation/RESULTS.md",
+      "bytes": 1575,
+      "sha256": "d428b5d861aae18876907a5311090aaceac473c86ddaf21447daf991bdb7d554"
+    },
+    {
+      "path": "validation/bambu_import.log",
+      "bytes": 8168,
+      "sha256": "72454fbf00d8be6c5340313848467941d5eb3f5ac1e452b95e297b27d3b02eac"
+    },
+    {
+      "path": "validation/build.log",
+      "bytes": 8360,
+      "sha256": "6df021ca41a90382dd067b76cef40d065b99e8989b3717c134dcf0ff58d43715"
+    },
+    {
+      "path": "validation/cad_validation.json",
+      "bytes": 8235,
+      "sha256": "3cd9f0d9b87f98e9938e96a0bb3687d2551b77327a8db35eb6ae05f72a0a4893"
+    },
+    {
+      "path": "validation/continuous_filament_sweep.json",
+      "bytes": 602,
+      "sha256": "ae0c079d6c8668deaef8df1709605de46e69520420029d6ab91c1e3349b2428d"
+    },
+    {
+      "path": "validation/expanded_preview.log",
+      "bytes": 1928,
+      "sha256": "5c54ec5c24c650a92dcc4c19d1ffb1b1f0d22c9d0dad98d8aaf2d092dacd79f4"
+    },
+    {
+      "path": "validation/expanded_render.log",
+      "bytes": 2567,
+      "sha256": "14ab4bd1fa2ea338010aa58becad38b62788a67b0b9da407b19752d377b97a82"
+    },
+    {
+      "path": "validation/export_validation.json",
+      "bytes": 10449,
+      "sha256": "242ab8f5092aa1b40c94e8687ed622f9ecfab9d5aa6cffbb1c3a4a827e84d0f7"
+    },
+    {
+      "path": "validation/labeled_checks.json",
+      "bytes": 296,
+      "sha256": "0d9e76cec69c71e72fdc0a593868cba7273048dbcda414830718bdacaaeecae0"
+    },
+    {
+      "path": "validation/labeled_final_adjustments.log",
+      "bytes": 1391,
+      "sha256": "6a1ae048e19d1064c94a74d32d37ab8b5afc477ad309000ba0852f771fa9e753"
+    },
+    {
+      "path": "validation/labeled_preview.log",
+      "bytes": 1531,
+      "sha256": "c2121786e1c236523b6bfa6ccc9d198609894da71944058be2b6d8d87b605b95"
+    },
+    {
+      "path": "validation/labeled_render.log",
+      "bytes": 2360,
+      "sha256": "bc54d527466811deba3b852d4a2517f78ba2d9f501e581cd3b9f95cd3b26cf71"
+    },
+    {
+      "path": "validation/mesh_check.log",
+      "bytes": 8885,
+      "sha256": "8f38912c794930e0ecd047157ac563a36ed6d4604f6599901b4dfa41804b53c6"
+    },
+    {
+      "path": "validation/plate_check.log",
+      "bytes": 29,
+      "sha256": "081440e9ae8daf100f1bb85b69eedc9ac28964c3e781cf26e34bd4f09f00f1d6"
+    },
+    {
+      "path": "validation/plate_validation.json",
+      "bytes": 7947,
+      "sha256": "1222b2c2e4e299190f173c679eb98ab47e1f4389c9d6d15e2fd9ddcd0aff07fd"
+    },
+    {
+      "path": "validation/render.log",
+      "bytes": 2400,
+      "sha256": "709623d94394360eea539c5d7076d6957c3197f2931020e3e8aaeb471bd9069a"
+    },
+    {
+      "path": "validation/sweep_check.log",
+      "bytes": 33,
+      "sha256": "e36dbea69e3fd751505db617b9de62792432d90f6ce4ddb168f526f0d527128f"
+    }
+  ]
+}

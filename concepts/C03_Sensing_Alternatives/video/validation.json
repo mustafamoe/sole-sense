@@ -1,0 +1,52 @@
+[
+  {
+    "file": "01_Inline_Load_Cell.mp4",
+    "width": 1440,
+    "height": 900,
+    "frames": 384,
+    "duration_seconds": 16,
+    "pixel_format": "yuv420p",
+    "narration": "AAC mono",
+    "full_decode_passed": true
+  },
+  {
+    "file": "02_Magnetic_Flexure.mp4",
+    "width": 1440,
+    "height": 900,
+    "frames": 384,
+    "duration_seconds": 16,
+    "pixel_format": "yuv420p",
+    "narration": "AAC mono",
+    "full_decode_passed": true
+  },
+  {
+    "file": "03_Optical_Flexure.mp4",
+    "width": 1440,
+    "height": 900,
+    "frames": 384,
+    "duration_seconds": 16,
+    "pixel_format": "yuv420p",
+    "narration": "AAC mono",
+    "full_decode_passed": true
+  },
+  {
+    "file": "04_Capacitive_Sensor.mp4",
+    "width": 1440,
+    "height": 900,
+    "frames": 384,
+    "duration_seconds": 16,
+    "pixel_format": "yuv420p",
+    "narration": "AAC mono",
+    "full_decode_passed": true
+  },
+  {
+    "file": "SoleSense_Four_Sensing_Designs.mp4",
+    "width": 1440,
+    "height": 900,
+    "frames": 1536,
+    "duration_seconds": 64,
+    "pixel_format": "yuv420p",
+    "narration": "AAC mono",
+    "full_decode_passed": true
+  }
+]

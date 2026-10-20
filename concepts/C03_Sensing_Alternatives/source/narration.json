@@ -1,0 +1,117 @@
+{
+  "voice": "macOS Samantha (English US), synthetic narration",
+  "timing": [
+    {
+      "video": "01_Inline_Load_Cell",
+      "chapter": 1,
+      "text": "An inline load cell sits behind the cartridge.",
+      "start_ms": 250,
+      "spoken_duration_seconds": 2.552
+    },
+    {
+      "video": "01_Inline_Load_Cell",
+      "chapter": 2,
+      "text": "Pressing the filament slightly bends the metal sensor.",
+      "start_ms": 4050,
+      "spoken_duration_seconds": 2.727
+    },
+    {
+      "video": "01_Inline_Load_Cell",
+      "chapter": 3,
+      "text": "Strain gauges detect the bending. Motion is exaggerated.",
+      "start_ms": 8050,
+      "spoken_duration_seconds": 3.498
+    },
+    {
+      "video": "01_Inline_Load_Cell",
+      "chapter": 4,
+      "text": "Calibration turns the signal into grams of force.",
+      "start_ms": 12100,
+      "spoken_duration_seconds": 2.892
+    },
+    {
+      "video": "02_Magnetic_Flexure",
+      "chapter": 1,
+      "text": "Metal flexures support the replaceable cartridge holder.",
+      "start_ms": 250,
+      "spoken_duration_seconds": 3.082
+    },
+    {
+      "video": "02_Magnetic_Flexure",
+      "chapter": 2,
+      "text": "Pressing moves a magnet attached to the holder.",
+      "start_ms": 4050,
+      "spoken_duration_seconds": 2.507
+    },
+    {
+      "video": "02_Magnetic_Flexure",
+      "chapter": 3,
+      "text": "A fixed magnetic sensor reads that movement without touching.",
+      "start_ms": 8050,
+      "spoken_duration_seconds": 3.341
+    },
+    {
+      "video": "02_Magnetic_Flexure",
+      "chapter": 4,
+      "text": "Calibration converts the movement into grams of force.",
+      "start_ms": 12100,
+      "spoken_duration_seconds": 3.124
+    },
+    {
+      "video": "03_Optical_Flexure",
+      "chapter": 1,
+      "text": "Metal flexures support the cartridge and a small flag.",
+      "start_ms": 250,
+      "spoken_duration_seconds": 2.931
+    },
+    {
+      "video": "03_Optical_Flexure",
+      "chapter": 2,
+      "text": "Pressing moves the flag across a light beam.",
+      "start_ms": 4050,
+      "spoken_duration_seconds": 2.414
+    },
+    {
+      "video": "03_Optical_Flexure",
+      "chapter": 3,
+      "text": "A light detector measures how much light passes.",
+      "start_ms": 8050,
+      "spoken_duration_seconds": 2.737
+    },
+    {
+      "video": "03_Optical_Flexure",
+      "chapter": 4,
+      "text": "Calibration converts this change into grams of force.",
+      "start_ms": 12100,
+      "spoken_duration_seconds": 3.147
+    },
+    {
+      "video": "04_Capacitive_Sensor",
+      "chapter": 1,
+      "text": "The cartridge presses a thin sensor against rigid backing.",
+      "start_ms": 250,
+      "spoken_duration_seconds": 3.125
+    },
+    {
+      "video": "04_Capacitive_Sensor",
+      "chapter": 2,
+      "text": "The sensor compresses slightly, changing its electrical capacitance.",
+      "start_ms": 4050,
+      "spoken_duration_seconds": 3.55
+    },
+    {
+      "video": "04_Capacitive_Sensor",
+      "chapter": 3,
+      "text": "This enlarged diagram shows the sensing layers moving closer.",
+      "start_ms": 8050,
+      "spoken_duration_seconds": 3.55
+    },
+    {
+      "video": "04_Capacitive_Sensor",
+      "chapter": 4,
+      "text": "Calibration converts the signal into grams of force.",
+      "start_ms": 12100,
+      "spoken_duration_seconds": 3.066
+    }
+  ]
+}

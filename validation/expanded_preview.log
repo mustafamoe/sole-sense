@@ -1,0 +1,15 @@
+00:00.707  blend            | Read blend: "/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/cad/SoleSense_R03_Review.blend"
+/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/source/render_more_views.py:43: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True
+/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/source/render_more_views.py:157: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n);m.diffuse_color=(*c,1);m.use_nodes=True;m.node_tree.nodes.get('Principled BSDF').inputs['Base Color'].default_value=(*c,1);ob.data.materials.append(m);return ob
+/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/source/render_more_views.py:164: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  ob=bpy.data.objects.new(n,cu);s.collection.objects.link(ob);m=bpy.data.materials.new(n);m.diffuse_color=(*c,1);m.use_nodes=True;m.node_tree.nodes.get('Principled BSDF').inputs['Base Color'].default_value=(*c,1);cu.materials.append(m)
+00:05.559  render           | Saved: '/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/previews/expanded/05_Opposite_Quarter_draft.png'
+00:09.895  render           | Saved: '/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/previews/expanded/08_Exploded_Handle_draft.png'
+00:14.625  render           | Saved: '/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/previews/expanded/09_Exploded_Filament_Head_draft.png'
+00:20.582  render           | Saved: '/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/previews/expanded/11_Head_Connector_Detail_draft.png'
+EXPANDED_VIEWS_COMPLETE
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+
+Blender quit

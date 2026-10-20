@@ -1,0 +1,436 @@
+{
+  "status": "PROVISIONAL \u2014 not released for manufacture",
+  "units": "mm",
+  "parts": {
+    "01_Handle_Lower": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 36833.247,
+      "assembled_bbox_mm": [
+        150.0,
+        53.999,
+        38.9
+      ]
+    },
+    "02_Handle_Upper": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 31538.616,
+      "assembled_bbox_mm": [
+        150.0,
+        53.999,
+        26.874
+      ]
+    },
+    "03_Controller_Tray": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 3277.12,
+      "assembled_bbox_mm": [
+        56.0,
+        29.0,
+        2.2
+      ]
+    },
+    "04_Charger_Tray": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 1150.0,
+      "assembled_bbox_mm": [
+        21.0,
+        31.0,
+        2.0
+      ]
+    },
+    "05_SD_Tray": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 1308.088,
+      "assembled_bbox_mm": [
+        30.0,
+        26.0,
+        7.35
+      ]
+    },
+    "06_MicroFit_Panel_Insert": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 1117.262,
+      "assembled_bbox_mm": [
+        2.0,
+        30.0,
+        22.0
+      ]
+    },
+    "07_Filament_Head_Body": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 47169.181,
+      "assembled_bbox_mm": [
+        108.65,
+        54.0,
+        54.0
+      ]
+    },
+    "08_Filament_Front_Cap": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 8086.411,
+      "assembled_bbox_mm": [
+        19.8,
+        54.0,
+        54.0
+      ]
+    },
+    "09_SG90_Strap_Cradle": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 3941.493,
+      "assembled_bbox_mm": [
+        23.0,
+        48.6,
+        40.0
+      ]
+    },
+    "10_Vibration_Head_Body": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 15614.193,
+      "assembled_bbox_mm": [
+        28.65,
+        54.0,
+        54.0
+      ]
+    },
+    "11_Vibration_Dome_Cap": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 10182.486,
+      "assembled_bbox_mm": [
+        17.0,
+        54.0,
+        54.0
+      ]
+    },
+    "12_Button_Cap": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 318.608,
+      "assembled_bbox_mm": [
+        10.8,
+        10.8,
+        5.8
+      ]
+    },
+    "13_Fastener_Fit_Coupon": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 5362.379,
+      "assembled_bbox_mm": [
+        52.0,
+        18.0,
+        6.0
+      ]
+    },
+    "14_Handle_Wire_Clamp": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 310.078,
+      "assembled_bbox_mm": [
+        6.0,
+        18.0,
+        3.65
+      ]
+    },
+    "15_Head_Joint_Test_Male": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 5491.455,
+      "assembled_bbox_mm": [
+        8.95,
+        50.0,
+        50.0
+      ]
+    },
+    "16_Head_Joint_Test_Female_24": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 5580.152,
+      "assembled_bbox_mm": [
+        8.0,
+        54.0,
+        54.0
+      ]
+    },
+    "17_Head_Joint_Test_Female_35": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 5472.605,
+      "assembled_bbox_mm": [
+        8.0,
+        54.0,
+        54.0
+      ]
+    },
+    "18_Head_Joint_Test_Female_44": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 5364.555,
+      "assembled_bbox_mm": [
+        8.0,
+        54.0,
+        54.0
+      ]
+    },
+    "19_MicroFit_Panel_Test": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 1117.262,
+      "assembled_bbox_mm": [
+        22.0,
+        30.0,
+        2.0
+      ]
+    },
+    "20_Boost_Shelf": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 840.954,
+      "assembled_bbox_mm": [
+        30.0,
+        26.0,
+        1.2
+      ]
+    },
+    "21_Three_Position_Carrier": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 3708.426,
+      "assembled_bbox_mm": [
+        8.0,
+        34.4,
+        34.4
+      ]
+    },
+    "22_Nylon_Insert_1": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 130.8,
+      "assembled_bbox_mm": [
+        5.2,
+        7.2,
+        7.2
+      ]
+    },
+    "23_Nylon_Insert_2": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 130.8,
+      "assembled_bbox_mm": [
+        5.2,
+        7.2,
+        7.2
+      ]
+    },
+    "24_Nylon_Insert_3": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 130.8,
+      "assembled_bbox_mm": [
+        5.2,
+        7.2,
+        7.2
+      ]
+    },
+    "25_Insert_Retainer": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 520.248,
+      "assembled_bbox_mm": [
+        1.6,
+        33.6,
+        16.8
+      ]
+    },
+    "26_Probe_Rear_Pad_and_Flag": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 130.178,
+      "assembled_bbox_mm": [
+        3.0,
+        7.0,
+        23.5
+      ]
+    },
+    "27_Probe_Guide": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 282.326,
+      "assembled_bbox_mm": [
+        7.5,
+        18.0,
+        6.2
+      ]
+    },
+    "28_Probe_Tip": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 172.041,
+      "assembled_bbox_mm": [
+        6.5,
+        7.0,
+        7.0
+      ]
+    },
+    "29_Button_Platform": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 505.075,
+      "assembled_bbox_mm": [
+        13.1,
+        22.0,
+        1.8
+      ]
+    },
+    "30_OLED_Retainer": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 425.36,
+      "assembled_bbox_mm": [
+        28.0,
+        27.4,
+        1.3
+      ]
+    },
+    "31_Battery_Protection_Tray": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 421.6,
+      "assembled_bbox_mm": [
+        18.0,
+        16.0,
+        1.7
+      ]
+    }
+  },
+  "interference": [],
+  "reference_interference": [],
+  "notes": [
+    "Reference envelopes are selected nominal dimensions; generic-module limits are purchasing requirements.",
+    "Force output, sliding friction, servo indexing and electrical performance require physical validation.",
+    "The two heads are alternatives; they occupy the same interface coordinates."
+  ],
+  "reference_to_reference_interference": [],
+  "assembly_paths": [
+    {
+      "operation": "Filament_head axial withdrawal",
+      "max_overlap_mm3": 0,
+      "at": null,
+      "samples": 12
+    },
+    {
+      "operation": "Vibration_head axial withdrawal",
+      "max_overlap_mm3": 0,
+      "at": null,
+      "samples": 12
+    },
+    {
+      "operation": "Upper shell removal after screw removal",
+      "max_overlap_mm3": 0,
+      "at": null,
+      "samples": 11
+    }
+  ],
+  "mechanism_motion": [
+    {
+      "operation": "carrier",
+      "samples": 13,
+      "max_overlap_mm3": 0,
+      "at": null
+    },
+    {
+      "operation": "probe",
+      "samples": 7,
+      "max_overlap_mm3": 0,
+      "at": null
+    }
+  ],
+  "wire_route": {
+    "reserved_bundle_diameter_mm": 4.2,
+    "path_mm": [
+      [
+        72,
+        -16,
+        -2.3
+      ],
+      [
+        79,
+        -13,
+        -2.3
+      ],
+      [
+        85,
+        -10,
+        -3
+      ],
+      [
+        112,
+        -10,
+        -3
+      ],
+      [
+        122,
+        -10,
+        -3
+      ],
+      [
+        125,
+        -6,
+        -1
+      ],
+      [
+        126,
+        0,
+        0
+      ],
+      [
+        130.62,
+        0,
+        0
+      ]
+    ],
+    "interference": [],
+    "note": "Piecewise rounded clearance reserve only; final flexible-wire bend radius and endpoint strain relief depend on selected wire."
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "mode": "inline",
+    "moving_parts": 7,
+    "fixed_parts": 2,
+    "flexure_leaves_with_fixed_outer_anchors": 0,
+    "pressed_cartridge_flange_clearance_mm": 1.7,
+    "release_returns_to_origin": true,
+    "layer_interface_gaps_mm": {},
+    "physical_simulation": false,
+    "force_accuracy_validated": false
+  },
+  {
+    "mode": "magnetic",
+    "moving_parts": 10,
+    "fixed_parts": 9,
+    "flexure_leaves_with_fixed_outer_anchors": 8,
+    "pressed_cartridge_flange_clearance_mm": 1.2,
+    "release_returns_to_origin": true,
+    "layer_interface_gaps_mm": {},
+    "physical_simulation": false,
+    "force_accuracy_validated": false
+  },
+  {
+    "mode": "optical",
+    "moving_parts": 9,
+    "fixed_parts": 10,
+    "flexure_leaves_with_fixed_outer_anchors": 8,
+    "pressed_cartridge_flange_clearance_mm": 1.2,
+    "release_returns_to_origin": true,
+    "layer_interface_gaps_mm": {},
+    "physical_simulation": false,
+    "force_accuracy_validated": false
+  },
+  {
+    "mode": "capacitive",
+    "moving_parts": 7,
+    "fixed_parts": 7,
+    "flexure_leaves_with_fixed_outer_anchors": 0,
+    "pressed_cartridge_flange_clearance_mm": 2.34,
+    "release_returns_to_origin": true,
+    "layer_interface_gaps_mm": {
+      "Thin sensor rear layer to Thin sensor dielectric": -1.5e-05,
+      "Thin sensor dielectric to Thin sensor front layer": 0.0,
+      "Diagram rear conductive layer to Diagram soft dielectric": 1.5e-05,
+      "Diagram soft dielectric to Diagram front conductive layer": 1.5e-05,
+      "Diagram front conductive layer to Diagram pressure pad": 0.0
+    },
+    "physical_simulation": false,
+    "force_accuracy_validated": false
+  }
+]

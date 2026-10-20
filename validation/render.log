@@ -1,0 +1,56 @@
+/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/source/render_model.py:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*c,1);m.use_nodes=True
+00:14.689  render           | Saved: '/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/previews/01_Assembly.png'
+00:30.372  render           | Saved: '/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/previews/02_Exploded_Wiring.png'
+00:44.904  render           | Saved: '/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/previews/03_Internal_Packaging.png'
+01:01.062  render           | Saved: '/Users/mustafamoe/Downloads/SoleSense_3Dfiles/SoleSense_R03_Engineering/previews/04_Filament_Mechanism.png'
+Info: Saved as "SoleSense_R03_Review.blend"
+RENDER_COMPLETE
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+Timer 'STL Import' took 4.41 ms
+Timer 'STL Import' took 3.44 ms
+Timer 'STL Import' took 0.28 ms
+Timer 'STL Import' took 0.21 ms
+Timer 'STL Import' took 1.03 ms
+Timer 'STL Import' took 0.62 ms
+Timer 'STL Import' took 1.75 ms
+Timer 'STL Import' took 1.48 ms
+Timer 'STL Import' took 0.92 ms
+Timer 'STL Import' took 1.82 ms
+Timer 'STL Import' took 1.69 ms
+Timer 'STL Import' took 0.45 ms
+Timer 'STL Import' took 0.58 ms
+Timer 'STL Import' took 0.79 ms
+Timer 'STL Import' took 1.17 ms
+Timer 'STL Import' took 0.70 ms
+Timer 'STL Import' took 0.76 ms
+Timer 'STL Import' took 0.74 ms
+Timer 'STL Import' took 0.96 ms
+Timer 'STL Import' took 0.75 ms
+Timer 'STL Import' took 0.83 ms
+Timer 'STL Import' took 0.96 ms
+Timer 'STL Import' took 0.28 ms
+Timer 'STL Import' took 0.25 ms
+Timer 'STL Import' took 0.44 ms
+Timer 'STL Import' took 0.34 ms
+Timer 'STL Import' took 0.32 ms
+Timer 'STL Import' took 0.59 ms
+Timer 'STL Import' took 0.48 ms
+Timer 'STL Import' took 0.32 ms
+Timer 'STL Import' took 1.55 ms
+Timer 'STL Import' took 0.22 ms
+Timer 'STL Import' took 0.25 ms
+Timer 'STL Import' took 0.25 ms
+Timer 'STL Import' took 0.38 ms
+Timer 'STL Import' took 0.20 ms
+Timer 'STL Import' took 0.13 ms
+Timer 'STL Import' took 0.11 ms
+Timer 'STL Import' took 0.11 ms
+Timer 'STL Import' took 99291 ns
+Timer 'STL Import' took 0.16 ms
+Timer 'STL Import' took 0.14 ms
+Timer 'STL Import' took 0.32 ms
+Timer 'STL Import' took 0.21 ms
+Timer 'STL Import' took 0.39 ms
+
+Blender quit
