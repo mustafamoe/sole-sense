@@ -1,0 +1,15 @@
+{
+  "file": "SoleSense_R07_Assembly_and_Motion.mp4",
+  "resolution": [
+    1280,
+    800
+  ],
+  "seconds": 60,
+  "fps": 24,
+  "render_samples_per_second": 12,
+  "frames": 1440,
+  "audio": "AAC, synthetic narration",
+  "chapters": 8,
+  "full_decode_passed": true,
+  "file_bytes": 6245684
+}

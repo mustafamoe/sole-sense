@@ -1,0 +1,42 @@
+;FFMETADATA1
+title=SoleSense R07 - Assembly and magnetic sensing
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=4000
+title=The final magnetic pressure head
+[CHAPTER]
+TIMEBASE=1/1000
+START=4000
+END=10000
+title=Every part has a place
+[CHAPTER]
+TIMEBASE=1/1000
+START=10000
+END=17000
+title=Build the housing and carriage
+[CHAPTER]
+TIMEBASE=1/1000
+START=17000
+END=24000
+title=Locate, clamp, then add the sensor
+[CHAPTER]
+TIMEBASE=1/1000
+START=24000
+END=35000
+title=Close the head and lock the cartridge
+[CHAPTER]
+TIMEBASE=1/1000
+START=35000
+END=44000
+title=Press the filament: the carriage moves
+[CHAPTER]
+TIMEBASE=1/1000
+START=44000
+END=54000
+title=A moving magnet. A fixed Hall sensor.
+[CHAPTER]
+TIMEBASE=1/1000
+START=54000
+END=60000
+title=Ready for the first physical build

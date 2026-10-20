@@ -1,0 +1,18 @@
+{
+  "saved_blend_checked": true,
+  "press_frames_checked": 228,
+  "moving_parts_synchronized": true,
+  "sensor_stationary": true,
+  "leaf_fixed_anchors_unchanged": true,
+  "leaf_moving_ends_match_carriage": true,
+  "service_pin_and_bridge_absent_during_press": true,
+  "stroke_range_mm": [
+    0.0,
+    2.0
+  ],
+  "illustrative_face_gap_range_mm": [
+    6.2,
+    8.2
+  ],
+  "physical_model_validated": false
+}

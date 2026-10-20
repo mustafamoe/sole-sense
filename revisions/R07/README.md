@@ -14,6 +14,7 @@ The R06 spring stage, carriage, Hall sensor, magnet, cartridge and mechanical he
 - [Assembled view](previews/01_Assembled.png)
 - [Inside the head](previews/02_Inside_Head.png)
 - [Assembly and cartridge service](previews/03_Assembly_Service.png)
+- [60-second assembly and magnetic-sensing video](video/README.md) — exploded parts, assembly, cartridge locking and magnet motion
 - [Native FreeCAD model](cad/SoleSense_R07.FCStd)
 - [Magnetic-head STEP assembly](cad/SoleSense_R07_Magnetic_Head_Assembly.step)
 - [Full pressure-device STEP assembly](cad/SoleSense_R07_Pressure_Assembly.step)

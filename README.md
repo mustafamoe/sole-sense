@@ -36,13 +36,14 @@ See the [engineering notes](revisions/R07/docs/ENGINEERING_NOTES.md) for assumpt
 
 ## Videos and design history
 
+- **[Final R07 head — assembly and magnetic sensing, 60 seconds](revisions/R07/video/README.md)**: exploded parts, assembly, cartridge locking, press/release cutaway and magnet/Hall close-up.
 - [Head swapping and cartridge replacement — R04 video](revisions/R04/video/SoleSense_R04_Showcase.mp4)
 - [Four sensing approaches — narrated comparison](concepts/C03_Sensing_Alternatives/video/SoleSense_Four_Sensing_Designs.mp4)
 - [Magnetic sensing concept — short video](concepts/C03_Sensing_Alternatives/video/02_Magnetic_Flexure.mp4)
 - [Flexure concept](concepts/C01_Flexure_Pressure_Head/) · [Kuuleyn load-cell concept](concepts/C02_Kuuleyn_Pressure_Head/) · [Sensing alternatives](concepts/C03_Sensing_Alternatives/)
 - Previous designs: [R06](revisions/R06/) · [R05](revisions/R05/) · [R04](revisions/R04/) · [R03](README_R03.md)
 
-The videos show earlier designs and explanatory motion; they do not depict the final R07 enclosure or establish sensor performance. Older documents preserve the decisions made at that time. Use the R07 guide for the current build.
+The R07 video uses the final enclosure geometry. The R04 and concept videos show earlier designs. All motion is explanatory and does not establish sensor performance. Older documents preserve the decisions made at that time. Use the R07 guide for the current build.
 
 ## Repository layout
 
