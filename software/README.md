@@ -9,4 +9,4 @@ Useful first tasks:
 - Plot calibration curves and repeatability results.
 - Export measurements with units, orientation and calibration metadata.
 
-Start from the [calibration procedure](../revisions/R07/docs/WIRING_AND_CALIBRATION.md) and [log template](../revisions/R07/docs/calibration_log_template.csv). Document installation and usage alongside any implementation added here.
+Start from the [calibration procedure](../revisions/R08/docs/WIRING_AND_CALIBRATION.md) and [log template](../revisions/R08/docs/calibration_log_template.csv). Document installation and usage alongside any implementation added here.

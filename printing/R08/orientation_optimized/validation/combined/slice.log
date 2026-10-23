@@ -1,0 +1,6 @@
+[2026-10-21 11:14:18.239365] [0x00000002007dff80] [trace]   Initializing StaticPrintConfigs
+[2026-10-21 11:14:33.039542] [0x00000002007dff80] [error]   _save_model_to_file:6459, Unable to open the file
+
+[2026-10-21 11:14:33.039578] [0x00000002007dff80] [error]   Unable to open the file optimized_sliced.3mf.tmp
+Project export to printing/R08/orientation_optimized/validation/combined/optimized_sliced.3mf failed
+run found error, exit

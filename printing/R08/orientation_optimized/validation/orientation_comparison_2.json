@@ -1,0 +1,74 @@
+[
+  {
+    "name": "41_baseline",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 21.269933700561523,
+    "seconds": 6639.0087890625,
+    "support_seconds": 965.6308479309082
+  },
+  {
+    "name": "44_tilt_30",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 14.107309341430664,
+    "seconds": 6771.26806640625,
+    "support_seconds": 1948.5333251953125
+  },
+  {
+    "name": "44_tilt_45",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 11.120208740234375,
+    "seconds": 5405.7568359375,
+    "support_seconds": 839.6849975585938
+  },
+  {
+    "name": "44_tilt_60",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 11.51037311553955,
+    "seconds": 5305.830078125,
+    "support_seconds": 923.1744995117188
+  },
+  {
+    "name": "44_tilt_75",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 11.719159126281738,
+    "seconds": 5218.8759765625,
+    "support_seconds": 990.5260897874832
+  },
+  {
+    "name": "47_back",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 1.476905345916748,
+    "seconds": 723.6989135742188,
+    "support_seconds": 111.3112735748291
+  },
+  {
+    "name": "47_baseline",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 1.2769559621810913,
+    "seconds": 997.42138671875,
+    "support_seconds": 52.109397888183594
+  },
+  {
+    "name": "47_front",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 1.2506780624389648,
+    "seconds": 675.758544921875,
+    "support_seconds": 31.179340839385986
+  },
+  {
+    "name": "49_baseline",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 3.3614439964294434,
+    "seconds": 1749.1368408203125,
+    "support_seconds": 438.47222232818604
+  }
+]

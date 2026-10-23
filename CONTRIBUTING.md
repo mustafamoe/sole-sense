@@ -13,7 +13,8 @@ Coordinate before editing the same FreeCAD or Blender file: binary design files 
 
 ## CAD and printed parts
 
-- Preserve released revision folders and ZIPs. Develop the next design in a new revision folder; document the source revision and retained parts.
+- Keep the current device revision and its matching build package in the working tree. Use Git history for superseded revisions; document the source revision and retained parts when updating the design.
+- Preserve the current revision’s bundled source dependencies so its CAD can be rebuilt and its recorded comparison checks remain reproducible.
 - Keep dimensions in millimetres and force measurements explicitly in gf or N.
 - Include native CAD, editable construction scripts/parameters, exported parts, and relevant validation results with a design revision.
 - Keep matching interfaces and fasteners together. Document incompatibilities with previous revisions.
@@ -33,4 +34,4 @@ Include the design/software revision, part number or component, steps to reprodu
 
 ## Historical files
 
-The root CAD and print folders belong to R03. Root checksum manifests describe historical packages, not the current repository tree. Do not regenerate them to imply validation of unrelated revisions.
+Standalone R03–R07 designs and concept studies have been removed from the working tree. They remain in Git history. R08 includes a small set of historical CAD inputs under `revisions/R08/source/dependencies/` for rebuilding retained geometry and comparing the revision; keep those inputs with R08. Release ZIP metadata describes the contents of that ZIP, not the whole repository.

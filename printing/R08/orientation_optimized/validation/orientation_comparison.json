@@ -1,0 +1,66 @@
+[
+  {
+    "name": "41_flip",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 25.191293716430664,
+    "seconds": 8906.1728515625,
+    "support_seconds": 2482.610885620117
+  },
+  {
+    "name": "44_baseline",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 13.352190017700195,
+    "seconds": 6348.70849609375,
+    "support_seconds": 1761.1051750183105
+  },
+  {
+    "name": "44_flip",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 13.349462509155273,
+    "seconds": 6244.2392578125,
+    "support_seconds": 1792.811321258545
+  },
+  {
+    "name": "44_side_nx",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 10.979949951171875,
+    "seconds": 4837.08740234375,
+    "support_seconds": 714.1434860229492
+  },
+  {
+    "name": "44_side_ny",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 11.308734893798828,
+    "seconds": 4799.59765625,
+    "support_seconds": 851.6801795959473
+  },
+  {
+    "name": "44_side_x",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 10.993721008300781,
+    "seconds": 4941.283203125,
+    "support_seconds": 757.8476848602295
+  },
+  {
+    "name": "44_side_y",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 11.162490844726562,
+    "seconds": 4830.52685546875,
+    "support_seconds": 809.6805038452148
+  },
+  {
+    "name": "49_flip",
+    "exit": 0,
+    "error": "Success.",
+    "grams": 3.9720590114593506,
+    "seconds": 1935.99365234375,
+    "support_seconds": 580.8807468414307
+  }
+]

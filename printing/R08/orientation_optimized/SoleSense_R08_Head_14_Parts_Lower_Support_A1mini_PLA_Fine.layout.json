@@ -1,0 +1,436 @@
+[
+  {
+    "part": 41,
+    "name": "41_R04_Joint_Adaptor",
+    "dimensions_mm": [
+      59.0,
+      60.5,
+      21.65
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      37.5,
+      128.25
+    ],
+    "rotation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 42,
+    "name": "42_Magnetic_Chassis",
+    "dimensions_mm": [
+      56.0,
+      76.0,
+      35.0
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      38.0,
+      48.0
+    ],
+    "rotation_matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 43,
+    "name": "43_Removable_Lid",
+    "dimensions_mm": [
+      56.0,
+      76.0,
+      9.0
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      102.0,
+      133.0
+    ],
+    "rotation_matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 44,
+    "name": "44_Moving_Carriage",
+    "dimensions_mm": [
+      32.29953,
+      63.6,
+      29.96696
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      153.15,
+      39.8
+    ],
+    "rotation_matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "part": 46,
+    "name": "46_Magnet_Retainer",
+    "dimensions_mm": [
+      10.0,
+      16.0,
+      1.4
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      165.8,
+      150.6
+    ],
+    "rotation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 47,
+    "name": "47_Adjustable_Hall_Mount",
+    "dimensions_mm": [
+      20.0,
+      20.0,
+      10.0
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      119.0,
+      16.0
+    ],
+    "rotation_matrix": [
+      [
+        0.0,
+        -1.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "part": 48,
+    "name": "48_Locking_Filament_Cartridge.stl",
+    "dimensions_mm": [
+      20.9995,
+      20.89065,
+      10.4
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      118.5,
+      41.45
+    ],
+    "rotation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 49,
+    "name": "49_Bench_Calibration_Cartridge",
+    "dimensions_mm": [
+      20.9995,
+      20.89065,
+      21.3
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      89.5,
+      19.45
+    ],
+    "rotation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 50,
+    "name": "50_Service_Lock_Knob",
+    "dimensions_mm": [
+      10.99973,
+      10.99986,
+      6.0
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      166.3,
+      133.1
+    ],
+    "rotation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 51,
+    "name": "51_Cartridge_Lock_Knob",
+    "dimensions_mm": [
+      8.99989,
+      8.99978,
+      4.0
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      9.5,
+      170.0
+    ],
+    "rotation_matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 53,
+    "name": "53_Cartridge_Receiver_Coupon.stl",
+    "dimensions_mm": [
+      20.59974,
+      23.5,
+      7.7
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      86.3,
+      50.65
+    ],
+    "rotation_matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 55,
+    "name": "55_Spring_Assembly_Bridge",
+    "dimensions_mm": [
+      20.79971,
+      42.0,
+      8.0
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      145.4,
+      149.6
+    ],
+    "rotation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 56,
+    "name": "56_Teal_Spine_Inlay",
+    "dimensions_mm": [
+      27.6,
+      8.6,
+      1.1
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      115.39999999999999,
+      60.199999999999996
+    ],
+    "rotation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 57,
+    "name": "57_Printed_Flexure_080.stl",
+    "dimensions_mm": [
+      35.4,
+      43.0,
+      2.4
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      152.7,
+      101.1
+    ],
+    "rotation_matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]

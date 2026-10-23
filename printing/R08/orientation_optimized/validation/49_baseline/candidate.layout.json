@@ -1,0 +1,33 @@
+[
+  {
+    "part": 49,
+    "name": "49_Bench_Calibration_Cartridge",
+    "dimensions_mm": [
+      20.9995,
+      20.89065,
+      21.3
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      90,
+      90
+    ],
+    "rotation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]

@@ -1,0 +1,235 @@
+1
+00:00:00,700 --> 00:00:03,218
+This guide assembles your R eight printed head.
+
+2
+00:00:03,438 --> 00:00:07,842
+Match parts by shape and number; the colours are only for identification.
+
+3
+00:00:08,062 --> 00:00:12,379
+Keep the video or PDF beside your bench, and pause after each step.
+
+4
+00:00:15,700 --> 00:00:17,399
+Lay out the fourteen prints.
+
+5
+00:00:17,619 --> 00:00:21,739
+The open chassis is forty two; the long moving carriage is forty four.
+
+6
+00:00:21,959 --> 00:00:24,944
+The thin rectangular spring is cassette fifty seven.
+
+7
+00:00:25,164 --> 00:00:28,911
+Inspect its beams for cracks, separated layers or bowing.
+
+8
+00:00:29,131 --> 00:00:31,393
+Coupon fifty three is a fit test.
+
+9
+00:00:31,613 --> 00:00:34,079
+Bridge fifty five is a temporary tool.
+
+10
+00:00:37,700 --> 00:00:40,091
+Count the purchased hardware before starting.
+
+11
+00:00:40,311 --> 00:00:45,087
+You need seven M two nuts and fourteen M three nuts, including three for the bridge.
+
+12
+00:00:45,307 --> 00:00:48,280
+The four short adaptor screws must have button heads.
+
+13
+00:00:48,500 --> 00:00:52,183
+Also collect the real magnet, Hall sensor and capacitor.
+
+14
+00:00:52,403 --> 00:00:55,193
+Use small hand tools, and tighten gently.
+
+15
+00:00:59,700 --> 00:01:01,070
+Turn the chassis over.
+
+16
+00:01:01,290 --> 00:01:06,969
+Fit four M three adaptor nuts, two M three sensor nuts, and two M two cassette nuts.
+
+17
+00:01:07,189 --> 00:01:11,249
+A tiny adhesive tack can hold the deep cassette nuts; let it cure.
+
+18
+00:01:11,469 --> 00:01:15,422
+Join adaptor forty one with four M three by eight button-head screws.
+
+19
+00:01:20,700 --> 00:01:23,465
+Work on carriage forty four outside the housing.
+
+20
+00:01:23,685 --> 00:01:28,210
+Insert two M two nuts in the mounting posts and two in the magnet-retainer slots.
+
+21
+00:01:28,430 --> 00:01:32,800
+Bond the six by three millimetre magnet with a thin adhesive layer and let it cure.
+
+22
+00:01:33,020 --> 00:01:36,664
+Then fit retainer forty six with two M two by ten screws.
+
+23
+00:01:43,700 --> 00:01:47,680
+Place the wide moving rail against the bottoms of the two carriage posts.
+
+24
+00:01:47,900 --> 00:01:51,411
+Drive two M two by eight screws upward from underneath the cassette.
+
+25
+00:01:51,631 --> 00:01:53,196
+Their heads stay underneath.
+
+26
+00:01:53,416 --> 00:01:57,979
+Complete this outside the housing, because the chassis floor blocks access later.
+
+27
+00:01:58,199 --> 00:02:00,096
+Leave the narrow fixed rail free.
+
+28
+00:02:05,700 --> 00:02:11,461
+Seat the remaining M two nut in the receiver side slot, then fit the M two by twelve cartridge lock.
+
+29
+00:02:11,681 --> 00:02:13,418
+Knob fifty one is optional.
+
+30
+00:02:13,638 --> 00:02:16,986
+Leave this small lock loose so the cartridge path stays clear.
+
+31
+00:02:20,700 --> 00:02:23,944
+Lower the carriage and cassette together into the open chassis.
+
+32
+00:02:24,164 --> 00:02:27,051
+Hold the solid parts, never the thin beams.
+
+33
+00:02:27,271 --> 00:02:32,816
+Rest the narrow fixed rail on its two pads, and place the large shoulder between the lower stops.
+
+34
+00:02:33,036 --> 00:02:35,741
+The rail holes should align without bending the spring.
+
+35
+00:02:38,700 --> 00:02:41,279
+Fit three M three nuts in bridge fifty five.
+
+36
+00:02:41,499 --> 00:02:47,133
+Secure the bridge using the two front M three by thirty five cover screws, inserted from below.
+
+37
+00:02:47,353 --> 00:02:49,636
+Add the M three by thirty service screw.
+
+38
+00:02:49,856 --> 00:02:53,568
+It should enter the shoulder bore easily and hold the carriage near neutral.
+
+39
+00:02:58,700 --> 00:03:03,652
+Now insert the other two M two by eight screws downward from above through the narrow fixed rail.
+
+40
+00:03:03,872 --> 00:03:06,020
+Tighten evenly with the cassette flat.
+
+41
+00:03:06,240 --> 00:03:10,311
+Remove the entire service screw and check gentle movement and free return.
+
+42
+00:03:10,531 --> 00:03:13,772
+Stop if anything bows, rubs or stays displaced.
+
+43
+00:03:16,700 --> 00:03:21,927
+Solder and insulate the Hall sensor leads and decoupling capacitor before seating the package.
+
+44
+00:03:22,147 --> 00:03:24,443
+Its flat face points toward the magnet.
+
+45
+00:03:24,663 --> 00:03:29,670
+Secure mount forty seven with two M three by six screws, centred in the slots.
+
+46
+00:03:29,890 --> 00:03:34,053
+Route and strain-relieve wires along fixed structure and out through the side port.
+
+47
+00:03:39,700 --> 00:03:42,656
+Remove the service screw and both bridge mounting screws.
+
+48
+00:03:42,876 --> 00:03:45,201
+Set the bridge aside with its three nuts.
+
+49
+00:03:45,421 --> 00:03:50,032
+Fit five M three nuts into cover forty three, including the service-screw nut.
+
+50
+00:03:50,252 --> 00:03:56,113
+Check the wires, lower the cover, and fasten all four M three by thirty five screws from underneath.
+
+51
+00:04:01,700 --> 00:04:05,347
+For the first bench test, use rigid cartridge forty nine.
+
+52
+00:04:05,567 --> 00:04:08,437
+With the tip unloaded, install the service screw.
+
+53
+00:04:08,657 --> 00:04:11,924
+Back the small cartridge lock out at least three millimetres.
+
+54
+00:04:12,144 --> 00:04:18,758
+Align the lugs, insert the cartridge, turn thirty degrees, seat the flange and gently tighten the small lock.
+
+55
+00:04:21,700 --> 00:04:25,225
+Remove the entire long service screw, not just its knob.
+
+56
+00:04:25,445 --> 00:04:27,725
+Leave the small cartridge lock tightened.
+
+57
+00:04:27,945 --> 00:04:32,169
+Check gentle axial movement and free return without forcing the stops.
+
+58
+00:04:32,389 --> 00:04:36,939
+Then wire the external bench electronics and calibrate against a checked balance.
+
+59
+00:04:37,159 --> 00:04:40,689
+The printed spring has no established force rating until tested.

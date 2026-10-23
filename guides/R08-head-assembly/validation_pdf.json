@@ -1,0 +1,11 @@
+{
+  "file": "output/pdf/SoleSense_R08_Head_Assembly_Guide.pdf",
+  "pages": 18,
+  "page_size": "A4 landscape",
+  "text_extraction_passed": true,
+  "all_pages_rendered": true,
+  "visual_review": "All pages checked in contact sheet; screw-direction, bridge and sensor pages reviewed at full size. Caption routing corrected.",
+  "source_link_checked": true,
+  "sha256": "2bbbec915da3c47fe60a2e8b0af7e5295eab9166c52e559b3cdb01c18174c40f",
+  "bytes": 9956005
+}

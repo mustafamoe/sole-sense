@@ -1,0 +1,252 @@
+{
+    "error_string": "Success.",
+    "export_time": 1625,
+    "layer_height": 0.11999999731779099,
+    "plate_index": 1,
+    "prepare_time": 461,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 344.32952880859375,
+                "Bridge": 503.06146240234375,
+                "Custom": 390.6938781738281,
+                "Flush": 28.0,
+                "Gap infill": 974.7698364257813,
+                "Inner wall": 10192.615234375,
+                "Internal solid infill": 3264.875,
+                "Ironing": 1056.3524169921875,
+                "Outer wall": 8634.033203125,
+                "Overhang wall": 293.6814270019531,
+                "Sparse infill": 2056.957763671875,
+                "Support": 3222.994384765625,
+                "Support interface": 143.95672607421875,
+                "Top surface": 1298.4927978515625,
+                "Travel": 4593.9150390625,
+                "Undefined": 4575.5380859375
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 123.50172424316406,
+                    "total_used_g": 123.50172424316406
+                }
+            ],
+            "generate_support_material_time": 6737,
+            "id": 1,
+            "infill_time": 1296,
+            "layer_filament_change": 0,
+            "main_predication": 36558.28125,
+            "make_perimeters_time": 3270,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 60.5,
+                        "height": 21.649999618530273,
+                        "width": 59.0,
+                        "x": 70.5,
+                        "y": 91.5,
+                        "z": -9.265136213798542e-09
+                    },
+                    "id": 5,
+                    "name": "41_R04_Joint_Adaptor",
+                    "triangle_count": 46594
+                },
+                {
+                    "bbox": {
+                        "depth": 76.0,
+                        "height": 35.0,
+                        "width": 56.0,
+                        "x": 10.378483772277832,
+                        "y": 90.80332946777344,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "42_Magnetic_Chassis",
+                    "triangle_count": 71646
+                },
+                {
+                    "bbox": {
+                        "depth": 76.0,
+                        "height": 9.0,
+                        "width": 56.0,
+                        "x": 7.0,
+                        "y": 7.0,
+                        "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "43_Removable_Lid",
+                    "triangle_count": 28624
+                },
+                {
+                    "bbox": {
+                        "depth": 32.299530029296875,
+                        "height": 63.599998474121094,
+                        "width": 29.966964721679688,
+                        "x": 77.01985931396484,
+                        "y": 13.000412940979004,
+                        "z": -3.7060548407907845e-08
+                    },
+                    "id": 17,
+                    "name": "44_Moving_Carriage",
+                    "triangle_count": 22552
+                },
+                {
+                    "bbox": {
+                        "depth": 16.000001907348633,
+                        "height": 1.399999976158142,
+                        "width": 10.0,
+                        "x": 164.0,
+                        "y": 118.5999984741211,
+                        "z": -7.907108301452581e-11
+                    },
+                    "id": 21,
+                    "name": "46_Magnet_Retainer",
+                    "triangle_count": 3804
+                },
+                {
+                    "bbox": {
+                        "depth": 19.9999942779541,
+                        "height": 20.0,
+                        "width": 10.0,
+                        "x": 140.0,
+                        "y": 148.60000610351563,
+                        "z": 0.0
+                    },
+                    "id": 25,
+                    "name": "47_Adjustable_Hall_Mount",
+                    "triangle_count": 6396
+                },
+                {
+                    "bbox": {
+                        "depth": 20.890655517578125,
+                        "height": 10.399999618530273,
+                        "width": 20.99949836730957,
+                        "x": 136.99842834472656,
+                        "y": 118.65467071533203,
+                        "z": 7.34862837248329e-10
+                    },
+                    "id": 29,
+                    "name": "48_Locking_Filament_Cartridge.stl",
+                    "triangle_count": 8446
+                },
+                {
+                    "bbox": {
+                        "depth": 20.890653610229492,
+                        "height": 21.299999237060547,
+                        "width": 20.999500274658203,
+                        "x": 140.99842834472656,
+                        "y": 10.054673194885254,
+                        "z": -1.8530274203953923e-08
+                    },
+                    "id": 33,
+                    "name": "49_Bench_Calibration_Cartridge",
+                    "triangle_count": 10962
+                },
+                {
+                    "bbox": {
+                        "depth": 10.999862670898438,
+                        "height": 6.0,
+                        "width": 10.999722480773926,
+                        "x": 119.9990463256836,
+                        "y": 21.00006866455078,
+                        "z": 0.0
+                    },
+                    "id": 37,
+                    "name": "50_Service_Lock_Knob",
+                    "triangle_count": 3780
+                },
+                {
+                    "bbox": {
+                        "depth": 8.999887466430664,
+                        "height": 4.0,
+                        "width": 8.999778747558594,
+                        "x": 119.99921417236328,
+                        "y": 6.000056266784668,
+                        "z": 0.0
+                    },
+                    "id": 41,
+                    "name": "51_Cartridge_Lock_Knob",
+                    "triangle_count": 3780
+                },
+                {
+                    "bbox": {
+                        "depth": 20.599742889404297,
+                        "height": 7.699999809265137,
+                        "width": 23.5,
+                        "x": 138.0,
+                        "y": 91.00012969970703,
+                        "z": -4.632568550988481e-09
+                    },
+                    "id": 45,
+                    "name": "53_Cartridge_Receiver_Coupon.stl",
+                    "triangle_count": 7116
+                },
+                {
+                    "bbox": {
+                        "depth": 20.79970359802246,
+                        "height": 8.0,
+                        "width": 42.0,
+                        "x": 70.5,
+                        "y": 58.799034118652344,
+                        "z": 0.0
+                    },
+                    "id": 49,
+                    "name": "55_Spring_Assembly_Bridge",
+                    "triangle_count": 5830
+                },
+                {
+                    "bbox": {
+                        "depth": 27.59999656677246,
+                        "height": 1.100000023841858,
+                        "width": 8.600000381469727,
+                        "x": 159.0,
+                        "y": 145.59906005859375,
+                        "z": 7.907108301452581e-11
+                    },
+                    "id": 53,
+                    "name": "56_Teal_Spine_Inlay",
+                    "triangle_count": 1268
+                },
+                {
+                    "bbox": {
+                        "depth": 43.0,
+                        "height": 2.4000000953674316,
+                        "width": 35.400001525878906,
+                        "x": 120.0,
+                        "y": 41.0,
+                        "z": 2.3162842754942403e-09
+                    },
+                    "id": 57,
+                    "name": "57_Printed_Flexure_080.stl",
+                    "triangle_count": 7664
+                }
+            ],
+            "sliced_time": 15762,
+            "sliced_time_with_cache": 2019,
+            "total_predication": 36986.59765625,
+            "triangle_count": 228462,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 40.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1S 0.4 nozzle",
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

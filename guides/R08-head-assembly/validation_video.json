@@ -1,0 +1,16 @@
+{
+  "file": "output/video/SoleSense_R08_Assembly_Guide.mp4",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "seconds": 283,
+  "frame_count": 6792,
+  "chapters": 14,
+  "narration": "macOS Samantha, synthetic, 163 words/minute; no music",
+  "subtitles": "English mov_text + separate SRT, aligned by narrated sentence",
+  "decoded_without_errors": true,
+  "bytes": 10944142,
+  "visual_review": "All 14 chapter end frames reviewed; screw directions, bridge, sensor detail and complete service-screw withdrawal checked."
+}

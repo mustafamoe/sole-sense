@@ -1,4 +1,0 @@
-file '/Users/mustafamoe/Desktop/hackathons/sole-sense/concepts/C03_Sensing_Alternatives/video/01_Inline_Load_Cell.mp4'
-file '/Users/mustafamoe/Desktop/hackathons/sole-sense/concepts/C03_Sensing_Alternatives/video/02_Magnetic_Flexure.mp4'
-file '/Users/mustafamoe/Desktop/hackathons/sole-sense/concepts/C03_Sensing_Alternatives/video/03_Optical_Flexure.mp4'
-file '/Users/mustafamoe/Desktop/hackathons/sole-sense/concepts/C03_Sensing_Alternatives/video/04_Capacitive_Sensor.mp4'

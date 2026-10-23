@@ -1,0 +1,142 @@
+[
+  {
+    "part": 41,
+    "name": "41_R04_Joint_Adaptor",
+    "center_mm": [
+      100.0,
+      121.75
+    ],
+    "yaw_degrees": 0,
+    "printable": "1"
+  },
+  {
+    "part": 42,
+    "name": "42_Magnetic_Chassis",
+    "center_mm": [
+      38.3784834,
+      128.803333
+    ],
+    "yaw_degrees": 90,
+    "printable": "1"
+  },
+  {
+    "part": 43,
+    "name": "43_Removable_Lid",
+    "center_mm": [
+      35.0,
+      45.0
+    ],
+    "yaw_degrees": 90,
+    "printable": "1"
+  },
+  {
+    "part": 44,
+    "name": "44_Moving_Carriage",
+    "center_mm": [
+      92.0033426,
+      29.1501783
+    ],
+    "yaw_degrees": -180,
+    "printable": "1"
+  },
+  {
+    "part": 46,
+    "name": "46_Magnet_Retainer",
+    "center_mm": [
+      169.0,
+      126.6
+    ],
+    "yaw_degrees": 0,
+    "printable": "1"
+  },
+  {
+    "part": 47,
+    "name": "47_Adjustable_Hall_Mount",
+    "center_mm": [
+      145.0,
+      158.6
+    ],
+    "yaw_degrees": 0,
+    "printable": "1"
+  },
+  {
+    "part": 48,
+    "name": "48_Locking_Filament_Cartridge.stl",
+    "center_mm": [
+      147.498179,
+      129.1
+    ],
+    "yaw_degrees": 0,
+    "printable": "1"
+  },
+  {
+    "part": 49,
+    "name": "49_Bench_Calibration_Cartridge",
+    "center_mm": [
+      151.49818,
+      20.5
+    ],
+    "yaw_degrees": 0,
+    "printable": "1"
+  },
+  {
+    "part": 50,
+    "name": "50_Service_Lock_Knob",
+    "center_mm": [
+      125.498906,
+      26.5
+    ],
+    "yaw_degrees": 0,
+    "printable": "1"
+  },
+  {
+    "part": 51,
+    "name": "51_Cartridge_Lock_Knob",
+    "center_mm": [
+      124.499105,
+      10.4999998
+    ],
+    "yaw_degrees": 0,
+    "printable": "1"
+  },
+  {
+    "part": 53,
+    "name": "53_Cartridge_Receiver_Coupon.stl",
+    "center_mm": [
+      149.75,
+      101.3
+    ],
+    "yaw_degrees": 0,
+    "printable": "1"
+  },
+  {
+    "part": 55,
+    "name": "55_Spring_Assembly_Bridge",
+    "center_mm": [
+      91.5,
+      69.1988852
+    ],
+    "yaw_degrees": 90,
+    "printable": "1"
+  },
+  {
+    "part": 56,
+    "name": "56_Teal_Spine_Inlay",
+    "center_mm": [
+      163.3,
+      159.399056
+    ],
+    "yaw_degrees": 90,
+    "printable": "1"
+  },
+  {
+    "part": 57,
+    "name": "57_Printed_Flexure_080.stl",
+    "center_mm": [
+      137.7,
+      62.5
+    ],
+    "yaw_degrees": 90,
+    "printable": "1"
+  }
+]

@@ -1,0 +1,82 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.11999999731779099,
+    "plate_index": 1,
+    "prepare_time": 179,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 4.137057304382324,
+                "Bridge": 2.6681718826293945,
+                "Custom": 390.4795227050781,
+                "Flush": 28.0,
+                "Gap infill": 90.63817596435547,
+                "Inner wall": 239.6393585205078,
+                "Internal solid infill": 25.025346755981445,
+                "Outer wall": 264.3609924316406,
+                "Overhang wall": 5.650295734405518,
+                "Sparse infill": 5.7539191246032715,
+                "Support": 49.46442794799805,
+                "Support interface": 2.644969940185547,
+                "Top surface": 20.280141830444336,
+                "Travel": 315.1575622558594,
+                "Undefined": 296.8565368652344
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 1.2769559621810913,
+                    "total_used_g": 1.2769559621810913
+                }
+            ],
+            "generate_support_material_time": 206,
+            "id": 1,
+            "infill_time": 48,
+            "layer_filament_change": 0,
+            "main_predication": 997.42138671875,
+            "make_perimeters_time": 104,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 20.0,
+                        "height": 20.0,
+                        "width": 10.0,
+                        "x": 85.0,
+                        "y": 80.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "47_Adjustable_Hall_Mount",
+                    "triangle_count": 6396
+                }
+            ],
+            "sliced_time": 531,
+            "sliced_time_with_cache": 151,
+            "total_predication": 1425.599853515625,
+            "triangle_count": 6396,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 40.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1S 0.4 nozzle",
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

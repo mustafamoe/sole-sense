@@ -2,7 +2,7 @@
 
 Reserved for device firmware. **No firmware is implemented yet.**
 
-Current hardware context: [R07 wiring and calibration](../revisions/R07/docs/WIRING_AND_CALIBRATION.md).
+Current hardware context: [R08 wiring and calibration](../revisions/R08/docs/WIRING_AND_CALIBRATION.md).
 
 Initial tasks:
 

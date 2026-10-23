@@ -1,0 +1,126 @@
+[
+  {
+    "part": 42,
+    "name": "42_Magnetic_Chassis",
+    "dimensions_mm": [
+      56.0,
+      76.0,
+      35.0
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      65,
+      90
+    ],
+    "rotation_matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 47,
+    "name": "47_Adjustable_Hall_Mount",
+    "dimensions_mm": [
+      20.0,
+      20.0,
+      10.0
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      122,
+      55
+    ],
+    "rotation_matrix": [
+      [
+        0.0,
+        -1.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "part": 49,
+    "name": "49_Bench_Calibration_Cartridge",
+    "dimensions_mm": [
+      20.9995,
+      20.89065,
+      21.3
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      122,
+      88
+    ],
+    "rotation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "part": 53,
+    "name": "53_Cartridge_Receiver_Coupon.stl",
+    "dimensions_mm": [
+      20.59974,
+      23.5,
+      7.7
+    ],
+    "min_z_mm": 0.0,
+    "center_mm": [
+      122,
+      123
+    ],
+    "rotation_matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]

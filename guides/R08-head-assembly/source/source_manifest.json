@@ -1,0 +1,37 @@
+{
+  "revision": "R08",
+  "guide_date": "2026-10-22",
+  "sources": [
+    {
+      "path": "revisions/R08/docs/BUILD_GUIDE.md",
+      "sha256": "5e78c700ea469a59fb48c2917c2681309db4a88277cf5af15541c0d8bb3b9fb5"
+    },
+    {
+      "path": "revisions/R08/docs/SHOPPING_LIST.md",
+      "sha256": "eb162c0b7deb4d6567261106a5287d9b5f0957d90855f2f33b4ed67051584ec7"
+    },
+    {
+      "path": "revisions/R08/docs/WIRING_AND_CALIBRATION.md",
+      "sha256": "91298520700697008fd046d8301b4451c0e776b8ecb804e87b2cdf7625b25176"
+    },
+    {
+      "path": "revisions/R08/source/assembly_manifest.json",
+      "sha256": "a6cc4345cc1ab2272bcd5dc8c1d269e67a86cd3935a020bd8b36a589d6cd3d60"
+    },
+    {
+      "path": "revisions/R08/source/build_model.py",
+      "sha256": "4b59460e24673cf77ae7dbc8c42fa255c075d73cb652ed9f06515890cea0e164"
+    },
+    {
+      "path": "printing/R08/orientation_optimized/README.md",
+      "sha256": "41dca3195d49d51905ce47531ffaa403c6cd17f815f59361e02be315f410b4a3"
+    },
+    {
+      "path": "printing/R08/reprint_skipped/README.md",
+      "sha256": "2ec00a3ee91cae748ebac73619f0870a365d1e9fa2d44ef3d385bd4e19978d43"
+    }
+  ],
+  "geometry": "revisions/R08/reference/*.stl, assembly orientation",
+  "sensor_datasheet": "https://www.ti.com/lit/ds/symlink/drv5055.pdf",
+  "limitations": "CAD-derived assembly illustration; physical fit, force calibration and fatigue are not established by this guide."
+}

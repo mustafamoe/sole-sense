@@ -1,0 +1,111 @@
+{
+  "SoleSense_R08_01_Head_Large_A1mini_PLA_Fine.3mf": [
+    {
+      "name": "41_R04_Joint_Adaptor",
+      "solid": true,
+      "faces": 46594,
+      "bbox_change_mm": 9.265136213798542e-09,
+      "mesh_volume_relative_error": 6.159665681641369e-05
+    },
+    {
+      "name": "42_Magnetic_Chassis",
+      "solid": true,
+      "faces": 71646,
+      "bbox_change_mm": 7.62939453125e-06,
+      "mesh_volume_relative_error": 7.11376335869788e-05
+    },
+    {
+      "name": "44_Moving_Carriage",
+      "solid": true,
+      "faces": 22552,
+      "bbox_change_mm": 0.00668510712201531,
+      "mesh_volume_relative_error": 4.324092014317974e-05
+    },
+    {
+      "name": "43_Removable_Lid",
+      "solid": true,
+      "faces": 28624,
+      "bbox_change_mm": 6.563460885899985e-11,
+      "mesh_volume_relative_error": 2.9722619483625263e-05
+    }
+  ],
+  "SoleSense_R08_02_Head_Small_and_Fit_Checks_A1mini_PLA_Fine.3mf": [
+    {
+      "name": "49_Bench_Calibration_Cartridge",
+      "solid": true,
+      "faces": 10962,
+      "bbox_change_mm": 0.003640340403071818,
+      "mesh_volume_relative_error": 5.8956405844503975e-05
+    },
+    {
+      "name": "48_Locking_Filament_Cartridge",
+      "solid": true,
+      "faces": 8446,
+      "bbox_change_mm": 0.0036414891818523643,
+      "mesh_volume_relative_error": 6.037722671883803e-05
+    },
+    {
+      "name": "50_Service_Lock_Knob",
+      "solid": true,
+      "faces": 3780,
+      "bbox_change_mm": 0.002188188204432784,
+      "mesh_volume_relative_error": 5.227917391279459e-05
+    },
+    {
+      "name": "55_Spring_Assembly_Bridge",
+      "solid": true,
+      "faces": 5830,
+      "bbox_change_mm": 0.00222949222644786,
+      "mesh_volume_relative_error": 3.5747848443922685e-05
+    },
+    {
+      "name": "51_Cartridge_Lock_Knob",
+      "solid": true,
+      "faces": 3780,
+      "bbox_change_mm": 0.0017902812925063571,
+      "mesh_volume_relative_error": 7.615940600847585e-05
+    },
+    {
+      "name": "46_Magnet_Retainer",
+      "solid": true,
+      "faces": 3804,
+      "bbox_change_mm": 7.907108301452581e-11,
+      "mesh_volume_relative_error": 1.699685397194816e-05
+    },
+    {
+      "name": "56_Teal_Spine_Inlay",
+      "solid": true,
+      "faces": 1268,
+      "bbox_change_mm": 0.0018880907634031274,
+      "mesh_volume_relative_error": 1.8087133560511797e-05
+    },
+    {
+      "name": "47_Adjustable_Hall_Mount",
+      "solid": true,
+      "faces": 6396,
+      "bbox_change_mm": 0.0,
+      "mesh_volume_relative_error": 4.1273990246993675e-06
+    },
+    {
+      "name": "52_Hardware_Fit_Coupon",
+      "solid": true,
+      "faces": 6392,
+      "bbox_change_mm": 0.0,
+      "mesh_volume_relative_error": 3.3580136241946026e-06
+    },
+    {
+      "name": "53_Cartridge_Receiver_Coupon",
+      "solid": true,
+      "faces": 7116,
+      "bbox_change_mm": 0.0010251837517891715,
+      "mesh_volume_relative_error": 5.970178146959503e-05
+    },
+    {
+      "name": "57_Printed_Flexure_080",
+      "solid": true,
+      "faces": 7664,
+      "bbox_change_mm": 3.7060548407907845e-08,
+      "mesh_volume_relative_error": 6.6617245404474746e-06
+    }
+  ]
+}

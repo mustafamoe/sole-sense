@@ -1,0 +1,11 @@
+{
+  "label": "44_baseline",
+  "only": [
+    44
+  ],
+  "parts": {
+    "44": {
+      "rotations": []
+    }
+  }
+}

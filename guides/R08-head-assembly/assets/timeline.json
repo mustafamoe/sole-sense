@@ -1,0 +1,322 @@
+[
+  {
+    "id": "overview",
+    "title": "Assemble the R08 head",
+    "kicker": "BENCH ASSEMBLY GUIDE",
+    "duration": 15,
+    "view": "hero",
+    "points": [
+      "Your 14-part R08 print set",
+      "Printed flexure cassette 57",
+      "Follow the screw directions closely"
+    ],
+    "hardware": "R08  /  HEAD ONLY  /  PAUSE AT EACH STEP",
+    "check": "Colours identify parts. Your printed colours may differ.",
+    "body": [
+      "This guide matches the R08 head and the 14-part A1 mini print projects, including the reprint of 42, 47, 49 and 53. Use the actual part shapes and numbers to identify your prints.",
+      "Start with the completed prints. Remove supports, collect the purchased hardware, then assemble in the order shown. Illustrations use the released CAD; they are not photographs of your build."
+    ],
+    "voice": "This guide assembles your R eight printed head. Match parts by shape and number; the colours are only for identification. Keep the video or PDF beside your bench, and pause after each step.",
+    "start": 0,
+    "end": 15,
+    "spoken_seconds": 12.38
+  },
+  {
+    "id": "parts",
+    "title": "Lay out the printed parts",
+    "kicker": "PREPARE  /  PRINTED PARTS",
+    "duration": 22,
+    "view": "parts",
+    "points": [
+      "Shell: 41, 42, 43 and optional 56",
+      "Mechanism: 44, 46, 47 and 57",
+      "Keep bridge 55 and coupon 53 separate"
+    ],
+    "hardware": "14 PRINTED PIECES  /  ONLY ONE FLEXURE CASSETTE",
+    "check": "Coupon 53 and bridge 55 stay outside the finished head.",
+    "body": [
+      "Clear supports from the carriage receiver, nut slots, cover underside and Hall mount. Test cartridge fit in coupon 53 before fitting it to the carriage.",
+      "Inspect cassette 57 under good light. Reject cracks, split layers, bowed rails or damaged beams. Clear strings carefully; do not nick or sand the thin beams.",
+      "The standard plate includes cassette 57 with 0.8 mm beams. Cassettes 58 and 59 are alternatives, not additional installed parts or force ratings."
+    ],
+    "voice": "Lay out the fourteen prints. The open chassis is forty two; the long moving carriage is forty four. The thin rectangular spring is cassette fifty seven. Inspect its beams for cracks, separated layers or bowing. Coupon fifty three is a fit test. Bridge fifty five is a temporary tool.",
+    "start": 15,
+    "end": 37,
+    "spoken_seconds": 19.08
+  },
+  {
+    "id": "hardware",
+    "title": "Count the hardware first",
+    "kicker": "PREPARE  /  PURCHASED PARTS",
+    "duration": 22,
+    "view": "hardware",
+    "points": [
+      "7 M2 nuts and 14 M3 nuts",
+      "Real magnet and analogue Hall sensor",
+      "Small hex drivers, tweezers and adhesive"
+    ],
+    "hardware": "SCREW LENGTHS ARE MEASURED BELOW THE HEAD",
+    "check": "The four M3 x 8 adaptor screws must be button-head.",
+    "body": [
+      "Collect the screws in the table. The 14 M3 nuts include three that remain in the temporary bridge; 11 are used in the head. Borrow two of the four M3 x 35 cover screws to hold the bridge.",
+      "Use small hand tools and tighten gently. Prefer brass hardware around the magnet. Never use screw torque to pull a misaligned part into place.",
+      "You also need a 6 x 3 mm axially magnetized disc, a DRV5055A3QLPG sensor, insulated leads and a 100 nF capacitor. The first electrical test uses external 3.3 V bench electronics."
+    ],
+    "voice": "Count the purchased hardware before starting. You need seven M two nuts and fourteen M three nuts, including three for the bridge. The four short adaptor screws must have button heads. Also collect the real magnet, Hall sensor and capacitor. Use small hand tools, and tighten gently.",
+    "start": 37,
+    "end": 59,
+    "spoken_seconds": 18.19
+  },
+  {
+    "id": "chassis",
+    "title": "Prepare the chassis",
+    "kicker": "01  /  CHASSIS + ADAPTOR",
+    "duration": 21,
+    "view": "chassis",
+    "points": [
+      "Fit 4 M3 adaptor nuts",
+      "Fit 2 M3 sensor nuts + 2 M2 rail nuts",
+      "Join adaptor 41 to chassis 42"
+    ],
+    "hardware": "4 x M3 x 8 BUTTON-HEAD  /  6 x M3 NUTS + 2 x M2 NUTS",
+    "check": "Nuts sit fully in their pockets; adaptor faces meet without force.",
+    "body": [
+      "Fit four M3 nuts in the rear adaptor pockets, two M3 nuts in the underside sensor pockets and two M2 nuts in the deep underside cassette pockets.",
+      "A tiny compatible adhesive tack can hold the deep cassette nuts. Keep the threads clear and let it cure before assembly.",
+      "Join adaptor 41 using four M3 x 8 button-head screws. Taller socket-cap heads foul the joint counterbores. The underside view shows the pocket locations."
+    ],
+    "voice": "Turn the chassis over. Fit four M three adaptor nuts, two M three sensor nuts, and two M two cassette nuts. A tiny adhesive tack can hold the deep cassette nuts; let it cure. Join adaptor forty one with four M three by eight button-head screws.",
+    "start": 59,
+    "end": 80,
+    "spoken_seconds": 16.42
+  },
+  {
+    "id": "magnet",
+    "title": "Build the carriage on the bench",
+    "kicker": "02  /  MAGNET + RETAINER",
+    "duration": 23,
+    "view": "magnet",
+    "points": [
+      "Fit 2 post nuts + 2 magnet-retainer nuts",
+      "Bond the 6 x 3 mm magnet; let it cure",
+      "Fit retainer 46 with two screws"
+    ],
+    "hardware": "4 x M2 NUTS  /  2 x M2 x 10  /  6 x 3 mm MAGNET",
+    "check": "Magnet cannot rattle; post faces and nut slots stay clean.",
+    "body": [
+      "Before putting the carriage in the housing, slide two M2 nuts into its downward-post slots and two more M2 nuts into the magnet-retainer slots.",
+      "Use a thin compatible adhesive layer to secure the axially magnetized 6 x 3 mm disc in its pocket. Choose a pole orientation and keep it fixed. Let the adhesive cure.",
+      "Fit cap 46 over the magnet with two M2 x 10 screws. Keep adhesive out of the screw threads and away from the cassette mounting faces."
+    ],
+    "voice": "Work on carriage forty four outside the housing. Insert two M two nuts in the mounting posts and two in the magnet-retainer slots. Bond the six by three millimetre magnet with a thin adhesive layer and let it cure. Then fit retainer forty six with two M two by ten screws.",
+    "start": 80,
+    "end": 103,
+    "spoken_seconds": 16.66
+  },
+  {
+    "id": "moving",
+    "title": "Attach the moving rail from below",
+    "kicker": "03  /  THE CRITICAL SCREW DIRECTION",
+    "duration": 22,
+    "view": "moving",
+    "points": [
+      "Wide rail meets the two carriage posts",
+      "Two M2 x 8 screws go UP from below",
+      "Narrow fixed rail remains unattached"
+    ],
+    "hardware": "2 x M2 x 8 SOCKET-CAP  /  EXISTING POST NUTS",
+    "check": "Do this outside the chassis. The floor blocks later driver access.",
+    "body": [
+      "Orient the cassette with its wide moving rail against the bottoms of the two carriage posts. The narrow fixed rail is on the opposite side of the two thin beams.",
+      "Insert two M2 x 8 screws upward from beneath the cassette into the post nuts. Their heads remain underneath. Tighten evenly without crushing the plastic.",
+      "Leave the opposite rail free. Keep both flexible beams and all mounting faces free of adhesive. Do not bend the cassette to make holes line up."
+    ],
+    "voice": "Place the wide moving rail against the bottoms of the two carriage posts. Drive two M two by eight screws upward from underneath the cassette. Their heads stay underneath. Complete this outside the housing, because the chassis floor blocks access later. Leave the narrow fixed rail free.",
+    "start": 103,
+    "end": 125,
+    "spoken_seconds": 17.1
+  },
+  {
+    "id": "lock",
+    "title": "Fit the small cartridge lock",
+    "kicker": "04  /  RECEIVER LOCK",
+    "duration": 15,
+    "view": "lock",
+    "points": [
+      "Slide one M2 nut into the side slot",
+      "Fit the M2 x 12 lock screw",
+      "Leave the receiver opening clear"
+    ],
+    "hardware": "1 x M2 NUT  /  1 x M2 x 12  /  OPTIONAL KNOB 51",
+    "check": "This is the small cartridge lock, not the long service screw.",
+    "body": [
+      "Seat one M2 nut in the side-loading slot at the cartridge receiver. Fit the M2 x 12 screw through the top boss.",
+      "Optional knob 51 bonds over the screw head. Leave the lock backed out while fitting a cartridge; the screw tip must clear the cartridge path."
+    ],
+    "voice": "Seat the remaining M two nut in the receiver side slot, then fit the M two by twelve cartridge lock. Knob fifty one is optional. Leave this small lock loose so the cartridge path stays clear.",
+    "start": 125,
+    "end": 140,
+    "spoken_seconds": 11.99
+  },
+  {
+    "id": "lower",
+    "title": "Lower the complete subassembly",
+    "kicker": "05  /  CARRIAGE INTO CHASSIS",
+    "duration": 18,
+    "view": "lower",
+    "points": [
+      "Support the carriage, not the thin beams",
+      "Narrow rail sits on the two chassis pads",
+      "Large shoulder sits between the stops"
+    ],
+    "hardware": "NO NEW FASTENERS",
+    "check": "Both fixed-rail holes align naturally. Do not force the flexure.",
+    "body": [
+      "Lower the carriage and attached cassette together into the open chassis. Hold the solid carriage or thick rail; never lift or pull by the beams.",
+      "The narrow fixed rail rests on the two pads beside the long side wall. The large carriage shoulder must lie between the lower travel stops.",
+      "Leave the fixed-rail screws out until the temporary bridge locates the carriage. If holes do not align, lift out and check orientation or support residue."
+    ],
+    "voice": "Lower the carriage and cassette together into the open chassis. Hold the solid parts, never the thin beams. Rest the narrow fixed rail on its two pads, and place the large shoulder between the lower stops. The rail holes should align without bending the spring.",
+    "start": 140,
+    "end": 158,
+    "spoken_seconds": 15.74
+  },
+  {
+    "id": "bridge",
+    "title": "Locate the carriage with bridge 55",
+    "kicker": "06  /  TEMPORARY ASSEMBLY FIXTURE",
+    "duration": 20,
+    "view": "bridge",
+    "points": [
+      "Put 3 M3 nuts in bridge 55",
+      "Borrow the two front cover screws",
+      "Insert the M3 x 30 service screw"
+    ],
+    "hardware": "3 x M3 NUTS  /  2 x M3 x 35  /  1 x M3 x 30",
+    "check": "The service screw enters the shoulder bore with clearance.",
+    "body": [
+      "Fit three M3 nuts into the bridge: two for its mounting holes and one for the service screw. Place bridge 55 across the front of the chassis.",
+      "Borrow the two front M3 x 35 cover screws. Insert them from below through the chassis into the bridge nuts.",
+      "Fit the M3 x 30 service screw into the carriage shoulder bore. It holds the carriage near neutral with clearance. Do not use it to force alignment or clamp the carriage down."
+    ],
+    "voice": "Fit three M three nuts in bridge fifty five. Secure the bridge using the two front M three by thirty five cover screws, inserted from below. Add the M three by thirty service screw. It should enter the shoulder bore easily and hold the carriage near neutral.",
+    "start": 158,
+    "end": 178,
+    "spoken_seconds": 15.57
+  },
+  {
+    "id": "fixed",
+    "title": "Secure the fixed rail from above",
+    "kicker": "07  /  CLOSE THE FLEXURE MOUNT",
+    "duration": 18,
+    "view": "fixed",
+    "points": [
+      "Two M2 x 8 screws go DOWN from above",
+      "Tighten evenly with the cassette flat",
+      "Remove the service screw; check return"
+    ],
+    "hardware": "2 x M2 x 8 SOCKET-CAP  /  CHASSIS NUTS ALREADY FITTED",
+    "check": "No bowing, rubbing or permanent offset after release.",
+    "body": [
+      "With the bridge locating the carriage, insert two M2 x 8 screws downward through the narrow rail into the chassis nuts. The bridge notch leaves the front screw accessible.",
+      "Tighten evenly while the cassette remains flat and unstrained. There is no specified tightening torque for this printed prototype; stop before distorting the plastic.",
+      "Remove the entire service screw and check gentle movement and free return. If the rail bows or the carriage rubs, stop and inspect the mounting faces and alignment."
+    ],
+    "voice": "Now insert the other two M two by eight screws downward from above through the narrow fixed rail. Tighten evenly with the cassette flat. Remove the entire service screw and check gentle movement and free return. Stop if anything bows, rubs or stays displaced.",
+    "start": 178,
+    "end": 196,
+    "spoken_seconds": 15.77
+  },
+  {
+    "id": "sensor",
+    "title": "Fit the stationary Hall sensor",
+    "kicker": "08  /  SENSOR + WIRE ROUTE",
+    "duration": 23,
+    "view": "sensor",
+    "points": [
+      "Solder and insulate before seating",
+      "Flat sensor face points at the magnet",
+      "Route wires along the fixed side wall"
+    ],
+    "hardware": "DRV5055A3QLPG  /  100 nF CAPACITOR  /  2 x M3 x 6",
+    "check": "No wire or adhesive touches the carriage or flexure beams.",
+    "body": [
+      "With power disconnected, solder insulated leads and the 100 nF VCC-to-GND capacitor before seating the sensor. Verify the TI LPG package pin drawing before soldering.",
+      "Fit the sensor with its flat face toward the magnet. Retain it with a small adhesive fillet on its back or sides, away from the leads and moving parts.",
+      "Attach mount 47 with two M3 x 6 screws at the middle of its slots. Route and strain-relieve wires on fixed structure through the side port. Nominal package-face gap is 8.2 mm; it is not a force calibration."
+    ],
+    "voice": "Solder and insulate the Hall sensor leads and decoupling capacitor before seating the package. Its flat face points toward the magnet. Secure mount forty seven with two M three by six screws, centred in the slots. Route and strain-relieve wires along fixed structure and out through the side port.",
+    "start": 196,
+    "end": 219,
+    "spoken_seconds": 18.05
+  },
+  {
+    "id": "cover",
+    "title": "Exchange the bridge for the cover",
+    "kicker": "09  /  CLOSE THE HEAD",
+    "duration": 22,
+    "view": "cover",
+    "points": [
+      "Remove service screw and bridge",
+      "Fit 5 M3 nuts into cover 43",
+      "Secure with 4 screws from underneath"
+    ],
+    "hardware": "5 x M3 NUTS  /  4 x M3 x 35  /  OPTIONAL INLAY 56",
+    "check": "Set bridge 55 and its three nuts aside. Check wire clearance.",
+    "body": [
+      "Remove the service screw and the two bridge mounting screws. Lift the bridge out and set it aside with its three nuts. Reuse the two long screws for the cover.",
+      "Fit four M3 cover nuts plus one M3 service-screw nut in the underside pockets of cover 43. Check the wires are clear of the closing faces.",
+      "Lower the cover and secure it from below with all four M3 x 35 screws. Tighten gradually and evenly. Bond optional inlay 56 in its shallow recess."
+    ],
+    "voice": "Remove the service screw and both bridge mounting screws. Set the bridge aside with its three nuts. Fit five M three nuts into cover forty three, including the service-screw nut. Check the wires, lower the cover, and fasten all four M three by thirty five screws from underneath.",
+    "start": 219,
+    "end": 241,
+    "spoken_seconds": 17.11
+  },
+  {
+    "id": "cartridge",
+    "title": "Fit the rigid bench cartridge first",
+    "kicker": "10  /  INSERT + TURN + LOCK",
+    "duration": 20,
+    "view": "cartridge",
+    "points": [
+      "Install the service screw while unloaded",
+      "Back out the small lock at least 3 mm",
+      "Insert 49, turn 30 degrees, seat and lock"
+    ],
+    "hardware": "49 BENCH CARTRIDGE  /  EXISTING LOCK + SERVICE SCREW",
+    "check": "Hold the cartridge hub. Never turn it by pulling the tip.",
+    "body": [
+      "With the tip unloaded, install the M3 x 30 service screw to support the carriage. Back the M2 cartridge lock out at least 3 mm so its tip clears the path.",
+      "Align the cartridge lugs with the receiver entries, insert cartridge 49 and rotate 30 degrees into the locked position. Hold the hub and seat its flange against the receiver face.",
+      "Tighten the small lock gently. Use the same sequence for cartridge 48 later. Characterize the actual nylon filament separately; its CAD dimensions are not a calibrated force grade."
+    ],
+    "voice": "For the first bench test, use rigid cartridge forty nine. With the tip unloaded, install the service screw. Back the small cartridge lock out at least three millimetres. Align the lugs, insert the cartridge, turn thirty degrees, seat the flange and gently tighten the small lock.",
+    "start": 241,
+    "end": 261,
+    "spoken_seconds": 17.76
+  },
+  {
+    "id": "check",
+    "title": "Remove the service screw. Test return.",
+    "kicker": "11  /  READY FOR BENCH CHECKS",
+    "duration": 22,
+    "view": "check",
+    "points": [
+      "Remove the ENTIRE M3 x 30 screw",
+      "Small cartridge lock stays tightened",
+      "Check return before wiring and calibration"
+    ],
+    "hardware": "SERVICE SCREW OUT  /  BRIDGE OUT  /  BENCH CARTRIDGE IN",
+    "check": "Assembly is complete only when movement and return are free.",
+    "body": [
+      "Withdraw the whole service screw, not just the red knob. The small M2 cartridge lock remains tightened. Keep the bridge outside the head.",
+      "With cartridge 49 fitted, check gentle axial movement and free return. Do not drive the mechanism against its stops. If it sticks, reopen the head and check supports, wire contact, rail flatness and screw alignment.",
+      "Then use external 3.3 V electronics and a checked reference balance. Calibrate the actual cassette and final hardware. Replacing or retightening a cassette requires calibration again. Store unloaded with the service screw removed."
+    ],
+    "voice": "Remove the entire long service screw, not just its knob. Leave the small cartridge lock tightened. Check gentle axial movement and free return without forcing the stops. Then wire the external bench electronics and calibrate against a checked balance. The printed spring has no established force rating until tested.",
+    "start": 261,
+    "end": 283,
+    "spoken_seconds": 19.69
+  }
+]

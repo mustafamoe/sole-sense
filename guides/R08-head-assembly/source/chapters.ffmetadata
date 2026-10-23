@@ -1,0 +1,72 @@
+;FFMETADATA1
+title=SoleSense R08 - Head assembly guide
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=15000
+title=Assemble the R08 head
+[CHAPTER]
+TIMEBASE=1/1000
+START=15000
+END=37000
+title=Lay out the printed parts
+[CHAPTER]
+TIMEBASE=1/1000
+START=37000
+END=59000
+title=Count the hardware first
+[CHAPTER]
+TIMEBASE=1/1000
+START=59000
+END=80000
+title=Prepare the chassis
+[CHAPTER]
+TIMEBASE=1/1000
+START=80000
+END=103000
+title=Build the carriage on the bench
+[CHAPTER]
+TIMEBASE=1/1000
+START=103000
+END=125000
+title=Attach the moving rail from below
+[CHAPTER]
+TIMEBASE=1/1000
+START=125000
+END=140000
+title=Fit the small cartridge lock
+[CHAPTER]
+TIMEBASE=1/1000
+START=140000
+END=158000
+title=Lower the complete subassembly
+[CHAPTER]
+TIMEBASE=1/1000
+START=158000
+END=178000
+title=Locate the carriage with bridge 55
+[CHAPTER]
+TIMEBASE=1/1000
+START=178000
+END=196000
+title=Secure the fixed rail from above
+[CHAPTER]
+TIMEBASE=1/1000
+START=196000
+END=219000
+title=Fit the stationary Hall sensor
+[CHAPTER]
+TIMEBASE=1/1000
+START=219000
+END=241000
+title=Exchange the bridge for the cover
+[CHAPTER]
+TIMEBASE=1/1000
+START=241000
+END=261000
+title=Fit the rigid bench cartridge first
+[CHAPTER]
+TIMEBASE=1/1000
+START=261000
+END=283000
+title=Remove the service screw. Test return.

@@ -16,7 +16,7 @@ The device explores interchangeable pressure and vibration heads, a replaceable 
 | Edit the 3D design | [FreeCAD model](revisions/R08/cad/SoleSense_R08.FCStd) · [CAD and STEP files](revisions/R08/cad/) |
 | View in another CAD tool | [Full STEP assembly](revisions/R08/cad/SoleSense_R08_Pressure_Assembly.step) |
 | Print parts | [Print-first parts](revisions/R08/print_first/) · [35 individual STLs](revisions/R08/stl/) · [Six 3MF plates](revisions/R08/print_plates/) |
-| Build the prototype | [Build guide](revisions/R08/docs/BUILD_GUIDE.md) · [Shopping list](revisions/R08/docs/SHOPPING_LIST.md) · [Print-shop brief](revisions/R08/docs/PRINT_SHOP_BRIEF.txt) |
+| Build the prototype | [Assembly video](output/video/SoleSense_R08_Assembly_Guide.mp4) · [Illustrated assembly PDF](output/pdf/SoleSense_R08_Head_Assembly_Guide.pdf) · [Build guide](revisions/R08/docs/BUILD_GUIDE.md) · [Shopping list](revisions/R08/docs/SHOPPING_LIST.md) · [Print-shop brief](revisions/R08/docs/PRINT_SHOP_BRIEF.txt) |
 | Understand the mechanism | [Inside the head](revisions/R08/previews/02_Inside_Head.png) · [Exploded cassette](revisions/R08/previews/03_Exploded_Cassette.png) · [Printed flexure](revisions/R08/previews/04_Printable_Cassette.png) |
 | Work on electronics or calibration | [Wiring and calibration](revisions/R08/docs/WIRING_AND_CALIBRATION.md) · [Calibration log](revisions/R08/docs/calibration_log_template.csv) |
 | Start device software | [Firmware workspace](firmware/) · [Software workspace](software/) |
@@ -34,31 +34,28 @@ This is an **experimental bench prototype**. [CAD checks](revisions/R08/validati
 
 See [engineering notes](revisions/R08/docs/ENGINEERING_NOTES.md) and [R07 → R08 changes](revisions/R08/docs/R08_CHANGES.md).
 
-## Videos and design history
+## Assembly and printing
 
-- **[Previous R07 metal-spring head — assembly and magnetic sensing, 60 seconds](revisions/R07/video/README.md)**: exploded parts, assembly, cartridge locking, press/release cutaway and magnet/Hall close-up.
-- [Head swapping and cartridge replacement — R04 video](revisions/R04/video/SoleSense_R04_Showcase.mp4)
-- [Four sensing approaches — narrated comparison](concepts/C03_Sensing_Alternatives/video/SoleSense_Four_Sensing_Designs.mp4)
-- [Magnetic sensing concept — short video](concepts/C03_Sensing_Alternatives/video/02_Magnetic_Flexure.mp4)
-- [Flexure concept](concepts/C01_Flexure_Pressure_Head/) · [Kuuleyn load-cell concept](concepts/C02_Kuuleyn_Pressure_Head/) · [Sensing alternatives](concepts/C03_Sensing_Alternatives/)
-- Previous designs: [R07](revisions/R07/) · [R06](revisions/R06/) · [R05](revisions/R05/) · [R04](revisions/R04/) · [R03](README_R03.md)
-
-The R07 video shows the retained outer form with the previous metal-spring mechanism; it does not show the R08 printed cassette. The R04 and concept videos show earlier designs. All motion is explanatory and does not establish sensor performance. Older documents preserve the decisions made at that time. Use the R08 guide for the current build.
+- [R08 assembly video, 4:43](output/video/SoleSense_R08_Assembly_Guide.mp4) and [illustrated assembly PDF](output/pdf/SoleSense_R08_Head_Assembly_Guide.pdf): numbered parts, hardware inventory, screw directions, bridge removal, sensor orientation and bench checks.
+- [Assembly guide sources](guides/R08-head-assembly/README.md): editable scenes, narration and production scripts.
+- [Prepared R08 print projects](printing/R08/README.md), [fine-finish settings](printing/R08/fine_finish/README.md), [optimized orientations](printing/R08/orientation_optimized/README.md) and [replacement-part plate](printing/R08/reprint_skipped/README.md).
 
 ## Repository layout
 
 | Location | Contents |
 | --- | --- |
 | `revisions/R08/` | Current CAD, print files, images, documentation, source scripts and recorded checks |
-| `revisions/R04/`–`R07/` | Previous design revisions |
-| `revisions/*.zip` | Self-contained R05–R08 build packages |
-| `concepts/` | Alternative sensing studies, editable scenes and explanatory videos |
+| `revisions/SoleSense_R08_Print_and_Build.zip` | Self-contained R08 build package |
+| `printing/R08/` | Prepared print projects, layouts and slicing records for R08 |
+| `guides/R08-head-assembly/` | Illustrated assembly guide sources and assets |
+| `output/` | R08 assembly video, subtitles and PDF |
 | `firmware/` | Future device firmware |
 | `software/` | Future calibration tools and companion software |
-| `source_documents/` | Original hardware brief and connector reference |
-| Root `cad/`, `stl/`, `docs/`, `source/`, `previews/`, `print_plates/`, `reference/`, `validation/` | Original R03 material retained in place |
+| `source_documents/` | Original hardware brief and connector reference; not a matched R08 bill of materials |
 
-The root package manifests and checksum files describe historical R03 exports, not this evolving Git repository. Release ZIPs carry their own package metadata. Reference meshes and complete assemblies are for review; print individual parts.
+R08 is the only standalone device revision kept in the working tree. Earlier revisions and concept studies remain available in Git history. The source dependencies inside `revisions/R08/source/dependencies/` supply retained geometry and a comparison baseline needed by R08's build and checking scripts; they are not separate current build options.
+
+The R08 ZIP carries its own package metadata. Reference meshes and complete assemblies are for review; print individual parts.
 
 ## Working together
 

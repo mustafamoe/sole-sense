@@ -1,0 +1,10 @@
+{
+  "label": "R08_Reprint_42_47_49_53",
+  "only": [42, 47, 49, 53],
+  "parts": {
+    "42": {"rotations": [["z", 90]], "center": [65, 90]},
+    "47": {"rotations": [["y", -90], ["z", 90]], "center": [122, 55]},
+    "49": {"rotations": [], "center": [122, 88]},
+    "53": {"rotations": [["z", 90]], "center": [122, 123]}
+  }
+}

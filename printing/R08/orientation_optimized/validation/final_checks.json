@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-21",
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "A1 mini, 0.4 mm nozzle",
+  "material": "PLA Basic",
+  "plate": "Textured PEI",
+  "layers": 291,
+  "normal_layer_mm": 0.12,
+  "initial_layer_mm": 0.24,
+  "displayed_result": "Slice ok",
+  "displayed_collision_warnings": 0,
+  "first_layer_visually_checked": true,
+  "physical_print_submitted": false,
+  "before": {
+    "total_grams": 123.5,
+    "support_grams": 9.29,
+    "total_minutes": 616
+  },
+  "after": {
+    "total_grams": 121.2,
+    "support_grams": 7.03,
+    "total_minutes": 596
+  },
+  "parts": [
+    {
+      "part": 41,
+      "name": "41_R04_Joint_Adaptor",
+      "min_xyz_mm": [
+        8.0,
+        98.0,
+        0.0
+      ],
+      "max_xyz_mm": [
+        67.0,
+        158.5,
+        21.65
+      ],
+      "triangle_count": 46594
+    },
+    {
+      "part": 42,
+      "name": "42_Magnetic_Chassis",
+      "min_xyz_mm": [
+        10.0,
+        10.0,
+        0.0
+      ],
+      "max_xyz_mm": [
+        66.0,
+        86.0,
+        35.0
+      ],
+      "triangle_count": 71646
+    },
+    {
+      "part": 43,
+      "name": "43_Removable_Lid",
+      "min_xyz_mm": [
+        74.0,
+        95.0,
+        0.0
+      ],
+      "max_xyz_mm": [
+        130.0,
+        171.0,
+        9.0
+      ],
+      "triangle_count": 28624
+    },
+    {
+      "part": 44,
+      "name": "44_Moving_Carriage",
+      "min_xyz_mm": [
+        137.000235,
+        8.000001,
+        -0.0
+      ],
+      "max_xyz_mm": [
+        169.299765,
+        71.599999,
+        29.966963
+      ],
+      "triangle_count": 22552
+    },
+    {
+      "part": 46,
+      "name": "46_Magnet_Retainer",
+      "min_xyz_mm": [
+        160.8,
+        142.6,
+        0.0
+      ],
+      "max_xyz_mm": [
+        170.8,
+        158.6,
+        1.4
+      ],
+      "triangle_count": 3804
+    },
+    {
+      "part": 47,
+      "name": "47_Adjustable_Hall_Mount",
+      "min_xyz_mm": [
+        109.0,
+        6.0,
+        -0.0
+      ],
+      "max_xyz_mm": [
+        129.0,
+        26.0,
+        10.0
+      ],
+      "triangle_count": 6396
+    },
+    {
+      "part": 48,
+      "name": "48_Locking_Filament_Cartridge.stl",
+      "min_xyz_mm": [
+        108.000252,
+        31.004673,
+        0.0
+      ],
+      "max_xyz_mm": [
+        128.999748,
+        51.895327,
+        10.4
+      ],
+      "triangle_count": 8446
+    },
+    {
+      "part": 49,
+      "name": "49_Bench_Calibration_Cartridge",
+      "min_xyz_mm": [
+        79.000252,
+        9.004673,
+        0.0
+      ],
+      "max_xyz_mm": [
+        99.999748,
+        29.895327,
+        21.299999
+      ],
+      "triangle_count": 10962
+    },
+    {
+      "part": 50,
+      "name": "50_Service_Lock_Knob",
+      "min_xyz_mm": [
+        160.800137,
+        127.600069,
+        0.0
+      ],
+      "max_xyz_mm": [
+        171.799863,
+        138.599931,
+        6.0
+      ],
+      "triangle_count": 3780
+    },
+    {
+      "part": 51,
+      "name": "51_Cartridge_Lock_Knob",
+      "min_xyz_mm": [
+        5.000056,
+        165.500112,
+        0.0
+      ],
+      "max_xyz_mm": [
+        13.999944,
+        174.499888,
+        4.0
+      ],
+      "triangle_count": 3780
+    },
+    {
+      "part": 53,
+      "name": "53_Cartridge_Receiver_Coupon.stl",
+      "min_xyz_mm": [
+        76.000128,
+        38.9,
+        0.0
+      ],
+      "max_xyz_mm": [
+        96.599872,
+        62.4,
+        7.7
+      ],
+      "triangle_count": 7116
+    },
+    {
+      "part": 55,
+      "name": "55_Spring_Assembly_Bridge",
+      "min_xyz_mm": [
+        135.000147,
+        128.6,
+        0.0
+      ],
+      "max_xyz_mm": [
+        155.799853,
+        170.6,
+        8.0
+      ],
+      "triangle_count": 5830
+    },
+    {
+      "part": 56,
+      "name": "56_Teal_Spine_Inlay",
+      "min_xyz_mm": [
+        101.6,
+        55.9,
+        0.0
+      ],
+      "max_xyz_mm": [
+        129.2,
+        64.5,
+        1.1
+      ],
+      "triangle_count": 1268
+    },
+    {
+      "part": 57,
+      "name": "57_Printed_Flexure_080.stl",
+      "min_xyz_mm": [
+        134.999999,
+        79.6,
+        0.0
+      ],
+      "max_xyz_mm": [
+        170.400001,
+        122.6,
+        2.4
+      ],
+      "triangle_count": 7664
+    }
+  ]
+}
